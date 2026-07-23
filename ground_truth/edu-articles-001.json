@@ -1,0 +1,307 @@
+{
+  "id": "edu-articles-001",
+  "page_width": 594.96,
+  "page_height": 842.25,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 60.68,
+      "y": 129.06,
+      "width": 49.84,
+      "height": 33.6,
+      "type": "single_line",
+      "confidence": 0.4094,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 227.78,
+      "y": 139.0,
+      "width": 36.16,
+      "height": 36.05,
+      "type": "single_line",
+      "confidence": 0.8798,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 426.12,
+      "y": 143.99,
+      "width": 36.07,
+      "height": 36.13,
+      "type": "single_line",
+      "confidence": 0.8739,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 60.22,
+      "y": 170.45,
+      "width": 50.18,
+      "height": 36.32,
+      "type": "single_line",
+      "confidence": 0.3824,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 58.85,
+      "y": 215.61,
+      "width": 52.23,
+      "height": 36.41,
+      "type": "single_line",
+      "confidence": 0.5807,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 200.29,
+      "y": 242.37,
+      "width": 35.78,
+      "height": 36.05,
+      "type": "single_line",
+      "confidence": 0.8559,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 517.01,
+      "y": 253.47,
+      "width": 36.31,
+      "height": 36.78,
+      "type": "single_line",
+      "confidence": 0.8883,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 334.09,
+      "y": 253.71,
+      "width": 35.77,
+      "height": 36.52,
+      "type": "single_line",
+      "confidence": 0.8689,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 59.34,
+      "y": 260.38,
+      "width": 51.78,
+      "height": 36.36,
+      "type": "single_line",
+      "confidence": 0.5641,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 59.63,
+      "y": 304.69,
+      "width": 51.45,
+      "height": 37.4,
+      "type": "single_line",
+      "confidence": 0.5712,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 414.3,
+      "y": 322.25,
+      "width": 35.77,
+      "height": 36.57,
+      "type": "single_line",
+      "confidence": 0.8773,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 60.3,
+      "y": 349.16,
+      "width": 50.53,
+      "height": 37.5,
+      "type": "single_line",
+      "confidence": 0.5449,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 59.86,
+      "y": 394.77,
+      "width": 51.26,
+      "height": 36.43,
+      "type": "single_line",
+      "confidence": 0.5047,
+      "rows": null
+    },
+    {
+      "id": "b014",
+      "x": 321.64,
+      "y": 421.28,
+      "width": 36.28,
+      "height": 36.62,
+      "type": "single_line",
+      "confidence": 0.8944,
+      "rows": null
+    },
+    {
+      "id": "b015",
+      "x": 60.64,
+      "y": 439.36,
+      "width": 50.59,
+      "height": 35.95,
+      "type": "single_line",
+      "confidence": 0.527,
+      "rows": null
+    },
+    {
+      "id": "b016",
+      "x": 503.04,
+      "y": 475.07,
+      "width": 36.14,
+      "height": 36.45,
+      "type": "single_line",
+      "confidence": 0.8977,
+      "rows": null
+    },
+    {
+      "id": "b017",
+      "x": 60.34,
+      "y": 484.25,
+      "width": 51.01,
+      "height": 37.35,
+      "type": "single_line",
+      "confidence": 0.5493,
+      "rows": null
+    },
+    {
+      "id": "b018",
+      "x": 60.09,
+      "y": 529.77,
+      "width": 50.59,
+      "height": 37.14,
+      "type": "single_line",
+      "confidence": 0.4909,
+      "rows": null
+    },
+    {
+      "id": "b019",
+      "x": 209.66,
+      "y": 536.31,
+      "width": 36.29,
+      "height": 36.34,
+      "type": "single_line",
+      "confidence": 0.898,
+      "rows": null
+    },
+    {
+      "id": "b020",
+      "x": 455.33,
+      "y": 565.11,
+      "width": 36.03,
+      "height": 36.23,
+      "type": "single_line",
+      "confidence": 0.8662,
+      "rows": null
+    },
+    {
+      "id": "b021",
+      "x": 58.08,
+      "y": 574.98,
+      "width": 53.05,
+      "height": 36.22,
+      "type": "single_line",
+      "confidence": 0.4882,
+      "rows": null
+    },
+    {
+      "id": "b022",
+      "x": 337.5,
+      "y": 590.7,
+      "width": 36.11,
+      "height": 36.36,
+      "type": "single_line",
+      "confidence": 0.9154,
+      "rows": null
+    },
+    {
+      "id": "b023",
+      "x": 58.89,
+      "y": 618.51,
+      "width": 52.55,
+      "height": 36.58,
+      "type": "single_line",
+      "confidence": 0.3535,
+      "rows": null
+    },
+    {
+      "id": "b024",
+      "x": 414.36,
+      "y": 664.14,
+      "width": 35.79,
+      "height": 36.33,
+      "type": "single_line",
+      "confidence": 0.8944,
+      "rows": null
+    },
+    {
+      "id": "b025",
+      "x": 59.43,
+      "y": 664.57,
+      "width": 51.57,
+      "height": 38.14,
+      "type": "single_line",
+      "confidence": 0.546,
+      "rows": null
+    },
+    {
+      "id": "b026",
+      "x": 236.16,
+      "y": 674.67,
+      "width": 36.43,
+      "height": 36.36,
+      "type": "single_line",
+      "confidence": 0.8593,
+      "rows": null
+    },
+    {
+      "id": "b027",
+      "x": 59.47,
+      "y": 708.51,
+      "width": 51.33,
+      "height": 38.76,
+      "type": "single_line",
+      "confidence": 0.5584,
+      "rows": null
+    },
+    {
+      "id": "b028",
+      "x": 521.08,
+      "y": 733.42,
+      "width": 36.43,
+      "height": 36.59,
+      "type": "single_line",
+      "confidence": 0.8965,
+      "rows": null
+    },
+    {
+      "id": "b029",
+      "x": 59.07,
+      "y": 754.83,
+      "width": 52.42,
+      "height": 37.23,
+      "type": "single_line",
+      "confidence": 0.5317,
+      "rows": null
+    },
+    {
+      "id": "b030",
+      "x": 344.08,
+      "y": 754.85,
+      "width": 35.11,
+      "height": 35.94,
+      "type": "single_line",
+      "confidence": 0.8897,
+      "rows": null
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "edu-oxfprep-009",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 53.98,
+      "y": 264.67,
+      "width": 523.72,
+      "height": 19.72,
+      "type": "single_line",
+      "confidence": 0.8148,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 54.19,
+      "y": 315.01,
+      "width": 522.14,
+      "height": 18.67,
+      "type": "single_line",
+      "confidence": 0.812,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 54.06,
+      "y": 362.6,
+      "width": 523.19,
+      "height": 19.95,
+      "type": "single_line",
+      "confidence": 0.7453,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 54.24,
+      "y": 411.77,
+      "width": 524.47,
+      "height": 19.84,
+      "type": "single_line",
+      "confidence": 0.805,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 54.23,
+      "y": 460.16,
+      "width": 525.08,
+      "height": 20.37,
+      "type": "single_line",
+      "confidence": 0.8213,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 54.16,
+      "y": 508.61,
+      "width": 524.66,
+      "height": 20.76,
+      "type": "single_line",
+      "confidence": 0.7823,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 54.29,
+      "y": 558.04,
+      "width": 521.97,
+      "height": 20.33,
+      "type": "single_line",
+      "confidence": 0.817,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 53.91,
+      "y": 607.43,
+      "width": 522.4,
+      "height": 20.16,
+      "type": "single_line",
+      "confidence": 0.813,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 52.83,
+      "y": 655.77,
+      "width": 522.99,
+      "height": 20.75,
+      "type": "single_line",
+      "confidence": 0.5277,
+      "rows": null
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "edu-cloze-004",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 204.76,
+      "y": 174.19,
+      "width": 259.75,
+      "height": 28.5,
+      "type": "single_line",
+      "confidence": 0.7611,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 72.1,
+      "y": 227.07,
+      "width": 133.7,
+      "height": 28.57,
+      "type": "single_line",
+      "confidence": 0.6833,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 338.32,
+      "y": 228.13,
+      "width": 133.46,
+      "height": 27.51,
+      "type": "single_line",
+      "confidence": 0.7314,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 224.47,
+      "y": 258.48,
+      "width": 122.27,
+      "height": 28.07,
+      "type": "single_line",
+      "confidence": 0.7482,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 307.05,
+      "y": 288.65,
+      "width": 121.77,
+      "height": 29.14,
+      "type": "single_line",
+      "confidence": 0.7475,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 35.77,
+      "y": 289.46,
+      "width": 109.85,
+      "height": 28.31,
+      "type": "single_line",
+      "confidence": 0.7778,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 65.57,
+      "y": 319.96,
+      "width": 122.07,
+      "height": 28.73,
+      "type": "single_line",
+      "confidence": 0.7818,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 35.72,
+      "y": 351.35,
+      "width": 134.31,
+      "height": 29.26,
+      "type": "single_line",
+      "confidence": 0.8062,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 338.04,
+      "y": 353.75,
+      "width": 109.51,
+      "height": 26.93,
+      "type": "single_line",
+      "confidence": 0.7429,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 351.02,
+      "y": 382.9,
+      "width": 109.88,
+      "height": 28.61,
+      "type": "single_line",
+      "confidence": 0.7655,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 88.54,
+      "y": 383.57,
+      "width": 108.96,
+      "height": 27.96,
+      "type": "single_line",
+      "confidence": 0.7542,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 358.73,
+      "y": 445.8,
+      "width": 109.48,
+      "height": 28.13,
+      "type": "single_line",
+      "confidence": 0.724,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 35.33,
+      "y": 446.29,
+      "width": 146.41,
+      "height": 27.51,
+      "type": "single_line",
+      "confidence": 0.7828,
+      "rows": null
+    },
+    {
+      "id": "b014",
+      "x": 328.87,
+      "y": 476.03,
+      "width": 134.39,
+      "height": 28.76,
+      "type": "single_line",
+      "confidence": 0.7361,
+      "rows": null
+    },
+    {
+      "id": "b015",
+      "x": 138.6,
+      "y": 476.49,
+      "width": 73.2,
+      "height": 28.31,
+      "type": "single_line",
+      "confidence": 0.6537,
+      "rows": null
+    },
+    {
+      "id": "b016",
+      "x": 118.58,
+      "y": 506.64,
+      "width": 97.75,
+      "height": 28.92,
+      "type": "single_line",
+      "confidence": 0.6739,
+      "rows": null
+    }
+  ]
+}

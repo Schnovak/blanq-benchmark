@@ -1,0 +1,137 @@
+{
+  "id": "edu-thenthan-001",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 246.28,
+      "y": 289.78,
+      "width": 69.52,
+      "height": 24.18,
+      "type": "single_line",
+      "confidence": 0.8461,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 188.81,
+      "y": 315.2,
+      "width": 70.11,
+      "height": 23.14,
+      "type": "single_line",
+      "confidence": 0.8712,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 171.52,
+      "y": 339.64,
+      "width": 70.61,
+      "height": 22.72,
+      "type": "single_line",
+      "confidence": 0.8655,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 194.42,
+      "y": 363.7,
+      "width": 69.99,
+      "height": 22.67,
+      "type": "single_line",
+      "confidence": 0.877,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 184.76,
+      "y": 387.5,
+      "width": 69.95,
+      "height": 23.18,
+      "type": "single_line",
+      "confidence": 0.8721,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 192.4,
+      "y": 411.68,
+      "width": 70.21,
+      "height": 23.02,
+      "type": "single_line",
+      "confidence": 0.8642,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 189.51,
+      "y": 436.01,
+      "width": 77.23,
+      "height": 22.51,
+      "type": "single_line",
+      "confidence": 0.8784,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 192.51,
+      "y": 459.88,
+      "width": 70.72,
+      "height": 23.13,
+      "type": "single_line",
+      "confidence": 0.8595,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 363.7,
+      "y": 484.05,
+      "width": 63.42,
+      "height": 23.07,
+      "type": "single_line",
+      "confidence": 0.8727,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 252.42,
+      "y": 484.41,
+      "width": 63.46,
+      "height": 22.73,
+      "type": "single_line",
+      "confidence": 0.8613,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 261.43,
+      "y": 508.31,
+      "width": 77.44,
+      "height": 23.07,
+      "type": "single_line",
+      "confidence": 0.8752,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 36.47,
+      "y": 594.23,
+      "width": 539.26,
+      "height": 25.53,
+      "type": "single_line",
+      "confidence": 0.7505,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 36.47,
+      "y": 658.25,
+      "width": 539.76,
+      "height": 26.13,
+      "type": "single_line",
+      "confidence": 0.7342,
+      "rows": null
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "id": "edu-alltenses-001",
+  "page_width": 595.32,
+  "page_height": 841.92,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 183.09,
+      "y": 43.78,
+      "width": 320.53,
+      "height": 18.34,
+      "type": "single_line",
+      "confidence": 0.2989,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 155.38,
+      "y": 129.37,
+      "width": 92.93,
+      "height": 20.96,
+      "type": "single_line",
+      "confidence": 0.7656,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 222.56,
+      "y": 152.08,
+      "width": 107.8,
+      "height": 21.45,
+      "type": "single_line",
+      "confidence": 0.7876,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 311.83,
+      "y": 175.04,
+      "width": 92.81,
+      "height": 21.83,
+      "type": "single_line",
+      "confidence": 0.7181,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 415.63,
+      "y": 198.76,
+      "width": 92.84,
+      "height": 21.11,
+      "type": "single_line",
+      "confidence": 0.7243,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 98.18,
+      "y": 199.19,
+      "width": 93.18,
+      "height": 20.65,
+      "type": "single_line",
+      "confidence": 0.7278,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 131.63,
+      "y": 239.1,
+      "width": 92.53,
+      "height": 21.17,
+      "type": "single_line",
+      "confidence": 0.7458,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 300.75,
+      "y": 261.94,
+      "width": 92.63,
+      "height": 21.36,
+      "type": "single_line",
+      "confidence": 0.6894,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 147.93,
+      "y": 285.54,
+      "width": 92.77,
+      "height": 21.57,
+      "type": "single_line",
+      "confidence": 0.7013,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 317.47,
+      "y": 308.59,
+      "width": 93.09,
+      "height": 21.5,
+      "type": "single_line",
+      "confidence": 0.7067,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 98.24,
+      "y": 332.33,
+      "width": 103.49,
+      "height": 21.07,
+      "type": "single_line",
+      "confidence": 0.7804,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 178.71,
+      "y": 372.18,
+      "width": 102.5,
+      "height": 21.16,
+      "type": "single_line",
+      "confidence": 0.7482,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 199.1,
+      "y": 395.06,
+      "width": 112.97,
+      "height": 21.79,
+      "type": "single_line",
+      "confidence": 0.7702,
+      "rows": null
+    },
+    {
+      "id": "b014",
+      "x": 459.03,
+      "y": 396.06,
+      "width": 93.32,
+      "height": 20.91,
+      "type": "single_line",
+      "confidence": 0.714,
+      "rows": null
+    },
+    {
+      "id": "b015",
+      "x": 194.86,
+      "y": 437.05,
+      "width": 92.41,
+      "height": 20.7,
+      "type": "single_line",
+      "confidence": 0.777,
+      "rows": null
+    },
+    {
+      "id": "b016",
+      "x": 92.52,
+      "y": 459.13,
+      "width": 112.96,
+      "height": 15.86,
+      "type": "single_line",
+      "confidence": 0.7653,
+      "rows": null
+    },
+    {
+      "id": "b017",
+      "x": 251.31,
+      "y": 477.04,
+      "width": 92.24,
+      "height": 21.17,
+      "type": "single_line",
+      "confidence": 0.7795,
+      "rows": null
+    },
+    {
+      "id": "b018",
+      "x": 408.81,
+      "y": 477.69,
+      "width": 93.05,
+      "height": 20.46,
+      "type": "single_line",
+      "confidence": 0.7278,
+      "rows": null
+    },
+    {
+      "id": "b019",
+      "x": 226.18,
+      "y": 499.02,
+      "width": 92.71,
+      "height": 16.09,
+      "type": "single_line",
+      "confidence": 0.8131,
+      "rows": null
+    },
+    {
+      "id": "b020",
+      "x": 161.8,
+      "y": 516.77,
+      "width": 93.15,
+      "height": 21.69,
+      "type": "single_line",
+      "confidence": 0.7785,
+      "rows": null
+    },
+    {
+      "id": "b021",
+      "x": 182.96,
+      "y": 540.0,
+      "width": 92.81,
+      "height": 21.77,
+      "type": "single_line",
+      "confidence": 0.765,
+      "rows": null
+    },
+    {
+      "id": "b022",
+      "x": 152.72,
+      "y": 563.82,
+      "width": 118.21,
+      "height": 20.51,
+      "type": "single_line",
+      "confidence": 0.7444,
+      "rows": null
+    },
+    {
+      "id": "b023",
+      "x": 274.1,
+      "y": 604.14,
+      "width": 92.24,
+      "height": 21.13,
+      "type": "single_line",
+      "confidence": 0.7594,
+      "rows": null
+    },
+    {
+      "id": "b024",
+      "x": 92.39,
+      "y": 626.3,
+      "width": 92.64,
+      "height": 16.15,
+      "type": "single_line",
+      "confidence": 0.7699,
+      "rows": null
+    },
+    {
+      "id": "b025",
+      "x": 175.52,
+      "y": 644.13,
+      "width": 108.4,
+      "height": 21.38,
+      "type": "single_line",
+      "confidence": 0.7847,
+      "rows": null
+    },
+    {
+      "id": "b026",
+      "x": 312.95,
+      "y": 685.62,
+      "width": 92.82,
+      "height": 20.69,
+      "type": "single_line",
+      "confidence": 0.7356,
+      "rows": null
+    },
+    {
+      "id": "b027",
+      "x": 183.87,
+      "y": 725.51,
+      "width": 92.45,
+      "height": 21.37,
+      "type": "single_line",
+      "confidence": 0.7315,
+      "rows": null
+    }
+  ]
+}
