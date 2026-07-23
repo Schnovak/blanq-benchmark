@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BlanQ Benchmark - Page Metadata (dataset/manifest.csv columns)",
+  "description": "Every page in the dataset is one row in dataset/manifest.csv with these columns.",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "description": "Unique page id, e.g. 'gov-us-irs-w4-001'" },
+    "file": { "type": "string", "description": "Path relative to dataset/, e.g. 'government/gov-us-irs-w4-001.pdf'" },
+    "category": {
+      "type": "string",
+      "enum": ["government", "education", "medical", "banking_insurance", "hr", "legal", "random_internet"]
+    },
+    "country": { "type": "string", "description": "ISO country code or 'multi', e.g. 'US', 'UK', 'CA', 'AU', 'CH', 'DE', 'AT', 'HR', 'EU'" },
+    "language": { "type": "string", "description": "ISO 639-1 code, e.g. 'en', 'de', 'fr'" },
+    "source": { "type": "string", "description": "Where the page came from (org name or URL), or 'synthetic-seed' for generated seed pages" },
+    "pages": { "type": "integer", "description": "Always 1 - one row per page, even if source doc is multi-page" },
+    "capture": {
+      "type": "string",
+      "enum": ["born_digital", "printed_scanned", "phone_photo", "fax"]
+    },
+    "dpi": { "type": ["integer", "null"] },
+    "rotation_deg": { "type": "number", "description": "0 for born-digital/perfect scans; measured skew otherwise" },
+    "noise": {
+      "type": "string",
+      "enum": ["none", "bad_lighting", "coffee_stain", "shadow", "folded", "wrinkled",
+               "jpeg_artifacts", "low_res", "high_res", "fax_quality"]
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard", "nightmare"]
+    },
+    "license": { "type": "string", "description": "Redistribution license for this page, e.g. 'public-domain', 'CC-BY-4.0', 'synthetic'" }
+  },
+  "required": ["id", "file", "category", "capture", "difficulty"]
+}

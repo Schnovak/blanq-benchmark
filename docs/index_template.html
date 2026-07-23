@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BlanQ Benchmark — PDF Blank Detection Leaderboard</title>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page-plane:     #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --seq-100: #cde2fb; --seq-200: #9ec5f4; --seq-300: #6da7ec;
+    --seq-400: #3987e5; --seq-450: #2a78d6; --seq-500: #256abf;
+    --status-good: #0ca30c; --status-warning: #fab219;
+    --status-serious: #ec835a; --status-critical: #d03b3b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page-plane:     #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --seq-400: #3987e5; --seq-450: #2a78d6; --seq-500: #256abf;
+      --status-good: #0ca30c; --status-warning: #fab219;
+      --status-serious: #ec835a; --status-critical: #e66767;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page-plane:     #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--page-plane);
+    color: var(--text-primary);
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 80px; }
+  header h1 { font-size: 1.6rem; margin: 0 0 6px; }
+  header p.sub { color: var(--text-secondary); margin: 0 0 28px; max-width: 640px; line-height: 1.5; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 32px; }
+  .tile {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .tile .value { font-size: 1.5rem; font-weight: 600; }
+  .tile .label { font-size: 0.78rem; color: var(--text-secondary); margin-top: 2px; }
+
+  .card {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 20px; margin-bottom: 24px; overflow-x: auto;
+  }
+  .card h2 { font-size: 1.05rem; margin: 0 0 4px; }
+  .card p.note { color: var(--text-secondary); font-size: 0.85rem; margin: 0 0 16px; }
+
+  table { border-collapse: collapse; width: 100%; font-size: 0.86rem; min-width: 760px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--gridline); white-space: nowrap; }
+  th { color: var(--text-muted); font-weight: 600; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  tbody tr:hover { background: var(--gridline); }
+  td.tool { font-weight: 600; }
+  td.rank { color: var(--text-muted); font-variant-numeric: tabular-nums; }
+  td.num { font-variant-numeric: tabular-nums; }
+
+  .meter-cell { display: flex; align-items: center; gap: 8px; min-width: 140px; }
+  .meter-track { flex: 1; height: 8px; border-radius: 4px; background: var(--gridline); overflow: hidden; min-width: 70px; }
+  .meter-fill { height: 100%; background: var(--seq-450); border-radius: 4px; }
+  .meter-val { font-variant-numeric: tabular-nums; font-size: 0.82rem; min-width: 40px; text-align: right; }
+
+  .badge { display: inline-block; font-size: 0.7rem; padding: 2px 7px; border-radius: 999px; font-weight: 600; }
+  .badge.low { background: color-mix(in srgb, var(--status-critical) 18%, transparent); color: var(--status-critical); }
+  .badge.mid { background: color-mix(in srgb, var(--status-warning) 22%, transparent); color: #8a5a00; }
+  .badge.high { background: color-mix(in srgb, var(--status-good) 18%, transparent); color: var(--status-good); }
+  :root[data-theme="dark"] .badge.mid, @media (prefers-color-scheme: dark) { }
+
+  footer { color: var(--text-muted); font-size: 0.8rem; line-height: 1.6; margin-top: 32px; }
+  footer a { color: var(--seq-450); }
+  code { background: var(--gridline); padding: 1px 5px; border-radius: 4px; font-size: 0.85em; }
+
+  .stack-note { font-size: 0.78rem; color: var(--text-muted); margin-top: 10px; }
+</style>
+</head>
+<body class="viz-root">
+<div class="wrap">
+  <header>
+    <h1>BlanQ Benchmark — Blank Detection Leaderboard</h1>
+    <p class="sub">
+      Which tool detects fillable regions in arbitrary PDFs most accurately, fastest, and
+      most reliably? Not OCR. Not AI answering. Only blank detection, scored against a
+      manually-verified ground truth. <strong>v0.1 seed dataset</strong> — small on purpose,
+      growing toward 500–1000 pages. See <code>README.md</code> for the full roadmap.
+    </p>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="card">
+    <h2>Blank Detection leaderboard</h2>
+    <p class="note">Ranked by F1 score at IoU ≥ 0.5. Lower line-position error and lower ms/page are better; everything else, higher is better.</p>
+    <table id="leaderboard-table">
+      <thead>
+        <tr>
+          <th>#</th><th>Tool</th><th>F1 @0.5</th><th>Precision</th><th>Recall</th>
+          <th>F1 @0.75</th><th>F1 @0.9</th><th>Mean IoU</th><th>% Detected</th>
+          <th>Line error (px)</th><th>Multiline acc.</th><th>ms / page</th><th>Failure rate</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <p class="stack-note">Full per-page scores: <code>results/&lt;tool&gt;/scores.json</code>. Raw metric definitions: <code>evaluation/metrics.py</code>.</p>
+  </div>
+
+  <div class="card">
+    <h2>AI Fill leaderboard</h2>
+    <p class="note">Given detected blanks + context, place the correct answer in the correct field. Not yet populated — see Phase 8 in the README. This table renders automatically once <code>results/*/fill_scores.json</code> exist.</p>
+    <table>
+      <thead><tr><th>#</th><th>Tool</th><th>Fill accuracy</th><th>Field-level exact match</th><th>ms / page</th></tr></thead>
+      <tbody><tr><td colspan="5" style="color: var(--text-muted);">No submissions yet.</td></tr></tbody>
+    </table>
+  </div>
+
+  <footer>
+    Generated by <code>scripts/build_leaderboard.py</code> from <code>results/*/scores.json</code>.
+    Dataset, ground truth, and evaluation code are public — see the
+    <a href="https://github.com/">blanq-benchmark repository</a> to reproduce every number here.
+  </footer>
+</div>
+
+<script id="leaderboard-data" type="application/json">__LEADERBOARD_DATA__</script>
+<script>
+(function () {
+  const data = JSON.parse(document.getElementById('leaderboard-data').textContent);
+
+  const tiles = [
+    { label: 'Pages (v0.1 seed)', value: data.dataset.n_pages },
+    { label: 'Ground-truth blanks', value: data.dataset.n_gt_blanks },
+    { label: 'Categories', value: data.dataset.n_categories },
+    { label: 'Tools benchmarked', value: data.tools.length },
+  ];
+  document.getElementById('tiles').innerHTML = tiles.map(t =>
+    `<div class="tile"><div class="value">${t.value}</div><div class="label">${t.label}</div></div>`
+  ).join('');
+
+  function badge(f1) {
+    if (f1 >= 0.85) return '<span class="badge high">strong</span>';
+    if (f1 >= 0.6) return '<span class="badge mid">mixed</span>';
+    return '<span class="badge low">weak</span>';
+  }
+  function meter(value, max) {
+    const pct = Math.max(0, Math.min(100, (value / max) * 100));
+    return `<div class="meter-cell"><div class="meter-track"><div class="meter-fill" style="width:${pct.toFixed(1)}%"></div></div><span class="meter-val">${value.toFixed(3)}</span></div>`;
+  }
+  function pct(v) { return v === null || v === undefined ? '—' : (v * 100).toFixed(1) + '%'; }
+  function num(v, d) { return v === null || v === undefined ? '—' : v.toFixed(d); }
+
+  const sorted = [...data.tools].sort((a, b) => b.f1_50 - a.f1_50);
+  const tbody = document.querySelector('#leaderboard-table tbody');
+  tbody.innerHTML = sorted.map((t, i) => `
+    <tr>
+      <td class="rank">${i + 1}</td>
+      <td class="tool">${t.tool} ${badge(t.f1_50)}</td>
+      <td class="num">${meter(t.f1_50, 1)}</td>
+      <td class="num">${pct(t.precision_50)}</td>
+      <td class="num">${pct(t.recall_50)}</td>
+      <td class="num">${num(t.f1_75, 3)}</td>
+      <td class="num">${num(t.f1_90, 3)}</td>
+      <td class="num">${num(t.mean_iou, 3)}</td>
+      <td class="num">${num(t.pct_detected_50, 1)}%</td>
+      <td class="num">${t.median_line_error_px === null ? '—' : t.median_line_error_px + ' px'}</td>
+      <td class="num">${pct(t.multiline_row_accuracy)}</td>
+      <td class="num">${t.mean_ms_per_page === null ? '—' : t.mean_ms_per_page.toFixed(0)}</td>
+      <td class="num">${pct(t.failure_rate)}</td>
+    </tr>
+  `).join('');
+})();
+</script>
+</body>
+</html>

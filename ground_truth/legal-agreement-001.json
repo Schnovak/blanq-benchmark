@@ -1,0 +1,87 @@
+{
+  "id": "legal-agreement-001",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 43.2,
+      "y": 115.2,
+      "width": 496.8,
+      "height": 79.2,
+      "type": "large_paragraph",
+      "confidence": 1.0,
+      "rows": 4
+    },
+    {
+      "id": "b002",
+      "x": 43.2,
+      "y": 244.8,
+      "width": 201.6,
+      "height": 36.0,
+      "type": "signature",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 43.2,
+      "y": 298.8,
+      "width": 201.6,
+      "height": 16,
+      "type": "underline",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 43.2,
+      "y": 327.6,
+      "width": 100.8,
+      "height": 16,
+      "type": "date",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 288.0,
+      "y": 244.8,
+      "width": 201.6,
+      "height": 36.0,
+      "type": "signature",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 288.0,
+      "y": 298.8,
+      "width": 201.6,
+      "height": 16,
+      "type": "underline",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 288.0,
+      "y": 327.6,
+      "width": 100.8,
+      "height": 16,
+      "type": "date",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 43.2,
+      "y": 381.6,
+      "width": 201.6,
+      "height": 36.0,
+      "type": "signature",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ]
+}

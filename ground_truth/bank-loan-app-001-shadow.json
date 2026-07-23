@@ -1,0 +1,117 @@
+{
+  "id": "bank-loan-app-001-shadow",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 43.2,
+      "y": 100.8,
+      "width": 216.0,
+      "height": 16,
+      "type": "name",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 288.0,
+      "y": 100.8,
+      "width": 187.2,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 43.2,
+      "y": 126.0,
+      "width": 144.0,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 208.8,
+      "y": 126.0,
+      "width": 144.0,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 43.2,
+      "y": 187.2,
+      "width": 10,
+      "height": 10,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 216.0,
+      "y": 187.2,
+      "width": 10,
+      "height": 10,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 43.2,
+      "y": 212.4,
+      "width": 10,
+      "height": 10,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 216.0,
+      "y": 212.4,
+      "width": 10,
+      "height": 10,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 43.2,
+      "y": 270.0,
+      "width": 475.2,
+      "height": 72.0,
+      "type": "large_paragraph",
+      "confidence": 1.0,
+      "rows": 3
+    },
+    {
+      "id": "b010",
+      "x": 43.2,
+      "y": 367.2,
+      "width": 201.6,
+      "height": 36.0,
+      "type": "signature",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 273.6,
+      "y": 388.8,
+      "width": 100.8,
+      "height": 16,
+      "type": "date",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ]
+}

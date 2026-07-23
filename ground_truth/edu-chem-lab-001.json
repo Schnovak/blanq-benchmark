@@ -1,0 +1,147 @@
+{
+  "id": "edu-chem-lab-001",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 43.2,
+      "y": 61.2,
+      "width": 158.4,
+      "height": 16,
+      "type": "name",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 230.4,
+      "y": 61.2,
+      "width": 93.6,
+      "height": 16,
+      "type": "date",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 352.8,
+      "y": 61.2,
+      "width": 108.0,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 43.2,
+      "y": 140.4,
+      "width": 144.0,
+      "height": 20.2,
+      "type": "table_cell",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 201.6,
+      "y": 140.4,
+      "width": 144.0,
+      "height": 20.2,
+      "type": "table_cell",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 360.0,
+      "y": 140.4,
+      "width": 144.0,
+      "height": 20.2,
+      "type": "table_cell",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 43.2,
+      "y": 163.4,
+      "width": 144.0,
+      "height": 20.2,
+      "type": "table_cell",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 201.6,
+      "y": 163.4,
+      "width": 144.0,
+      "height": 20.2,
+      "type": "table_cell",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 360.0,
+      "y": 163.4,
+      "width": 144.0,
+      "height": 20.2,
+      "type": "table_cell",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 43.2,
+      "y": 186.5,
+      "width": 144.0,
+      "height": 20.2,
+      "type": "table_cell",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 201.6,
+      "y": 186.5,
+      "width": 144.0,
+      "height": 20.2,
+      "type": "table_cell",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 360.0,
+      "y": 186.5,
+      "width": 144.0,
+      "height": 20.2,
+      "type": "table_cell",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 43.2,
+      "y": 248.4,
+      "width": 496.8,
+      "height": 93.6,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 4
+    },
+    {
+      "id": "b014",
+      "x": 43.2,
+      "y": 367.2,
+      "width": 187.2,
+      "height": 36.0,
+      "type": "signature",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ]
+}

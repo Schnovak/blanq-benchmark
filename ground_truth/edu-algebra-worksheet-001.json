@@ -1,0 +1,87 @@
+{
+  "id": "edu-algebra-worksheet-001",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 72.0,
+      "y": 51.8,
+      "width": 136.8,
+      "height": 16,
+      "type": "name",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 277.2,
+      "y": 51.8,
+      "width": 72.0,
+      "height": 16,
+      "type": "date",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 414.0,
+      "y": 51.8,
+      "width": 43.2,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 244.8,
+      "y": 93.6,
+      "width": 172.8,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 244.8,
+      "y": 129.6,
+      "width": 172.8,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 244.8,
+      "y": 165.6,
+      "width": 172.8,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 244.8,
+      "y": 201.6,
+      "width": 172.8,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 43.2,
+      "y": 262.8,
+      "width": 496.8,
+      "height": 115.2,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 5
+    }
+  ]
+}

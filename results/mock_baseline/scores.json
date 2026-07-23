@@ -1,0 +1,715 @@
+{
+  "tool": "mock_baseline",
+  "per_page": {
+    "bank-loan-app-001-shadow": {
+      "n_gt": 11,
+      "n_det": 9,
+      "by_threshold": {
+        "0.5": {
+          "tp": 5,
+          "fp": 4,
+          "fn": 6,
+          "precision": 0.5555555555555556,
+          "recall": 0.45454545454545453,
+          "f1": 0.5
+        },
+        "0.75": {
+          "tp": 2,
+          "fp": 7,
+          "fn": 9,
+          "precision": 0.2222222222222222,
+          "recall": 0.18181818181818182,
+          "f1": 0.19999999999999998
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 9,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 2576.2,
+      "failed": false
+    },
+    "bank-loan-app-001": {
+      "n_gt": 11,
+      "n_det": 10,
+      "by_threshold": {
+        "0.5": {
+          "tp": 4,
+          "fp": 6,
+          "fn": 7,
+          "precision": 0.4,
+          "recall": 0.36363636363636365,
+          "f1": 0.380952380952381
+        },
+        "0.75": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 9,
+          "precision": 0.2,
+          "recall": 0.18181818181818182,
+          "f1": 0.1904761904761905
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 10,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1404.9,
+      "failed": false
+    },
+    "edu-algebra-worksheet-001-lowres": {
+      "n_gt": 8,
+      "n_det": 9,
+      "by_threshold": {
+        "0.5": {
+          "tp": 3,
+          "fp": 6,
+          "fn": 5,
+          "precision": 0.3333333333333333,
+          "recall": 0.375,
+          "f1": 0.35294117647058826
+        },
+        "0.75": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 7,
+          "precision": 0.1111111111111111,
+          "recall": 0.125,
+          "f1": 0.11764705882352941
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 9,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 2541.2,
+      "failed": false
+    },
+    "edu-algebra-worksheet-001-rot7": {
+      "n_gt": 8,
+      "n_det": 8,
+      "by_threshold": {
+        "0.5": {
+          "tp": 5,
+          "fp": 3,
+          "fn": 3,
+          "precision": 0.625,
+          "recall": 0.625,
+          "f1": 0.625
+        },
+        "0.75": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 6,
+          "precision": 0.25,
+          "recall": 0.25,
+          "f1": 0.25
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 8,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 2480.4,
+      "failed": false
+    },
+    "edu-algebra-worksheet-001": {
+      "n_gt": 8,
+      "n_det": 8,
+      "by_threshold": {
+        "0.5": {
+          "tp": 4,
+          "fp": 4,
+          "fn": 4,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "0.75": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 6,
+          "precision": 0.25,
+          "recall": 0.25,
+          "f1": 0.25
+        },
+        "0.9": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 7,
+          "precision": 0.125,
+          "recall": 0.125,
+          "f1": 0.125
+        }
+      },
+      "detection_time_ms": 1751.6,
+      "failed": false
+    },
+    "edu-chem-lab-001-badlight": {
+      "n_gt": 14,
+      "n_det": 14,
+      "by_threshold": {
+        "0.5": {
+          "tp": 9,
+          "fp": 5,
+          "fn": 5,
+          "precision": 0.6428571428571429,
+          "recall": 0.6428571428571429,
+          "f1": 0.6428571428571429
+        },
+        "0.75": {
+          "tp": 3,
+          "fp": 11,
+          "fn": 11,
+          "precision": 0.21428571428571427,
+          "recall": 0.21428571428571427,
+          "f1": 0.21428571428571427
+        },
+        "0.9": {
+          "tp": 1,
+          "fp": 13,
+          "fn": 13,
+          "precision": 0.07142857142857142,
+          "recall": 0.07142857142857142,
+          "f1": 0.07142857142857142
+        }
+      },
+      "detection_time_ms": 1984.7,
+      "failed": false
+    },
+    "edu-chem-lab-001-highres": {
+      "n_gt": 14,
+      "n_det": 15,
+      "by_threshold": {
+        "0.5": {
+          "tp": 9,
+          "fp": 6,
+          "fn": 5,
+          "precision": 0.6,
+          "recall": 0.6428571428571429,
+          "f1": 0.6206896551724138
+        },
+        "0.75": {
+          "tp": 3,
+          "fp": 12,
+          "fn": 11,
+          "precision": 0.2,
+          "recall": 0.21428571428571427,
+          "f1": 0.20689655172413796
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 15,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1994.0,
+      "failed": false
+    },
+    "edu-chem-lab-001": {
+      "n_gt": 14,
+      "n_det": 14,
+      "by_threshold": {
+        "0.5": {
+          "tp": 8,
+          "fp": 6,
+          "fn": 6,
+          "precision": 0.5714285714285714,
+          "recall": 0.5714285714285714,
+          "f1": 0.5714285714285714
+        },
+        "0.75": {
+          "tp": 2,
+          "fp": 12,
+          "fn": 12,
+          "precision": 0.14285714285714285,
+          "recall": 0.14285714285714285,
+          "f1": 0.14285714285714285
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 14,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 2365.6,
+      "failed": false
+    },
+    "gov-eu-visa-001-faxq": {
+      "n_gt": 15,
+      "n_det": 14,
+      "by_threshold": {
+        "0.5": {
+          "tp": 6,
+          "fp": 8,
+          "fn": 9,
+          "precision": 0.42857142857142855,
+          "recall": 0.4,
+          "f1": 0.4137931034482759
+        },
+        "0.75": {
+          "tp": 1,
+          "fp": 13,
+          "fn": 14,
+          "precision": 0.07142857142857142,
+          "recall": 0.06666666666666667,
+          "f1": 0.0689655172413793
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 14,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1677.7,
+      "failed": false
+    },
+    "gov-eu-visa-001-rot3": {
+      "n_gt": 15,
+      "n_det": 12,
+      "by_threshold": {
+        "0.5": {
+          "tp": 9,
+          "fp": 3,
+          "fn": 6,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665
+        },
+        "0.75": {
+          "tp": 1,
+          "fp": 11,
+          "fn": 14,
+          "precision": 0.08333333333333333,
+          "recall": 0.06666666666666667,
+          "f1": 0.07407407407407407
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 12,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1996.5,
+      "failed": false
+    },
+    "gov-eu-visa-001": {
+      "n_gt": 15,
+      "n_det": 13,
+      "by_threshold": {
+        "0.5": {
+          "tp": 4,
+          "fp": 9,
+          "fn": 11,
+          "precision": 0.3076923076923077,
+          "recall": 0.26666666666666666,
+          "f1": 0.28571428571428575
+        },
+        "0.75": {
+          "tp": 1,
+          "fp": 12,
+          "fn": 14,
+          "precision": 0.07692307692307693,
+          "recall": 0.06666666666666667,
+          "f1": 0.07142857142857144
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 13,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1668.3,
+      "failed": false
+    },
+    "gov-us-w4-001-jpeg": {
+      "n_gt": 14,
+      "n_det": 13,
+      "by_threshold": {
+        "0.5": {
+          "tp": 2,
+          "fp": 11,
+          "fn": 12,
+          "precision": 0.15384615384615385,
+          "recall": 0.14285714285714285,
+          "f1": 0.14814814814814817
+        },
+        "0.75": {
+          "tp": 1,
+          "fp": 12,
+          "fn": 13,
+          "precision": 0.07692307692307693,
+          "recall": 0.07142857142857142,
+          "f1": 0.07407407407407408
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 13,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1821.8,
+      "failed": false
+    },
+    "gov-us-w4-001-rot1": {
+      "n_gt": 14,
+      "n_det": 13,
+      "by_threshold": {
+        "0.5": {
+          "tp": 8,
+          "fp": 5,
+          "fn": 6,
+          "precision": 0.6153846153846154,
+          "recall": 0.5714285714285714,
+          "f1": 0.5925925925925927
+        },
+        "0.75": {
+          "tp": 4,
+          "fp": 9,
+          "fn": 10,
+          "precision": 0.3076923076923077,
+          "recall": 0.2857142857142857,
+          "f1": 0.29629629629629634
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 13,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 2585.4,
+      "failed": false
+    },
+    "gov-us-w4-001": {
+      "n_gt": 14,
+      "n_det": 13,
+      "by_threshold": {
+        "0.5": {
+          "tp": 9,
+          "fp": 4,
+          "fn": 5,
+          "precision": 0.6923076923076923,
+          "recall": 0.6428571428571429,
+          "f1": 0.6666666666666666
+        },
+        "0.75": {
+          "tp": 1,
+          "fp": 12,
+          "fn": 13,
+          "precision": 0.07692307692307693,
+          "recall": 0.07142857142857142,
+          "f1": 0.07407407407407408
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 13,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 2057.7,
+      "failed": false
+    },
+    "hr-onboarding-001-folded": {
+      "n_gt": 14,
+      "n_det": 10,
+      "by_threshold": {
+        "0.5": {
+          "tp": 4,
+          "fp": 6,
+          "fn": 10,
+          "precision": 0.4,
+          "recall": 0.2857142857142857,
+          "f1": 0.3333333333333333
+        },
+        "0.75": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 12,
+          "precision": 0.2,
+          "recall": 0.14285714285714285,
+          "f1": 0.16666666666666666
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 10,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1592.3,
+      "failed": false
+    },
+    "hr-onboarding-001": {
+      "n_gt": 14,
+      "n_det": 12,
+      "by_threshold": {
+        "0.5": {
+          "tp": 6,
+          "fp": 6,
+          "fn": 8,
+          "precision": 0.5,
+          "recall": 0.42857142857142855,
+          "f1": 0.4615384615384615
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 12,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 12,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 2516.7,
+      "failed": false
+    },
+    "legal-agreement-001-wrinkled": {
+      "n_gt": 8,
+      "n_det": 8,
+      "by_threshold": {
+        "0.5": {
+          "tp": 5,
+          "fp": 3,
+          "fn": 3,
+          "precision": 0.625,
+          "recall": 0.625,
+          "f1": 0.625
+        },
+        "0.75": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 7,
+          "precision": 0.125,
+          "recall": 0.125,
+          "f1": 0.125
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 8,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1612.1,
+      "failed": false
+    },
+    "legal-agreement-001": {
+      "n_gt": 8,
+      "n_det": 9,
+      "by_threshold": {
+        "0.5": {
+          "tp": 6,
+          "fp": 3,
+          "fn": 2,
+          "precision": 0.6666666666666666,
+          "recall": 0.75,
+          "f1": 0.7058823529411765
+        },
+        "0.75": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 7,
+          "precision": 0.1111111111111111,
+          "recall": 0.125,
+          "f1": 0.11764705882352941
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 9,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 2524.6,
+      "failed": false
+    },
+    "med-intake-001-coffee": {
+      "n_gt": 14,
+      "n_det": 8,
+      "by_threshold": {
+        "0.5": {
+          "tp": 6,
+          "fp": 2,
+          "fn": 8,
+          "precision": 0.75,
+          "recall": 0.42857142857142855,
+          "f1": 0.5454545454545454
+        },
+        "0.75": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 12,
+          "precision": 0.25,
+          "recall": 0.14285714285714285,
+          "f1": 0.18181818181818182
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 8,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 2558.2,
+      "failed": false
+    },
+    "med-intake-001-phonephoto": {
+      "n_gt": 14,
+      "n_det": 12,
+      "by_threshold": {
+        "0.5": {
+          "tp": 5,
+          "fp": 7,
+          "fn": 9,
+          "precision": 0.4166666666666667,
+          "recall": 0.35714285714285715,
+          "f1": 0.3846153846153846
+        },
+        "0.75": {
+          "tp": 3,
+          "fp": 9,
+          "fn": 11,
+          "precision": 0.25,
+          "recall": 0.21428571428571427,
+          "f1": 0.23076923076923075
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 12,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1425.1,
+      "failed": false
+    },
+    "med-intake-001": {
+      "n_gt": 14,
+      "n_det": 10,
+      "by_threshold": {
+        "0.5": {
+          "tp": 4,
+          "fp": 6,
+          "fn": 10,
+          "precision": 0.4,
+          "recall": 0.2857142857142857,
+          "f1": 0.3333333333333333
+        },
+        "0.75": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 12,
+          "precision": 0.2,
+          "recall": 0.14285714285714285,
+          "f1": 0.16666666666666666
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 10,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1855.2,
+      "failed": false
+    }
+  },
+  "aggregate": {
+    "n_pages": 21,
+    "n_gt_blanks": 261,
+    "iou@0.5": {
+      "tp": 121,
+      "fp": 113,
+      "fn": 140,
+      "precision": 0.5171,
+      "recall": 0.4636,
+      "f1": 0.4889
+    },
+    "iou@0.75": {
+      "tp": 37,
+      "fp": 197,
+      "fn": 224,
+      "precision": 0.1581,
+      "recall": 0.1418,
+      "f1": 0.1495
+    },
+    "iou@0.9": {
+      "tp": 2,
+      "fp": 232,
+      "fn": 259,
+      "precision": 0.0085,
+      "recall": 0.0077,
+      "f1": 0.0081
+    },
+    "mean_iou": 0.5061,
+    "median_line_error_px": 5.41,
+    "mean_line_error_px": 6.1,
+    "multiline_row_accuracy": 0.0,
+    "multiline_row_mean_abs_error": 2.5,
+    "mean_detection_ms_per_page": 2047.15,
+    "failure_rate": 0.0,
+    "n_failed_pages": 0,
+    "pct_blanks_detected_iou50": 46.36
+  },
+  "missing_pages": []
+}

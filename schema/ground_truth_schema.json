@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BlanQ Benchmark - Ground Truth Page Annotation",
+  "description": "One file per page. Coordinates are in PDF points (72/inch), origin top-left, matching page dimensions in the sibling dataset/manifest.csv row for this id.",
+  "type": "object",
+  "required": ["id", "page_width", "page_height", "blanks"],
+  "properties": {
+    "id": { "type": "string", "description": "Unique page id, matches dataset/manifest.csv 'id' column" },
+    "page_width": { "type": "number" },
+    "page_height": { "type": "number" },
+    "blanks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "x", "y", "width", "height", "type"],
+        "properties": {
+          "id": { "type": "string", "description": "Unique within the page, e.g. 'b001'" },
+          "x": { "type": "number", "description": "Left edge, points from left" },
+          "y": { "type": "number", "description": "Top edge, points from top" },
+          "width": { "type": "number" },
+          "height": { "type": "number" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "checkbox", "radio", "signature", "single_line", "multi_line",
+              "table_cell", "date", "name", "large_paragraph", "tiny_box",
+              "circle", "underline"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0, "maximum": 1,
+            "description": "Annotator confidence, 1.0 for unambiguous manual labels"
+          },
+          "rows": {
+            "type": ["integer", "null"],
+            "description": "For multi_line / large_paragraph: number of distinct writable rows/lines expected. Null for non-line types."
+          }
+        }
+      }
+    }
+  }
+}

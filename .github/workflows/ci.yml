@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install reportlab pymupdf numpy pillow
+
+      - name: Regenerate seed dataset + condition variants, confirm ground truth & manifest match committed files
+        run: |
+          python3 scripts/generate_seed_dataset.py
+          python3 scripts/generate_condition_variants.py
+          # Ground truth JSON and the manifest are pure deterministic data (no embedded
+          # timestamps) -- these must match exactly. The PDFs themselves may differ
+          # byte-for-byte run to run (PDF containers embed generation timestamps/IDs
+          # even with reportlab's invariant=1 fully applied across libraries), so we
+          # only require that every manifest row's PDF file actually exists.
+          git diff --stat --exit-code -- ground_truth/ dataset/manifest.csv || \
+            (echo "Ground truth or manifest does not match generator output -- regenerate and commit." && exit 1)
+          python3 -c "
+          import csv, os
+          with open('dataset/manifest.csv') as f:
+              rows = list(csv.DictReader(f))
+          missing = [r['id'] for r in rows if not os.path.exists(os.path.join('dataset', r['file']))]
+          assert not missing, f'Missing PDF files for ids: {missing}'
+          print(f'OK: all {len(rows)} manifest rows have a PDF on disk')
+          "
+
+      - name: Run mock detectors
+        run: |
+          python3 detectors/mock_near_perfect.py
+          python3 detectors/mock_baseline.py
+
+      - name: Score every tool in results/
+        run: |
+          for dir in results/*/; do
+            tool=$(basename "$dir")
+            python3 evaluation/run_eval.py --detections "results/$tool/detections.json" --out "results/$tool/scores.json"
+          done
+
+      - name: Build leaderboard
+        run: python3 scripts/build_leaderboard.py
+
+      - name: Confirm leaderboard has at least one tool
+        run: |
+          python3 -c "
+          import json
+          data = json.load(open('docs/leaderboard.json'))
+          assert len(data['tools']) > 0, 'leaderboard has no tools'
+          print(f\"OK: {len(data['tools'])} tool(s) in leaderboard\")
+          "

@@ -1,0 +1,39 @@
+{
+  "dataset": {
+    "n_pages": 21,
+    "n_gt_blanks": 261,
+    "n_categories": 6
+  },
+  "tools": [
+    {
+      "tool": "mock_baseline",
+      "f1_50": 0.4889,
+      "precision_50": 0.5171,
+      "recall_50": 0.4636,
+      "f1_75": 0.1495,
+      "f1_90": 0.0081,
+      "mean_iou": 0.5061,
+      "pct_detected_50": 46.36,
+      "median_line_error_px": 5.41,
+      "multiline_row_accuracy": 0.0,
+      "mean_ms_per_page": 2047.15,
+      "failure_rate": 0.0,
+      "n_gt_blanks": 261
+    },
+    {
+      "tool": "mock_near_perfect",
+      "f1_50": 0.9865,
+      "precision_50": 0.9961,
+      "recall_50": 0.977,
+      "f1_75": 0.8395,
+      "f1_90": 0.4797,
+      "mean_iou": 0.8617,
+      "pct_detected_50": 97.7,
+      "median_line_error_px": 0.89,
+      "multiline_row_accuracy": 1.0,
+      "mean_ms_per_page": 781.14,
+      "failure_rate": 0.0,
+      "n_gt_blanks": 261
+    }
+  ]
+}

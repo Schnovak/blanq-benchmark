@@ -1,0 +1,2240 @@
+{
+  "tool": "mock_baseline",
+  "pages": {
+    "bank-loan-app-001-shadow": {
+      "detections": [
+        {
+          "x": 40.03,
+          "y": 94.52,
+          "width": 218.72,
+          "height": 8.3,
+          "type": "name",
+          "confidence": 0.711,
+          "rows": null
+        },
+        {
+          "x": 285.58,
+          "y": 92.84,
+          "width": 187.33,
+          "height": 7.67,
+          "type": "single_line",
+          "confidence": 0.68,
+          "rows": null
+        },
+        {
+          "x": 35.46,
+          "y": 118.63,
+          "width": 142.64,
+          "height": 21.88,
+          "type": "single_line",
+          "confidence": 0.587,
+          "rows": null
+        },
+        {
+          "x": 203.82,
+          "y": 128.29,
+          "width": 152.06,
+          "height": 17.39,
+          "type": "single_line",
+          "confidence": 0.669,
+          "rows": null
+        },
+        {
+          "x": 35.04,
+          "y": 193.65,
+          "width": 6.21,
+          "height": 3.6,
+          "type": "checkbox",
+          "confidence": 0.585,
+          "rows": null
+        },
+        {
+          "x": 37.45,
+          "y": 213.87,
+          "width": 12.5,
+          "height": 7.7,
+          "type": "checkbox",
+          "confidence": 0.714,
+          "rows": null
+        },
+        {
+          "x": 35.27,
+          "y": 264.71,
+          "width": 478.45,
+          "height": 70.7,
+          "type": "large_paragraph",
+          "confidence": 0.644,
+          "rows": 1
+        },
+        {
+          "x": 44.74,
+          "y": 366.36,
+          "width": 198.0,
+          "height": 41.3,
+          "type": "signature",
+          "confidence": 0.76,
+          "rows": null
+        },
+        {
+          "x": 268.99,
+          "y": 390.14,
+          "width": 101.25,
+          "height": 22.75,
+          "type": "date",
+          "confidence": 0.769,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 2576.2,
+      "failed": false
+    },
+    "bank-loan-app-001": {
+      "detections": [
+        {
+          "x": 36.33,
+          "y": 99.33,
+          "width": 220.63,
+          "height": 9.74,
+          "type": "name",
+          "confidence": 0.697,
+          "rows": null
+        },
+        {
+          "x": 279.71,
+          "y": 103.83,
+          "width": 191.96,
+          "height": 17.31,
+          "type": "single_line",
+          "confidence": 0.813,
+          "rows": null
+        },
+        {
+          "x": 39.85,
+          "y": 129.52,
+          "width": 145.7,
+          "height": 17.44,
+          "type": "single_line",
+          "confidence": 0.687,
+          "rows": null
+        },
+        {
+          "x": 214.92,
+          "y": 134.0,
+          "width": 143.53,
+          "height": 18.95,
+          "type": "single_line",
+          "confidence": 0.568,
+          "rows": null
+        },
+        {
+          "x": 45.85,
+          "y": 196.08,
+          "width": 15.79,
+          "height": 6.12,
+          "type": "checkbox",
+          "confidence": 0.666,
+          "rows": null
+        },
+        {
+          "x": 207.41,
+          "y": 186.51,
+          "width": 4.02,
+          "height": 3.11,
+          "type": "checkbox",
+          "confidence": 0.568,
+          "rows": null
+        },
+        {
+          "x": 36.53,
+          "y": 207.86,
+          "width": 8.04,
+          "height": 16.69,
+          "type": "checkbox",
+          "confidence": 0.574,
+          "rows": null
+        },
+        {
+          "x": 44.09,
+          "y": 276.9,
+          "width": 480.95,
+          "height": 78.55,
+          "type": "large_paragraph",
+          "confidence": 0.634,
+          "rows": 1
+        },
+        {
+          "x": 41.68,
+          "y": 364.66,
+          "width": 208.52,
+          "height": 44.24,
+          "type": "signature",
+          "confidence": 0.595,
+          "rows": null
+        },
+        {
+          "x": 267.77,
+          "y": 383.98,
+          "width": 96.0,
+          "height": 15.73,
+          "type": "date",
+          "confidence": 0.727,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1404.9,
+      "failed": false
+    },
+    "edu-algebra-worksheet-001-lowres": {
+      "detections": [
+        {
+          "x": 70.54,
+          "y": 49.45,
+          "width": 137.99,
+          "height": 24.16,
+          "type": "name",
+          "confidence": 0.757,
+          "rows": null
+        },
+        {
+          "x": 277.48,
+          "y": 53.92,
+          "width": 75.17,
+          "height": 7.97,
+          "type": "date",
+          "confidence": 0.82,
+          "rows": null
+        },
+        {
+          "x": 419.04,
+          "y": 58.54,
+          "width": 48.56,
+          "height": 14.06,
+          "type": "single_line",
+          "confidence": 0.67,
+          "rows": null
+        },
+        {
+          "x": 237.66,
+          "y": 96.02,
+          "width": 164.92,
+          "height": 8.21,
+          "type": "single_line",
+          "confidence": 0.613,
+          "rows": null
+        },
+        {
+          "x": 238.72,
+          "y": 126.72,
+          "width": 164.75,
+          "height": 7.0,
+          "type": "single_line",
+          "confidence": 0.595,
+          "rows": null
+        },
+        {
+          "x": 237.63,
+          "y": 163.14,
+          "width": 164.26,
+          "height": 22.74,
+          "type": "single_line",
+          "confidence": 0.734,
+          "rows": null
+        },
+        {
+          "x": 238.47,
+          "y": 197.14,
+          "width": 170.05,
+          "height": 13.55,
+          "type": "single_line",
+          "confidence": 0.587,
+          "rows": null
+        },
+        {
+          "x": 49.48,
+          "y": 271.68,
+          "width": 496.19,
+          "height": 114.91,
+          "type": "multi_line",
+          "confidence": 0.576,
+          "rows": 1
+        },
+        {
+          "x": 208.3,
+          "y": 230.6,
+          "width": 134.6,
+          "height": 16.6,
+          "type": "single_line",
+          "confidence": 0.4,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 2541.2,
+      "failed": false
+    },
+    "edu-algebra-worksheet-001-rot7": {
+      "detections": [
+        {
+          "x": 78.51,
+          "y": 92.94,
+          "width": 138.48,
+          "height": 23.59,
+          "type": "name",
+          "confidence": 0.708,
+          "rows": null
+        },
+        {
+          "x": 290.41,
+          "y": 89.24,
+          "width": 76.93,
+          "height": 20.1,
+          "type": "date",
+          "confidence": 0.66,
+          "rows": null
+        },
+        {
+          "x": 411.61,
+          "y": 74.79,
+          "width": 45.39,
+          "height": 26.02,
+          "type": "single_line",
+          "confidence": 0.649,
+          "rows": null
+        },
+        {
+          "x": 249.51,
+          "y": 121.71,
+          "width": 182.23,
+          "height": 42.65,
+          "type": "single_line",
+          "confidence": 0.792,
+          "rows": null
+        },
+        {
+          "x": 264.53,
+          "y": 156.22,
+          "width": 168.58,
+          "height": 36.62,
+          "type": "single_line",
+          "confidence": 0.657,
+          "rows": null
+        },
+        {
+          "x": 254.62,
+          "y": 179.1,
+          "width": 169.53,
+          "height": 31.97,
+          "type": "single_line",
+          "confidence": 0.758,
+          "rows": null
+        },
+        {
+          "x": 275.52,
+          "y": 222.45,
+          "width": 181.37,
+          "height": 45.08,
+          "type": "single_line",
+          "confidence": 0.837,
+          "rows": null
+        },
+        {
+          "x": 71.96,
+          "y": 264.57,
+          "width": 501.98,
+          "height": 167.74,
+          "type": "multi_line",
+          "confidence": 0.611,
+          "rows": 1
+        }
+      ],
+      "detection_time_ms": 2480.4,
+      "failed": false
+    },
+    "edu-algebra-worksheet-001": {
+      "detections": [
+        {
+          "x": 78.13,
+          "y": 51.43,
+          "width": 139.55,
+          "height": 21.39,
+          "type": "name",
+          "confidence": 0.575,
+          "rows": null
+        },
+        {
+          "x": 280.09,
+          "y": 59.18,
+          "width": 77.08,
+          "height": 20.5,
+          "type": "date",
+          "confidence": 0.693,
+          "rows": null
+        },
+        {
+          "x": 408.21,
+          "y": 57.0,
+          "width": 40.19,
+          "height": 21.41,
+          "type": "single_line",
+          "confidence": 0.841,
+          "rows": null
+        },
+        {
+          "x": 242.93,
+          "y": 91.82,
+          "width": 180.84,
+          "height": 20.05,
+          "type": "single_line",
+          "confidence": 0.601,
+          "rows": null
+        },
+        {
+          "x": 238.09,
+          "y": 123.32,
+          "width": 180.09,
+          "height": 21.52,
+          "type": "single_line",
+          "confidence": 0.594,
+          "rows": null
+        },
+        {
+          "x": 250.68,
+          "y": 174.25,
+          "width": 175.63,
+          "height": 13.31,
+          "type": "single_line",
+          "confidence": 0.715,
+          "rows": null
+        },
+        {
+          "x": 238.16,
+          "y": 192.86,
+          "width": 181.28,
+          "height": 18.69,
+          "type": "single_line",
+          "confidence": 0.708,
+          "rows": null
+        },
+        {
+          "x": 51.01,
+          "y": 261.61,
+          "width": 503.49,
+          "height": 121.07,
+          "type": "multi_line",
+          "confidence": 0.613,
+          "rows": 1
+        }
+      ],
+      "detection_time_ms": 1751.6,
+      "failed": false
+    },
+    "edu-chem-lab-001-badlight": {
+      "detections": [
+        {
+          "x": 38.53,
+          "y": 62.76,
+          "width": 154.07,
+          "height": 14.54,
+          "type": "name",
+          "confidence": 0.589,
+          "rows": null
+        },
+        {
+          "x": 237.78,
+          "y": 58.57,
+          "width": 92.85,
+          "height": 17.5,
+          "type": "date",
+          "confidence": 0.821,
+          "rows": null
+        },
+        {
+          "x": 351.37,
+          "y": 68.72,
+          "width": 108.03,
+          "height": 16.57,
+          "type": "single_line",
+          "confidence": 0.707,
+          "rows": null
+        },
+        {
+          "x": 34.54,
+          "y": 139.32,
+          "width": 138.3,
+          "height": 11.27,
+          "type": "table_cell",
+          "confidence": 0.79,
+          "rows": null
+        },
+        {
+          "x": 195.7,
+          "y": 139.92,
+          "width": 148.05,
+          "height": 21.22,
+          "type": "table_cell",
+          "confidence": 0.648,
+          "rows": null
+        },
+        {
+          "x": 360.33,
+          "y": 141.4,
+          "width": 149.12,
+          "height": 13.11,
+          "type": "table_cell",
+          "confidence": 0.718,
+          "rows": null
+        },
+        {
+          "x": 38.67,
+          "y": 159.38,
+          "width": 148.9,
+          "height": 20.34,
+          "type": "table_cell",
+          "confidence": 0.719,
+          "rows": null
+        },
+        {
+          "x": 206.28,
+          "y": 170.82,
+          "width": 142.98,
+          "height": 22.23,
+          "type": "table_cell",
+          "confidence": 0.702,
+          "rows": null
+        },
+        {
+          "x": 360.22,
+          "y": 166.87,
+          "width": 143.14,
+          "height": 20.8,
+          "type": "table_cell",
+          "confidence": 0.693,
+          "rows": null
+        },
+        {
+          "x": 51.15,
+          "y": 190.09,
+          "width": 150.78,
+          "height": 28.16,
+          "type": "table_cell",
+          "confidence": 0.628,
+          "rows": null
+        },
+        {
+          "x": 202.67,
+          "y": 194.48,
+          "width": 150.12,
+          "height": 13.67,
+          "type": "table_cell",
+          "confidence": 0.586,
+          "rows": null
+        },
+        {
+          "x": 358.96,
+          "y": 178.81,
+          "width": 139.33,
+          "height": 12.52,
+          "type": "table_cell",
+          "confidence": 0.751,
+          "rows": null
+        },
+        {
+          "x": 48.31,
+          "y": 255.55,
+          "width": 490.58,
+          "height": 97.49,
+          "type": "multi_line",
+          "confidence": 0.748,
+          "rows": 1
+        },
+        {
+          "x": 36.77,
+          "y": 374.09,
+          "width": 195.62,
+          "height": 30.95,
+          "type": "signature",
+          "confidence": 0.836,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1984.7,
+      "failed": false
+    },
+    "edu-chem-lab-001-highres": {
+      "detections": [
+        {
+          "x": 52.02,
+          "y": 67.18,
+          "width": 152.31,
+          "height": 14.77,
+          "type": "name",
+          "confidence": 0.705,
+          "rows": null
+        },
+        {
+          "x": 227.5,
+          "y": 55.72,
+          "width": 90.33,
+          "height": 20.0,
+          "type": "date",
+          "confidence": 0.556,
+          "rows": null
+        },
+        {
+          "x": 353.77,
+          "y": 60.13,
+          "width": 99.33,
+          "height": 12.97,
+          "type": "single_line",
+          "confidence": 0.737,
+          "rows": null
+        },
+        {
+          "x": 43.42,
+          "y": 132.56,
+          "width": 152.73,
+          "height": 25.39,
+          "type": "table_cell",
+          "confidence": 0.842,
+          "rows": null
+        },
+        {
+          "x": 194.49,
+          "y": 136.18,
+          "width": 135.71,
+          "height": 25.22,
+          "type": "table_cell",
+          "confidence": 0.631,
+          "rows": null
+        },
+        {
+          "x": 353.33,
+          "y": 139.0,
+          "width": 151.41,
+          "height": 25.94,
+          "type": "table_cell",
+          "confidence": 0.628,
+          "rows": null
+        },
+        {
+          "x": 36.89,
+          "y": 170.95,
+          "width": 145.27,
+          "height": 23.81,
+          "type": "table_cell",
+          "confidence": 0.577,
+          "rows": null
+        },
+        {
+          "x": 193.64,
+          "y": 166.79,
+          "width": 142.66,
+          "height": 12.5,
+          "type": "table_cell",
+          "confidence": 0.832,
+          "rows": null
+        },
+        {
+          "x": 362.42,
+          "y": 168.83,
+          "width": 136.51,
+          "height": 26.61,
+          "type": "table_cell",
+          "confidence": 0.57,
+          "rows": null
+        },
+        {
+          "x": 49.73,
+          "y": 185.67,
+          "width": 141.1,
+          "height": 21.16,
+          "type": "table_cell",
+          "confidence": 0.828,
+          "rows": null
+        },
+        {
+          "x": 197.42,
+          "y": 179.83,
+          "width": 144.48,
+          "height": 15.49,
+          "type": "table_cell",
+          "confidence": 0.583,
+          "rows": null
+        },
+        {
+          "x": 353.91,
+          "y": 178.41,
+          "width": 138.63,
+          "height": 16.82,
+          "type": "table_cell",
+          "confidence": 0.642,
+          "rows": null
+        },
+        {
+          "x": 47.87,
+          "y": 244.62,
+          "width": 496.8,
+          "height": 87.8,
+          "type": "multi_line",
+          "confidence": 0.654,
+          "rows": 1
+        },
+        {
+          "x": 34.53,
+          "y": 362.71,
+          "width": 178.48,
+          "height": 40.2,
+          "type": "signature",
+          "confidence": 0.715,
+          "rows": null
+        },
+        {
+          "x": 269.4,
+          "y": 687.4,
+          "width": 69.6,
+          "height": 27.1,
+          "type": "single_line",
+          "confidence": 0.49,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1994.0,
+      "failed": false
+    },
+    "edu-chem-lab-001": {
+      "detections": [
+        {
+          "x": 49.22,
+          "y": 59.28,
+          "width": 158.52,
+          "height": 19.38,
+          "type": "name",
+          "confidence": 0.845,
+          "rows": null
+        },
+        {
+          "x": 227.57,
+          "y": 67.18,
+          "width": 97.32,
+          "height": 18.45,
+          "type": "date",
+          "confidence": 0.671,
+          "rows": null
+        },
+        {
+          "x": 350.06,
+          "y": 53.18,
+          "width": 101.34,
+          "height": 8.27,
+          "type": "single_line",
+          "confidence": 0.772,
+          "rows": null
+        },
+        {
+          "x": 38.8,
+          "y": 134.34,
+          "width": 136.52,
+          "height": 26.34,
+          "type": "table_cell",
+          "confidence": 0.811,
+          "rows": null
+        },
+        {
+          "x": 204.67,
+          "y": 136.47,
+          "width": 139.36,
+          "height": 16.48,
+          "type": "table_cell",
+          "confidence": 0.688,
+          "rows": null
+        },
+        {
+          "x": 353.84,
+          "y": 139.42,
+          "width": 139.74,
+          "height": 28.51,
+          "type": "table_cell",
+          "confidence": 0.842,
+          "rows": null
+        },
+        {
+          "x": 44.05,
+          "y": 158.8,
+          "width": 152.38,
+          "height": 16.77,
+          "type": "table_cell",
+          "confidence": 0.657,
+          "rows": null
+        },
+        {
+          "x": 192.62,
+          "y": 161.27,
+          "width": 143.54,
+          "height": 20.25,
+          "type": "table_cell",
+          "confidence": 0.61,
+          "rows": null
+        },
+        {
+          "x": 360.09,
+          "y": 154.49,
+          "width": 139.76,
+          "height": 12.82,
+          "type": "table_cell",
+          "confidence": 0.67,
+          "rows": null
+        },
+        {
+          "x": 34.95,
+          "y": 177.9,
+          "width": 140.48,
+          "height": 15.39,
+          "type": "table_cell",
+          "confidence": 0.726,
+          "rows": null
+        },
+        {
+          "x": 202.13,
+          "y": 191.01,
+          "width": 146.84,
+          "height": 24.09,
+          "type": "table_cell",
+          "confidence": 0.814,
+          "rows": null
+        },
+        {
+          "x": 358.01,
+          "y": 183.37,
+          "width": 152.73,
+          "height": 13.89,
+          "type": "table_cell",
+          "confidence": 0.767,
+          "rows": null
+        },
+        {
+          "x": 45.78,
+          "y": 240.19,
+          "width": 502.84,
+          "height": 100.65,
+          "type": "multi_line",
+          "confidence": 0.738,
+          "rows": 1
+        },
+        {
+          "x": 47.41,
+          "y": 372.82,
+          "width": 180.71,
+          "height": 36.43,
+          "type": "signature",
+          "confidence": 0.701,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 2365.6,
+      "failed": false
+    },
+    "gov-eu-visa-001-faxq": {
+      "detections": [
+        {
+          "x": 51.48,
+          "y": 108.61,
+          "width": 223.27,
+          "height": 23.09,
+          "type": "name",
+          "confidence": 0.758,
+          "rows": null
+        },
+        {
+          "x": 285.54,
+          "y": 94.76,
+          "width": 188.0,
+          "height": 16.89,
+          "type": "name",
+          "confidence": 0.581,
+          "rows": null
+        },
+        {
+          "x": 52.14,
+          "y": 134.35,
+          "width": 161.0,
+          "height": 21.07,
+          "type": "date",
+          "confidence": 0.754,
+          "rows": null
+        },
+        {
+          "x": 218.71,
+          "y": 121.66,
+          "width": 149.66,
+          "height": 22.97,
+          "type": "single_line",
+          "confidence": 0.701,
+          "rows": null
+        },
+        {
+          "x": 47.33,
+          "y": 171.17,
+          "width": 208.39,
+          "height": 24.06,
+          "type": "single_line",
+          "confidence": 0.626,
+          "rows": null
+        },
+        {
+          "x": 283.84,
+          "y": 160.18,
+          "width": 198.73,
+          "height": 14.09,
+          "type": "single_line",
+          "confidence": 0.772,
+          "rows": null
+        },
+        {
+          "x": 47.59,
+          "y": 223.79,
+          "width": 9.82,
+          "height": 13.51,
+          "type": "radio",
+          "confidence": 0.78,
+          "rows": null
+        },
+        {
+          "x": 122.17,
+          "y": 216.99,
+          "width": 3.85,
+          "height": 5.77,
+          "type": "radio",
+          "confidence": 0.773,
+          "rows": null
+        },
+        {
+          "x": 198.22,
+          "y": 272.79,
+          "width": 6.04,
+          "height": 13.3,
+          "type": "checkbox",
+          "confidence": 0.758,
+          "rows": null
+        },
+        {
+          "x": 45.34,
+          "y": 309.0,
+          "width": 9.56,
+          "height": 9.59,
+          "type": "checkbox",
+          "confidence": 0.586,
+          "rows": null
+        },
+        {
+          "x": 202.09,
+          "y": 314.51,
+          "width": 18.05,
+          "height": 1.52,
+          "type": "checkbox",
+          "confidence": 0.688,
+          "rows": null
+        },
+        {
+          "x": 56.26,
+          "y": 392.33,
+          "width": 446.59,
+          "height": 68.44,
+          "type": "large_paragraph",
+          "confidence": 0.613,
+          "rows": 1
+        },
+        {
+          "x": 59.92,
+          "y": 462.39,
+          "width": 189.37,
+          "height": 36.45,
+          "type": "signature",
+          "confidence": 0.707,
+          "rows": null
+        },
+        {
+          "x": 305.25,
+          "y": 483.19,
+          "width": 121.26,
+          "height": 18.16,
+          "type": "date",
+          "confidence": 0.816,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1677.7,
+      "failed": false
+    },
+    "gov-eu-visa-001-rot3": {
+      "detections": [
+        {
+          "x": 90.76,
+          "y": 103.15,
+          "width": 208.05,
+          "height": 19.06,
+          "type": "name",
+          "confidence": 0.698,
+          "rows": null
+        },
+        {
+          "x": 327.11,
+          "y": 113.54,
+          "width": 188.53,
+          "height": 23.99,
+          "type": "name",
+          "confidence": 0.645,
+          "rows": null
+        },
+        {
+          "x": 88.32,
+          "y": 119.63,
+          "width": 163.51,
+          "height": 30.9,
+          "type": "date",
+          "confidence": 0.586,
+          "rows": null
+        },
+        {
+          "x": 262.38,
+          "y": 142.03,
+          "width": 151.93,
+          "height": 20.22,
+          "type": "single_line",
+          "confidence": 0.662,
+          "rows": null
+        },
+        {
+          "x": 78.27,
+          "y": 173.48,
+          "width": 218.21,
+          "height": 25.49,
+          "type": "single_line",
+          "confidence": 0.678,
+          "rows": null
+        },
+        {
+          "x": 320.55,
+          "y": 170.07,
+          "width": 187.83,
+          "height": 32.82,
+          "type": "single_line",
+          "confidence": 0.636,
+          "rows": null
+        },
+        {
+          "x": 72.99,
+          "y": 214.18,
+          "width": 10.7,
+          "height": 4.92,
+          "type": "radio",
+          "confidence": 0.662,
+          "rows": null
+        },
+        {
+          "x": 156.32,
+          "y": 228.02,
+          "width": 12.86,
+          "height": 17.94,
+          "type": "radio",
+          "confidence": 0.832,
+          "rows": null
+        },
+        {
+          "x": 224.39,
+          "y": 288.98,
+          "width": 9.62,
+          "height": 15.05,
+          "type": "checkbox",
+          "confidence": 0.743,
+          "rows": null
+        },
+        {
+          "x": 72.88,
+          "y": 377.09,
+          "width": 448.8,
+          "height": 86.79,
+          "type": "large_paragraph",
+          "confidence": 0.639,
+          "rows": 1
+        },
+        {
+          "x": 66.5,
+          "y": 471.37,
+          "width": 184.78,
+          "height": 52.81,
+          "type": "signature",
+          "confidence": 0.64,
+          "rows": null
+        },
+        {
+          "x": 307.53,
+          "y": 499.8,
+          "width": 109.91,
+          "height": 16.31,
+          "type": "date",
+          "confidence": 0.612,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1996.5,
+      "failed": false
+    },
+    "gov-eu-visa-001": {
+      "detections": [
+        {
+          "x": 38.16,
+          "y": 108.11,
+          "width": 224.94,
+          "height": 15.1,
+          "type": "name",
+          "confidence": 0.592,
+          "rows": null
+        },
+        {
+          "x": 282.46,
+          "y": 93.43,
+          "width": 191.56,
+          "height": 8.64,
+          "type": "name",
+          "confidence": 0.622,
+          "rows": null
+        },
+        {
+          "x": 38.85,
+          "y": 127.25,
+          "width": 165.37,
+          "height": 20.49,
+          "type": "date",
+          "confidence": 0.674,
+          "rows": null
+        },
+        {
+          "x": 214.45,
+          "y": 126.44,
+          "width": 141.78,
+          "height": 13.09,
+          "type": "single_line",
+          "confidence": 0.569,
+          "rows": null
+        },
+        {
+          "x": 39.2,
+          "y": 170.42,
+          "width": 209.27,
+          "height": 16.06,
+          "type": "single_line",
+          "confidence": 0.739,
+          "rows": null
+        },
+        {
+          "x": 294.53,
+          "y": 156.89,
+          "width": 190.28,
+          "height": 11.47,
+          "type": "single_line",
+          "confidence": 0.67,
+          "rows": null
+        },
+        {
+          "x": 121.48,
+          "y": 222.71,
+          "width": 1.39,
+          "height": 1.58,
+          "type": "radio",
+          "confidence": 0.763,
+          "rows": null
+        },
+        {
+          "x": 42.72,
+          "y": 275.17,
+          "width": 1.0,
+          "height": 8.05,
+          "type": "checkbox",
+          "confidence": 0.828,
+          "rows": null
+        },
+        {
+          "x": 208.0,
+          "y": 282.1,
+          "width": 5.47,
+          "height": 2.96,
+          "type": "checkbox",
+          "confidence": 0.596,
+          "rows": null
+        },
+        {
+          "x": 209.55,
+          "y": 302.79,
+          "width": 12.65,
+          "height": 14.77,
+          "type": "checkbox",
+          "confidence": 0.687,
+          "rows": null
+        },
+        {
+          "x": 44.13,
+          "y": 373.31,
+          "width": 451.48,
+          "height": 59.99,
+          "type": "large_paragraph",
+          "confidence": 0.826,
+          "rows": 1
+        },
+        {
+          "x": 45.82,
+          "y": 457.27,
+          "width": 180.5,
+          "height": 35.13,
+          "type": "signature",
+          "confidence": 0.741,
+          "rows": null
+        },
+        {
+          "x": 291.57,
+          "y": 479.02,
+          "width": 107.47,
+          "height": 16.44,
+          "type": "date",
+          "confidence": 0.725,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1668.3,
+      "failed": false
+    },
+    "gov-us-w4-001-jpeg": {
+      "detections": [
+        {
+          "x": 45.02,
+          "y": 91.99,
+          "width": 183.63,
+          "height": 15.29,
+          "type": "name",
+          "confidence": 0.838,
+          "rows": null
+        },
+        {
+          "x": 247.4,
+          "y": 107.71,
+          "width": 215.56,
+          "height": 11.23,
+          "type": "name",
+          "confidence": 0.624,
+          "rows": null
+        },
+        {
+          "x": 51.49,
+          "y": 129.68,
+          "width": 284.53,
+          "height": 7.39,
+          "type": "single_line",
+          "confidence": 0.699,
+          "rows": null
+        },
+        {
+          "x": 46.34,
+          "y": 160.56,
+          "width": 154.03,
+          "height": 19.01,
+          "type": "single_line",
+          "confidence": 0.828,
+          "rows": null
+        },
+        {
+          "x": 203.88,
+          "y": 153.61,
+          "width": 47.48,
+          "height": 14.57,
+          "type": "single_line",
+          "confidence": 0.755,
+          "rows": null
+        },
+        {
+          "x": 260.97,
+          "y": 167.35,
+          "width": 76.3,
+          "height": 16.09,
+          "type": "single_line",
+          "confidence": 0.612,
+          "rows": null
+        },
+        {
+          "x": 51.66,
+          "y": 194.61,
+          "width": 221.76,
+          "height": 11.15,
+          "type": "single_line",
+          "confidence": 0.616,
+          "rows": null
+        },
+        {
+          "x": 39.51,
+          "y": 260.13,
+          "width": 9.92,
+          "height": 4.37,
+          "type": "checkbox",
+          "confidence": 0.617,
+          "rows": null
+        },
+        {
+          "x": 51.28,
+          "y": 288.83,
+          "width": 8.08,
+          "height": 4.83,
+          "type": "checkbox",
+          "confidence": 0.842,
+          "rows": null
+        },
+        {
+          "x": 36.75,
+          "y": 344.73,
+          "width": 136.08,
+          "height": 14.08,
+          "type": "single_line",
+          "confidence": 0.819,
+          "rows": null
+        },
+        {
+          "x": 50.1,
+          "y": 389.39,
+          "width": 152.96,
+          "height": 23.77,
+          "type": "single_line",
+          "confidence": 0.649,
+          "rows": null
+        },
+        {
+          "x": 37.54,
+          "y": 461.45,
+          "width": 234.83,
+          "height": 27.57,
+          "type": "signature",
+          "confidence": 0.749,
+          "rows": null
+        },
+        {
+          "x": 293.02,
+          "y": 472.93,
+          "width": 104.97,
+          "height": 10.05,
+          "type": "date",
+          "confidence": 0.551,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1821.8,
+      "failed": false
+    },
+    "gov-us-w4-001-rot1": {
+      "detections": [
+        {
+          "x": 53.9,
+          "y": 103.03,
+          "width": 195.86,
+          "height": 14.93,
+          "type": "name",
+          "confidence": 0.657,
+          "rows": null
+        },
+        {
+          "x": 252.99,
+          "y": 110.4,
+          "width": 215.08,
+          "height": 12.79,
+          "type": "name",
+          "confidence": 0.692,
+          "rows": null
+        },
+        {
+          "x": 44.01,
+          "y": 140.25,
+          "width": 282.77,
+          "height": 20.06,
+          "type": "single_line",
+          "confidence": 0.819,
+          "rows": null
+        },
+        {
+          "x": 38.65,
+          "y": 169.99,
+          "width": 164.31,
+          "height": 24.4,
+          "type": "single_line",
+          "confidence": 0.562,
+          "rows": null
+        },
+        {
+          "x": 204.23,
+          "y": 162.43,
+          "width": 58.36,
+          "height": 12.73,
+          "type": "single_line",
+          "confidence": 0.774,
+          "rows": null
+        },
+        {
+          "x": 277.37,
+          "y": 165.6,
+          "width": 68.2,
+          "height": 25.84,
+          "type": "single_line",
+          "confidence": 0.735,
+          "rows": null
+        },
+        {
+          "x": 43.62,
+          "y": 210.2,
+          "width": 213.0,
+          "height": 16.86,
+          "type": "single_line",
+          "confidence": 0.551,
+          "rows": null
+        },
+        {
+          "x": 56.6,
+          "y": 267.41,
+          "width": 18.18,
+          "height": 1.64,
+          "type": "checkbox",
+          "confidence": 0.62,
+          "rows": null
+        },
+        {
+          "x": 58.27,
+          "y": 306.16,
+          "width": 5.72,
+          "height": 8.94,
+          "type": "checkbox",
+          "confidence": 0.698,
+          "rows": null
+        },
+        {
+          "x": 59.11,
+          "y": 356.99,
+          "width": 149.75,
+          "height": 23.59,
+          "type": "single_line",
+          "confidence": 0.797,
+          "rows": null
+        },
+        {
+          "x": 57.01,
+          "y": 397.03,
+          "width": 141.2,
+          "height": 16.05,
+          "type": "single_line",
+          "confidence": 0.659,
+          "rows": null
+        },
+        {
+          "x": 58.78,
+          "y": 453.92,
+          "width": 225.75,
+          "height": 45.75,
+          "type": "signature",
+          "confidence": 0.624,
+          "rows": null
+        },
+        {
+          "x": 298.27,
+          "y": 471.81,
+          "width": 109.25,
+          "height": 15.26,
+          "type": "date",
+          "confidence": 0.844,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 2585.4,
+      "failed": false
+    },
+    "gov-us-w4-001": {
+      "detections": [
+        {
+          "x": 38.97,
+          "y": 93.31,
+          "width": 179.94,
+          "height": 15.97,
+          "type": "name",
+          "confidence": 0.763,
+          "rows": null
+        },
+        {
+          "x": 243.85,
+          "y": 96.02,
+          "width": 214.5,
+          "height": 18.17,
+          "type": "name",
+          "confidence": 0.752,
+          "rows": null
+        },
+        {
+          "x": 47.66,
+          "y": 132.25,
+          "width": 290.96,
+          "height": 9.18,
+          "type": "single_line",
+          "confidence": 0.802,
+          "rows": null
+        },
+        {
+          "x": 39.49,
+          "y": 163.2,
+          "width": 156.11,
+          "height": 20.29,
+          "type": "single_line",
+          "confidence": 0.61,
+          "rows": null
+        },
+        {
+          "x": 204.25,
+          "y": 157.42,
+          "width": 44.16,
+          "height": 22.92,
+          "type": "single_line",
+          "confidence": 0.723,
+          "rows": null
+        },
+        {
+          "x": 263.27,
+          "y": 160.13,
+          "width": 80.86,
+          "height": 16.13,
+          "type": "single_line",
+          "confidence": 0.619,
+          "rows": null
+        },
+        {
+          "x": 48.75,
+          "y": 200.76,
+          "width": 224.84,
+          "height": 8.84,
+          "type": "single_line",
+          "confidence": 0.692,
+          "rows": null
+        },
+        {
+          "x": 49.33,
+          "y": 259.46,
+          "width": 1.73,
+          "height": 6.29,
+          "type": "checkbox",
+          "confidence": 0.586,
+          "rows": null
+        },
+        {
+          "x": 44.7,
+          "y": 302.94,
+          "width": 7.7,
+          "height": 16.59,
+          "type": "checkbox",
+          "confidence": 0.685,
+          "rows": null
+        },
+        {
+          "x": 38.88,
+          "y": 357.8,
+          "width": 152.02,
+          "height": 8.9,
+          "type": "single_line",
+          "confidence": 0.729,
+          "rows": null
+        },
+        {
+          "x": 45.36,
+          "y": 380.12,
+          "width": 141.64,
+          "height": 9.54,
+          "type": "single_line",
+          "confidence": 0.611,
+          "rows": null
+        },
+        {
+          "x": 38.79,
+          "y": 455.39,
+          "width": 233.13,
+          "height": 30.66,
+          "type": "signature",
+          "confidence": 0.553,
+          "rows": null
+        },
+        {
+          "x": 292.09,
+          "y": 478.41,
+          "width": 102.33,
+          "height": 12.62,
+          "type": "date",
+          "confidence": 0.611,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 2057.7,
+      "failed": false
+    },
+    "hr-onboarding-001-folded": {
+      "detections": [
+        {
+          "x": 35.34,
+          "y": 61.22,
+          "width": 214.12,
+          "height": 16.9,
+          "type": "name",
+          "confidence": 0.742,
+          "rows": null
+        },
+        {
+          "x": 280.64,
+          "y": 62.35,
+          "width": 104.32,
+          "height": 14.38,
+          "type": "date",
+          "confidence": 0.635,
+          "rows": null
+        },
+        {
+          "x": 399.74,
+          "y": 76.56,
+          "width": 68.62,
+          "height": 17.2,
+          "type": "single_line",
+          "confidence": 0.657,
+          "rows": null
+        },
+        {
+          "x": 217.74,
+          "y": 127.15,
+          "width": 4.55,
+          "height": 14.1,
+          "type": "checkbox",
+          "confidence": 0.611,
+          "rows": null
+        },
+        {
+          "x": 41.83,
+          "y": 160.57,
+          "width": 8.31,
+          "height": 16.89,
+          "type": "checkbox",
+          "confidence": 0.688,
+          "rows": null
+        },
+        {
+          "x": 44.13,
+          "y": 236.53,
+          "width": 158.58,
+          "height": 14.2,
+          "type": "table_cell",
+          "confidence": 0.737,
+          "rows": null
+        },
+        {
+          "x": 206.48,
+          "y": 234.08,
+          "width": 144.83,
+          "height": 17.7,
+          "type": "table_cell",
+          "confidence": 0.706,
+          "rows": null
+        },
+        {
+          "x": 382.06,
+          "y": 226.96,
+          "width": 151.03,
+          "height": 27.09,
+          "type": "table_cell",
+          "confidence": 0.84,
+          "rows": null
+        },
+        {
+          "x": 37.75,
+          "y": 292.08,
+          "width": 209.58,
+          "height": 44.56,
+          "type": "signature",
+          "confidence": 0.695,
+          "rows": null
+        },
+        {
+          "x": 265.56,
+          "y": 328.07,
+          "width": 98.78,
+          "height": 23.28,
+          "type": "date",
+          "confidence": 0.736,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1592.3,
+      "failed": false
+    },
+    "hr-onboarding-001": {
+      "detections": [
+        {
+          "x": 48.34,
+          "y": 63.4,
+          "width": 214.28,
+          "height": 22.23,
+          "type": "name",
+          "confidence": 0.799,
+          "rows": null
+        },
+        {
+          "x": 282.29,
+          "y": 63.33,
+          "width": 99.0,
+          "height": 16.32,
+          "type": "date",
+          "confidence": 0.665,
+          "rows": null
+        },
+        {
+          "x": 396.42,
+          "y": 63.85,
+          "width": 76.05,
+          "height": 23.15,
+          "type": "single_line",
+          "confidence": 0.562,
+          "rows": null
+        },
+        {
+          "x": 47.83,
+          "y": 121.29,
+          "width": 16.09,
+          "height": 3.12,
+          "type": "checkbox",
+          "confidence": 0.73,
+          "rows": null
+        },
+        {
+          "x": 211.09,
+          "y": 126.11,
+          "width": 8.56,
+          "height": 11.49,
+          "type": "checkbox",
+          "confidence": 0.678,
+          "rows": null
+        },
+        {
+          "x": 373.44,
+          "y": 128.49,
+          "width": 1.42,
+          "height": 12.14,
+          "type": "checkbox",
+          "confidence": 0.697,
+          "rows": null
+        },
+        {
+          "x": 213.84,
+          "y": 154.05,
+          "width": 4.23,
+          "height": 9.52,
+          "type": "checkbox",
+          "confidence": 0.582,
+          "rows": null
+        },
+        {
+          "x": 41.95,
+          "y": 226.65,
+          "width": 150.16,
+          "height": 21.78,
+          "type": "table_cell",
+          "confidence": 0.562,
+          "rows": null
+        },
+        {
+          "x": 211.26,
+          "y": 226.48,
+          "width": 155.4,
+          "height": 26.6,
+          "type": "table_cell",
+          "confidence": 0.703,
+          "rows": null
+        },
+        {
+          "x": 366.38,
+          "y": 234.07,
+          "width": 149.0,
+          "height": 29.72,
+          "type": "table_cell",
+          "confidence": 0.591,
+          "rows": null
+        },
+        {
+          "x": 49.63,
+          "y": 307.73,
+          "width": 205.78,
+          "height": 41.67,
+          "type": "signature",
+          "confidence": 0.608,
+          "rows": null
+        },
+        {
+          "x": 282.27,
+          "y": 320.25,
+          "width": 109.02,
+          "height": 23.49,
+          "type": "date",
+          "confidence": 0.6,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 2516.7,
+      "failed": false
+    },
+    "legal-agreement-001-wrinkled": {
+      "detections": [
+        {
+          "x": 35.38,
+          "y": 112.52,
+          "width": 501.41,
+          "height": 73.06,
+          "type": "large_paragraph",
+          "confidence": 0.819,
+          "rows": 1
+        },
+        {
+          "x": 39.15,
+          "y": 250.48,
+          "width": 195.18,
+          "height": 36.04,
+          "type": "signature",
+          "confidence": 0.826,
+          "rows": null
+        },
+        {
+          "x": 37.95,
+          "y": 294.53,
+          "width": 201.71,
+          "height": 12.74,
+          "type": "underline",
+          "confidence": 0.561,
+          "rows": null
+        },
+        {
+          "x": 37.48,
+          "y": 321.5,
+          "width": 108.66,
+          "height": 19.23,
+          "type": "date",
+          "confidence": 0.819,
+          "rows": null
+        },
+        {
+          "x": 282.04,
+          "y": 249.93,
+          "width": 194.67,
+          "height": 36.55,
+          "type": "signature",
+          "confidence": 0.741,
+          "rows": null
+        },
+        {
+          "x": 285.48,
+          "y": 305.51,
+          "width": 202.59,
+          "height": 17.44,
+          "type": "underline",
+          "confidence": 0.815,
+          "rows": null
+        },
+        {
+          "x": 280.88,
+          "y": 336.47,
+          "width": 103.14,
+          "height": 14.1,
+          "type": "date",
+          "confidence": 0.789,
+          "rows": null
+        },
+        {
+          "x": 38.97,
+          "y": 390.43,
+          "width": 202.99,
+          "height": 33.48,
+          "type": "signature",
+          "confidence": 0.779,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1612.1,
+      "failed": false
+    },
+    "legal-agreement-001": {
+      "detections": [
+        {
+          "x": 47.58,
+          "y": 107.07,
+          "width": 502.56,
+          "height": 74.77,
+          "type": "large_paragraph",
+          "confidence": 0.742,
+          "rows": 1
+        },
+        {
+          "x": 51.91,
+          "y": 246.35,
+          "width": 204.55,
+          "height": 32.63,
+          "type": "signature",
+          "confidence": 0.551,
+          "rows": null
+        },
+        {
+          "x": 34.81,
+          "y": 292.49,
+          "width": 203.69,
+          "height": 14.78,
+          "type": "underline",
+          "confidence": 0.704,
+          "rows": null
+        },
+        {
+          "x": 50.32,
+          "y": 320.98,
+          "width": 95.89,
+          "height": 18.76,
+          "type": "date",
+          "confidence": 0.557,
+          "rows": null
+        },
+        {
+          "x": 279.05,
+          "y": 242.19,
+          "width": 194.51,
+          "height": 33.43,
+          "type": "signature",
+          "confidence": 0.617,
+          "rows": null
+        },
+        {
+          "x": 289.5,
+          "y": 300.4,
+          "width": 196.28,
+          "height": 18.23,
+          "type": "underline",
+          "confidence": 0.692,
+          "rows": null
+        },
+        {
+          "x": 281.43,
+          "y": 335.46,
+          "width": 96.18,
+          "height": 9.69,
+          "type": "date",
+          "confidence": 0.579,
+          "rows": null
+        },
+        {
+          "x": 45.69,
+          "y": 388.28,
+          "width": 206.68,
+          "height": 34.24,
+          "type": "signature",
+          "confidence": 0.629,
+          "rows": null
+        },
+        {
+          "x": 348.0,
+          "y": 433.5,
+          "width": 91.5,
+          "height": 24.3,
+          "type": "single_line",
+          "confidence": 0.49,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 2524.6,
+      "failed": false
+    },
+    "med-intake-001-coffee": {
+      "detections": [
+        {
+          "x": 47.4,
+          "y": 96.27,
+          "width": 223.26,
+          "height": 7.79,
+          "type": "name",
+          "confidence": 0.709,
+          "rows": null
+        },
+        {
+          "x": 286.31,
+          "y": 96.08,
+          "width": 85.65,
+          "height": 21.02,
+          "type": "date",
+          "confidence": 0.554,
+          "rows": null
+        },
+        {
+          "x": 404.12,
+          "y": 108.74,
+          "width": 65.56,
+          "height": 10.59,
+          "type": "single_line",
+          "confidence": 0.732,
+          "rows": null
+        },
+        {
+          "x": 43.33,
+          "y": 128.55,
+          "width": 221.64,
+          "height": 10.14,
+          "type": "single_line",
+          "confidence": 0.643,
+          "rows": null
+        },
+        {
+          "x": 284.4,
+          "y": 117.87,
+          "width": 194.21,
+          "height": 21.09,
+          "type": "single_line",
+          "confidence": 0.765,
+          "rows": null
+        },
+        {
+          "x": 34.31,
+          "y": 189.8,
+          "width": 479.61,
+          "height": 56.97,
+          "type": "large_paragraph",
+          "confidence": 0.773,
+          "rows": 1
+        },
+        {
+          "x": 47.69,
+          "y": 374.31,
+          "width": 207.82,
+          "height": 39.81,
+          "type": "signature",
+          "confidence": 0.63,
+          "rows": null
+        },
+        {
+          "x": 274.57,
+          "y": 391.25,
+          "width": 105.99,
+          "height": 16.42,
+          "type": "date",
+          "confidence": 0.63,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 2558.2,
+      "failed": false
+    },
+    "med-intake-001-phonephoto": {
+      "detections": [
+        {
+          "x": 66.31,
+          "y": 109.34,
+          "width": 207.77,
+          "height": 20.69,
+          "type": "name",
+          "confidence": 0.621,
+          "rows": null
+        },
+        {
+          "x": 320.39,
+          "y": 120.8,
+          "width": 98.63,
+          "height": 16.78,
+          "type": "date",
+          "confidence": 0.814,
+          "rows": null
+        },
+        {
+          "x": 428.01,
+          "y": 112.91,
+          "width": 79.94,
+          "height": 21.35,
+          "type": "single_line",
+          "confidence": 0.758,
+          "rows": null
+        },
+        {
+          "x": 73.37,
+          "y": 136.32,
+          "width": 215.95,
+          "height": 31.11,
+          "type": "single_line",
+          "confidence": 0.759,
+          "rows": null
+        },
+        {
+          "x": 321.44,
+          "y": 136.87,
+          "width": 191.74,
+          "height": 25.07,
+          "type": "single_line",
+          "confidence": 0.642,
+          "rows": null
+        },
+        {
+          "x": 61.02,
+          "y": 187.51,
+          "width": 469.6,
+          "height": 84.79,
+          "type": "large_paragraph",
+          "confidence": 0.593,
+          "rows": 1
+        },
+        {
+          "x": 392.31,
+          "y": 289.75,
+          "width": 1.92,
+          "height": 2.15,
+          "type": "checkbox",
+          "confidence": 0.758,
+          "rows": null
+        },
+        {
+          "x": 66.65,
+          "y": 311.86,
+          "width": 2.58,
+          "height": 12.03,
+          "type": "checkbox",
+          "confidence": 0.659,
+          "rows": null
+        },
+        {
+          "x": 234.35,
+          "y": 321.54,
+          "width": 2.59,
+          "height": 17.02,
+          "type": "checkbox",
+          "confidence": 0.824,
+          "rows": null
+        },
+        {
+          "x": 386.93,
+          "y": 316.1,
+          "width": 3.42,
+          "height": 2.02,
+          "type": "checkbox",
+          "confidence": 0.804,
+          "rows": null
+        },
+        {
+          "x": 64.92,
+          "y": 374.72,
+          "width": 208.75,
+          "height": 46.77,
+          "type": "signature",
+          "confidence": 0.636,
+          "rows": null
+        },
+        {
+          "x": 282.2,
+          "y": 396.26,
+          "width": 106.03,
+          "height": 14.89,
+          "type": "date",
+          "confidence": 0.646,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1425.1,
+      "failed": false
+    },
+    "med-intake-001": {
+      "detections": [
+        {
+          "x": 38.82,
+          "y": 96.89,
+          "width": 219.88,
+          "height": 13.62,
+          "type": "name",
+          "confidence": 0.646,
+          "rows": null
+        },
+        {
+          "x": 296.35,
+          "y": 100.87,
+          "width": 99.92,
+          "height": 18.13,
+          "type": "date",
+          "confidence": 0.559,
+          "rows": null
+        },
+        {
+          "x": 401.63,
+          "y": 99.66,
+          "width": 76.91,
+          "height": 13.24,
+          "type": "single_line",
+          "confidence": 0.761,
+          "rows": null
+        },
+        {
+          "x": 43.88,
+          "y": 120.9,
+          "width": 222.52,
+          "height": 8.64,
+          "type": "single_line",
+          "confidence": 0.796,
+          "rows": null
+        },
+        {
+          "x": 282.07,
+          "y": 117.02,
+          "width": 181.84,
+          "height": 20.72,
+          "type": "single_line",
+          "confidence": 0.843,
+          "rows": null
+        },
+        {
+          "x": 34.28,
+          "y": 183.43,
+          "width": 475.05,
+          "height": 62.94,
+          "type": "large_paragraph",
+          "confidence": 0.605,
+          "rows": 1
+        },
+        {
+          "x": 370.09,
+          "y": 288.79,
+          "width": 6.11,
+          "height": 4.86,
+          "type": "checkbox",
+          "confidence": 0.76,
+          "rows": null
+        },
+        {
+          "x": 366.86,
+          "y": 311.18,
+          "width": 13.55,
+          "height": 15.16,
+          "type": "checkbox",
+          "confidence": 0.738,
+          "rows": null
+        },
+        {
+          "x": 40.6,
+          "y": 369.02,
+          "width": 199.7,
+          "height": 43.03,
+          "type": "signature",
+          "confidence": 0.576,
+          "rows": null
+        },
+        {
+          "x": 280.59,
+          "y": 383.85,
+          "width": 95.51,
+          "height": 11.74,
+          "type": "date",
+          "confidence": 0.82,
+          "rows": null
+        }
+      ],
+      "detection_time_ms": 1855.2,
+      "failed": false
+    }
+  },
+  "system_info": {
+    "note": "synthetic demo detector, not a real tool"
+  }
+}

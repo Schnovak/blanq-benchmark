@@ -1,0 +1,157 @@
+{
+  "id": "gov-eu-visa-001",
+  "page_width": 595.2755905511812,
+  "page_height": 841.8897637795277,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 43.2,
+      "y": 100.8,
+      "width": 216.0,
+      "height": 16,
+      "type": "name",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 288.0,
+      "y": 100.8,
+      "width": 194.4,
+      "height": 16,
+      "type": "name",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 43.2,
+      "y": 126.0,
+      "width": 158.4,
+      "height": 16,
+      "type": "date",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 216.0,
+      "y": 126.0,
+      "width": 144.0,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 43.2,
+      "y": 162.0,
+      "width": 216.0,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 288.0,
+      "y": 162.0,
+      "width": 194.4,
+      "height": 16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 43.2,
+      "y": 216.0,
+      "width": 10,
+      "height": 10,
+      "type": "radio",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 115.2,
+      "y": 216.0,
+      "width": 10,
+      "height": 10,
+      "type": "radio",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 43.2,
+      "y": 273.6,
+      "width": 10,
+      "height": 10,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 201.6,
+      "y": 273.6,
+      "width": 10,
+      "height": 10,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 43.2,
+      "y": 298.8,
+      "width": 10,
+      "height": 10,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 201.6,
+      "y": 298.8,
+      "width": 10,
+      "height": 10,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 43.2,
+      "y": 381.6,
+      "width": 446.4,
+      "height": 64.8,
+      "type": "large_paragraph",
+      "confidence": 1.0,
+      "rows": 3
+    },
+    {
+      "id": "b014",
+      "x": 43.2,
+      "y": 460.8,
+      "width": 187.2,
+      "height": 39.6,
+      "type": "signature",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b015",
+      "x": 288.0,
+      "y": 486.0,
+      "width": 115.2,
+      "height": 16,
+      "type": "date",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ]
+}

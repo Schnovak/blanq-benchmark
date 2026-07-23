@@ -1,0 +1,147 @@
+{
+  "id": "gov-us-w4-001-rot1",
+  "page_width": 630.2,
+  "page_height": 806.4,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 45.7,
+      "y": 109.8,
+      "width": 187.5,
+      "height": 20.2,
+      "type": "name",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 247.2,
+      "y": 104.6,
+      "width": 216.3,
+      "height": 20.9,
+      "type": "name",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 46.3,
+      "y": 132.7,
+      "width": 288.3,
+      "height": 22.5,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 47.1,
+      "y": 171.6,
+      "width": 158.7,
+      "height": 19.6,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 212.6,
+      "y": 170.3,
+      "width": 50.8,
+      "height": 17.1,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 270.2,
+      "y": 168.5,
+      "width": 72.3,
+      "height": 17.6,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 47.9,
+      "y": 206.3,
+      "width": 216.3,
+      "height": 20.9,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 49.1,
+      "y": 265.0,
+      "width": 10.2,
+      "height": 10.2,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 49.6,
+      "y": 286.6,
+      "width": 10.2,
+      "height": 10.2,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 50.1,
+      "y": 308.2,
+      "width": 10.2,
+      "height": 10.2,
+      "type": "checkbox",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 51.4,
+      "y": 362.7,
+      "width": 144.3,
+      "height": 19.3,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 52.1,
+      "y": 395.1,
+      "width": 144.3,
+      "height": 19.3,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 53.7,
+      "y": 461.5,
+      "width": 231.2,
+      "height": 41.2,
+      "type": "signature",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b014",
+      "x": 306.1,
+      "y": 480.2,
+      "width": 108.3,
+      "height": 18.4,
+      "type": "date",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ]
+}
