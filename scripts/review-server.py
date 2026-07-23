@@ -157,9 +157,12 @@ SHELL = """<!doctype html>
     font-family:system-ui,-apple-system,sans-serif;touch-action:none}
 
   /* ── top bar ── */
-  #bar{position:fixed;top:0;left:0;right:0;height:52px;background:#0a0a0a;
+  #bar{position:fixed;top:0;left:0;right:0;background:#0a0a0a;
     display:flex;align-items:center;gap:12px;padding:0 16px;z-index:30;
-    border-bottom:1px solid #1e1e1e}
+    border-bottom:1px solid #1e1e1e;flex-wrap:wrap}
+  #bar-main{display:flex;align-items:center;gap:12px;width:100%;height:52px}
+  #all-banner{width:100%;background:#7c3aed;color:#fff;font-size:.72rem;font-weight:700;
+    text-align:center;padding:4px 0;letter-spacing:.05em;display:none}
   #progress{flex:1;height:4px;background:#1e1e1e;border-radius:2px;overflow:hidden}
   #progress-fill{height:100%;background:#3b82f6;border-radius:2px;transition:width .3s}
   #counter{font-size:.78rem;color:#666;white-space:nowrap}
@@ -179,6 +182,9 @@ SHELL = """<!doctype html>
   .card-meta{padding:10px 14px;display:flex;align-items:center;gap:8px}
   .card-id{font-size:.72rem;color:#666;flex:1}
   .card-blanks{font-size:.72rem;color:#3b82f6;font-weight:600}
+  .card-status{font-size:.68rem;font-weight:700;padding:2px 7px;border-radius:6px}
+  .card-status.approved{background:#14532d;color:#4ade80}
+  .card-status.flagged{background:#450a0a;color:#f87171}
   .card-loading{display:flex;align-items:center;justify-content:center;
     min-height:300px;color:#444;font-size:.85rem}
 
@@ -221,9 +227,12 @@ SHELL = """<!doctype html>
 <body>
 
 <div id="bar">
-  <div id="progress"><div id="progress-fill" style="width:0%"></div></div>
-  <span id="counter">— / —</span>
-  <button id="done-btn" onclick="commitAll()" disabled>Done</button>
+  <div id="all-banner">SHOW-ALL MODE — includes already reviewed pages · <a href="./" style="color:#ddd">exit</a></div>
+  <div id="bar-main">
+    <div id="progress"><div id="progress-fill" style="width:0%"></div></div>
+    <span id="counter">— / —</span>
+    <button id="done-btn" onclick="commitAll()" disabled>Done</button>
+  </div>
 </div>
 
 <div id="stack"></div>
@@ -242,8 +251,7 @@ SHELL = """<!doctype html>
 </div>
 
 <div id="empty">
-  <p>All pages reviewed.</p>
-  <a href="./?all=1">Show approved/flagged</a>
+  <p>All unreviewed pages done!</p>
 </div>
 
 <script>
@@ -257,6 +265,11 @@ let loadedAhead = new Set();
 async function init() {
   const params = new URLSearchParams(location.search);
   const showAll = params.has('all');
+  if (showAll) {
+    const banner = document.getElementById('all-banner');
+    banner.style.display = 'block';
+    document.getElementById('bar').style.paddingBottom = '0';
+  }
   const res = await fetch('pages' + (showAll ? '?all=1' : ''));
   const data = await res.json();
   pages.push(...data.pages);
@@ -298,16 +311,20 @@ function renderStack() {
     card.className = 'card';
     card.id = 'card-' + i;
 
+    const priorStatus = p.status !== 'unprocessed' ? p.status : null;
     if (!data) {
       card.innerHTML = `<div class="card-loading">Loading…</div>
         <div class="card-meta"><span class="card-id">${p.id}</span></div>`;
     } else {
+      const statusBadge = priorStatus
+        ? `<span class="card-status ${priorStatus}">${priorStatus}</span>` : '';
       card.innerHTML = `
         <div class="stamp stamp-yes">Approve</div>
         <div class="stamp stamp-no">Flag</div>
         <img class="card-img" src="data:image/png;base64,${data.overlay_b64}" draggable="false">
         <div class="card-meta">
           <span class="card-id">${p.id}</span>
+          ${statusBadge}
           <span class="card-blanks">${data.blank_count} blanks</span>
         </div>`;
       if (i === current) attachSwipe(card, i);
