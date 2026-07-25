@@ -49,6 +49,36 @@
       "mean_ms_per_page": 781.14,
       "failure_rate": 0.0,
       "n_gt_blanks": 261
+    },
+    {
+      "tool": "pymupdf_naive",
+      "f1_50": 0.4395,
+      "precision_50": 0.4882,
+      "recall_50": 0.3997,
+      "f1_75": 0.1096,
+      "f1_90": 0.0003,
+      "mean_iou": 0.5652,
+      "pct_detected_50": 39.97,
+      "median_line_error_px": 1.73,
+      "multiline_row_accuracy": null,
+      "mean_ms_per_page": 17.43,
+      "failure_rate": 0.0,
+      "n_gt_blanks": 4386
+    },
+    {
+      "tool": "pymupdf_widgets",
+      "f1_50": 0.7975,
+      "precision_50": 1.0,
+      "recall_50": 0.6632,
+      "f1_75": 0.7975,
+      "f1_90": 0.7975,
+      "mean_iou": 1.0,
+      "pct_detected_50": 66.32,
+      "median_line_error_px": 0.0,
+      "multiline_row_accuracy": 1.0,
+      "mean_ms_per_page": 11.73,
+      "failure_rate": 0.0,
+      "n_gt_blanks": 4386
     }
   ]
 }

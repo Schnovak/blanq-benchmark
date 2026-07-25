@@ -13,14 +13,24 @@ marketing page.
 >
 > Not OCR. Not "AI answering the form." Only blank detection.
 
-## Status: v0.1, one competitor scored end-to-end
+## Status: v0.1, one real detector and two baselines scored
 
-The dataset is 227 pages across 6 categories, with 4,242 ground-truth
+The dataset is 227 pages across 6 categories, with 4,386 ground-truth
 blanks. Every page is a public-domain US government form (IRS, USCIS,
 VA, CMS, USPTO, US Courts, CA Courts, CDPH) or an ESL worksheet I
 reviewed by hand against BlanQ's detections. The full pipeline
 (dataset, ground truth, detector, scoring, leaderboard) runs from a
 clean checkout with four commands.
+
+![Leaderboard chart](docs/leaderboard.png)
+
+BlanQ ties the AcroForm-only baseline on overall F1 (0.79 vs 0.80) but
+wins on recall (0.92 vs 0.66) and on coverage. The AcroForm baseline
+gets those numbers by simply trusting the source PDF's own widget
+metadata, and completely fails on the Education pages because those
+worksheets have no widgets to read. BlanQ works on both cases. The
+"underscore + line heuristic" baseline is what a 100-line Python
+script can do without any ML.
 
 BlanQ v0.1 numbers (`results/blanq/scores.json`):
 
@@ -106,24 +116,28 @@ scripts/          generate_seed_dataset.py, build_leaderboard.py
 ## Quickstart
 
 ```bash
-pip install pymupdf numpy pillow reportlab
+pip install pymupdf numpy pillow reportlab matplotlib
 
 # 1. Build ground truth from every dataset PDF's AcroForm widgets
 #    (keeps manually-approved ground_truth/*.json untouched)
 python3 scripts/build_ground_truth.py
 
-# 2. Run BlanQ over every page that has ground truth
-#    (needs a reachable blanq-ai-detect service; override with BLANQ_API_URL)
-python3 scripts/run_blanq.py
+# 2. Run BlanQ + the two open-source baselines over every page
+python3 scripts/run_blanq.py                     # BlanQ (needs the API)
+python3 detectors/pymupdf_widgets.py             # AcroForm-only baseline
+python3 detectors/pymupdf_naive.py               # underscore + line baseline
 
-# 3. Score BlanQ against ground truth
-python3 evaluation/run_eval.py \
-    --detections results/blanq/detections.json \
-    --out       results/blanq/scores.json
+# 3. Score each detector against ground truth
+for tool in blanq pymupdf_widgets pymupdf_naive; do
+    python3 evaluation/run_eval.py \
+        --detections results/$tool/detections.json \
+        --out        results/$tool/scores.json
+done
 
-# 4. Rebuild the leaderboard site
+# 4. Rebuild the leaderboard site + comparison chart
 python3 scripts/build_leaderboard.py
-open docs/index.html   # or: python3 -m http.server -d docs
+python3 scripts/make_charts.py     # writes docs/leaderboard.png
+open docs/index.html               # or: python3 -m http.server -d docs
 ```
 
 To swipe-review new pages against BlanQ's detections and add them to the

@@ -1,0 +1,4523 @@
+{
+  "tool": "pymupdf_widgets",
+  "per_page": {
+    "bank-cms-1763-001": {
+      "n_gt": 16,
+      "n_det": 15,
+      "by_threshold": {
+        "0.5": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967741935483871
+        },
+        "0.75": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967741935483871
+        },
+        "0.9": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967741935483871
+        }
+      },
+      "detection_time_ms": 4,
+      "failed": false
+    },
+    "bank-cms-855i-001": {
+      "n_gt": 29,
+      "n_det": 25,
+      "by_threshold": {
+        "0.5": {
+          "tp": 25,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8620689655172413,
+          "f1": 0.9259259259259259
+        },
+        "0.75": {
+          "tp": 25,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8620689655172413,
+          "f1": 0.9259259259259259
+        },
+        "0.9": {
+          "tp": 25,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8620689655172413,
+          "f1": 0.9259259259259259
+        }
+      },
+      "detection_time_ms": 12,
+      "failed": false
+    },
+    "bank-cms-855i-002": {
+      "n_gt": 27,
+      "n_det": 26,
+      "by_threshold": {
+        "0.5": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9629629629629629,
+          "f1": 0.9811320754716981
+        },
+        "0.75": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9629629629629629,
+          "f1": 0.9811320754716981
+        },
+        "0.9": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9629629629629629,
+          "f1": 0.9811320754716981
+        }
+      },
+      "detection_time_ms": 10,
+      "failed": false
+    },
+    "bank-cms-855i-003": {
+      "n_gt": 73,
+      "n_det": 72,
+      "by_threshold": {
+        "0.5": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9863013698630136,
+          "f1": 0.993103448275862
+        },
+        "0.75": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9863013698630136,
+          "f1": 0.993103448275862
+        },
+        "0.9": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9863013698630136,
+          "f1": 0.993103448275862
+        }
+      },
+      "detection_time_ms": 25,
+      "failed": false
+    },
+    "bank-cms-855i-004": {
+      "n_gt": 68,
+      "n_det": 68,
+      "by_threshold": {
+        "0.5": {
+          "tp": 68,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 68,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 68,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 24,
+      "failed": false
+    },
+    "bank-cms-855i-005": {
+      "n_gt": 21,
+      "n_det": 21,
+      "by_threshold": {
+        "0.5": {
+          "tp": 21,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 21,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 21,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 10,
+      "failed": false
+    },
+    "bank-loan-app-001-shadow": {
+      "n_gt": 11,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "bank-loan-app-001": {
+      "n_gt": 11,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "bank-va-21-4142-001": {
+      "n_gt": 31,
+      "n_det": 31,
+      "by_threshold": {
+        "0.5": {
+          "tp": 31,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 31,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 31,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 11,
+      "failed": false
+    },
+    "bank-va-21-4142-002": {
+      "n_gt": 11,
+      "n_det": 11,
+      "by_threshold": {
+        "0.5": {
+          "tp": 11,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 11,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 11,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 5,
+      "failed": false
+    },
+    "bank-va-21-4142-003": {
+      "n_gt": 49,
+      "n_det": 48,
+      "by_threshold": {
+        "0.5": {
+          "tp": 48,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9795918367346939,
+          "f1": 0.9896907216494846
+        },
+        "0.75": {
+          "tp": 48,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9795918367346939,
+          "f1": 0.9896907216494846
+        },
+        "0.9": {
+          "tp": 48,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9795918367346939,
+          "f1": 0.9896907216494846
+        }
+      },
+      "detection_time_ms": 39,
+      "failed": false
+    },
+    "bank-va-21-4142-004": {
+      "n_gt": 48,
+      "n_det": 48,
+      "by_threshold": {
+        "0.5": {
+          "tp": 48,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 48,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 48,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 15,
+      "failed": false
+    },
+    "bank-va-21-526ez-001": {
+      "n_gt": 41,
+      "n_det": 40,
+      "by_threshold": {
+        "0.5": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.975609756097561,
+          "f1": 0.9876543209876543
+        },
+        "0.75": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.975609756097561,
+          "f1": 0.9876543209876543
+        },
+        "0.9": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.975609756097561,
+          "f1": 0.9876543209876543
+        }
+      },
+      "detection_time_ms": 20,
+      "failed": false
+    },
+    "bank-va-21-526ez-002": {
+      "n_gt": 25,
+      "n_det": 25,
+      "by_threshold": {
+        "0.5": {
+          "tp": 25,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 25,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 25,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 18,
+      "failed": false
+    },
+    "bank-va-21-526ez-003": {
+      "n_gt": 72,
+      "n_det": 72,
+      "by_threshold": {
+        "0.5": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 24,
+      "failed": false
+    },
+    "bank-va-21-526ez-004": {
+      "n_gt": 47,
+      "n_det": 47,
+      "by_threshold": {
+        "0.5": {
+          "tp": 47,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 47,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 47,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 35,
+      "failed": false
+    },
+    "bank-va-21-526ez-005": {
+      "n_gt": 83,
+      "n_det": 83,
+      "by_threshold": {
+        "0.5": {
+          "tp": 83,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 83,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 83,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 31,
+      "failed": false
+    },
+    "bank-va-26-6393-001": {
+      "n_gt": 112,
+      "n_det": 87,
+      "by_threshold": {
+        "0.5": {
+          "tp": 87,
+          "fp": 0,
+          "fn": 25,
+          "precision": 1.0,
+          "recall": 0.7767857142857143,
+          "f1": 0.8743718592964823
+        },
+        "0.75": {
+          "tp": 87,
+          "fp": 0,
+          "fn": 25,
+          "precision": 1.0,
+          "recall": 0.7767857142857143,
+          "f1": 0.8743718592964823
+        },
+        "0.9": {
+          "tp": 87,
+          "fp": 0,
+          "fn": 25,
+          "precision": 1.0,
+          "recall": 0.7767857142857143,
+          "f1": 0.8743718592964823
+        }
+      },
+      "detection_time_ms": 44,
+      "failed": false
+    },
+    "edu-algebra-worksheet-001-lowres": {
+      "n_gt": 8,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-algebra-worksheet-001-rot7": {
+      "n_gt": 8,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-algebra-worksheet-001": {
+      "n_gt": 8,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-alltenses-001": {
+      "n_gt": 27,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-articles-001": {
+      "n_gt": 30,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-chem-lab-001-badlight": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-chem-lab-001-highres": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-chem-lab-001": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-cloze-004": {
+      "n_gt": 16,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-cloze-005": {
+      "n_gt": 15,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-makedo-002": {
+      "n_gt": 15,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-oxfprep-009": {
+      "n_gt": 9,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-prep-001": {
+      "n_gt": 54,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-prep-003": {
+      "n_gt": 54,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-prep-005": {
+      "n_gt": 46,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 46,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 46,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 46,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-prep-007": {
+      "n_gt": 49,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-prep-009": {
+      "n_gt": 21,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-simplepres-004": {
+      "n_gt": 17,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-tenses-001": {
+      "n_gt": 65,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-tenses-003": {
+      "n_gt": 45,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-tenses-005": {
+      "n_gt": 54,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-tenses-007": {
+      "n_gt": 55,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-tenses-009": {
+      "n_gt": 58,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-tenses-013": {
+      "n_gt": 55,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-tenses-015": {
+      "n_gt": 26,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-tenses-017": {
+      "n_gt": 41,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-tenses-019": {
+      "n_gt": 23,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-tenses-021": {
+      "n_gt": 30,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-tenses-023": {
+      "n_gt": 31,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-tenses-025": {
+      "n_gt": 33,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-tenses-027": {
+      "n_gt": 24,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 24,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 24,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 24,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-tenses-029": {
+      "n_gt": 51,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 51,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 51,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 51,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-tenses-031": {
+      "n_gt": 60,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 60,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 60,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 60,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "edu-thenthan-001": {
+      "n_gt": 13,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "edu-thenthan-002": {
+      "n_gt": 15,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "gov-eu-visa-001-faxq": {
+      "n_gt": 15,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "gov-eu-visa-001-rot3": {
+      "n_gt": 15,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "gov-eu-visa-001": {
+      "n_gt": 15,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "gov-f2441-002": {
+      "n_gt": 22,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "gov-f709-002": {
+      "n_gt": 18,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "gov-f8606-001": {
+      "n_gt": 25,
+      "n_det": 23,
+      "by_threshold": {
+        "0.5": {
+          "tp": 23,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.92,
+          "f1": 0.9583333333333334
+        },
+        "0.75": {
+          "tp": 23,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.92,
+          "f1": 0.9583333333333334
+        },
+        "0.9": {
+          "tp": 23,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.92,
+          "f1": 0.9583333333333334
+        }
+      },
+      "detection_time_ms": 7,
+      "failed": false
+    },
+    "gov-f8615-001": {
+      "n_gt": 23,
+      "n_det": 23,
+      "by_threshold": {
+        "0.5": {
+          "tp": 23,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 23,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 23,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 10,
+      "failed": false
+    },
+    "gov-f8821-001": {
+      "n_gt": 37,
+      "n_det": 33,
+      "by_threshold": {
+        "0.5": {
+          "tp": 33,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8918918918918919,
+          "f1": 0.9428571428571428
+        },
+        "0.75": {
+          "tp": 33,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8918918918918919,
+          "f1": 0.9428571428571428
+        },
+        "0.9": {
+          "tp": 33,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8918918918918919,
+          "f1": 0.9428571428571428
+        }
+      },
+      "detection_time_ms": 13,
+      "failed": false
+    },
+    "gov-f8822-001": {
+      "n_gt": 27,
+      "n_det": 22,
+      "by_threshold": {
+        "0.5": {
+          "tp": 22,
+          "fp": 0,
+          "fn": 5,
+          "precision": 1.0,
+          "recall": 0.8148148148148148,
+          "f1": 0.8979591836734693
+        },
+        "0.75": {
+          "tp": 22,
+          "fp": 0,
+          "fn": 5,
+          "precision": 1.0,
+          "recall": 0.8148148148148148,
+          "f1": 0.8979591836734693
+        },
+        "0.9": {
+          "tp": 22,
+          "fp": 0,
+          "fn": 5,
+          "precision": 1.0,
+          "recall": 0.8148148148148148,
+          "f1": 0.8979591836734693
+        }
+      },
+      "detection_time_ms": 7,
+      "failed": false
+    },
+    "gov-f8822b-001": {
+      "n_gt": 20,
+      "n_det": 18,
+      "by_threshold": {
+        "0.5": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316
+        },
+        "0.75": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316
+        },
+        "0.9": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316
+        }
+      },
+      "detection_time_ms": 7,
+      "failed": false
+    },
+    "gov-f8829-001": {
+      "n_gt": 59,
+      "n_det": 58,
+      "by_threshold": {
+        "0.5": {
+          "tp": 58,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9830508474576272,
+          "f1": 0.9914529914529915
+        },
+        "0.75": {
+          "tp": 58,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9830508474576272,
+          "f1": 0.9914529914529915
+        },
+        "0.9": {
+          "tp": 58,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9830508474576272,
+          "f1": 0.9914529914529915
+        }
+      },
+      "detection_time_ms": 19,
+      "failed": false
+    },
+    "gov-f8949-001": {
+      "n_gt": 97,
+      "n_det": 95,
+      "by_threshold": {
+        "0.5": {
+          "tp": 95,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.979381443298969,
+          "f1": 0.9895833333333333
+        },
+        "0.75": {
+          "tp": 95,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.979381443298969,
+          "f1": 0.9895833333333333
+        },
+        "0.9": {
+          "tp": 95,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.979381443298969,
+          "f1": 0.9895833333333333
+        }
+      },
+      "detection_time_ms": 48,
+      "failed": false
+    },
+    "gov-f940-001": {
+      "n_gt": 41,
+      "n_det": 41,
+      "by_threshold": {
+        "0.5": {
+          "tp": 41,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 41,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 41,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 27,
+      "failed": false
+    },
+    "gov-f941-001": {
+      "n_gt": 58,
+      "n_det": 58,
+      "by_threshold": {
+        "0.5": {
+          "tp": 58,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 58,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 58,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 26,
+      "failed": false
+    },
+    "gov-fss4-001": {
+      "n_gt": 47,
+      "n_det": 45,
+      "by_threshold": {
+        "0.5": {
+          "tp": 45,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9574468085106383,
+          "f1": 0.9782608695652174
+        },
+        "0.75": {
+          "tp": 45,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9574468085106383,
+          "f1": 0.9782608695652174
+        },
+        "0.9": {
+          "tp": 45,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9574468085106383,
+          "f1": 0.9782608695652174
+        }
+      },
+      "detection_time_ms": 36,
+      "failed": false
+    },
+    "gov-fw4-001": {
+      "n_gt": 17,
+      "n_det": 14,
+      "by_threshold": {
+        "0.5": {
+          "tp": 14,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "0.75": {
+          "tp": 14,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "0.9": {
+          "tp": 14,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        }
+      },
+      "detection_time_ms": 6,
+      "failed": false
+    },
+    "gov-fw9-001": {
+      "n_gt": 17,
+      "n_det": 15,
+      "by_threshold": {
+        "0.5": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "0.75": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "0.9": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        }
+      },
+      "detection_time_ms": 8,
+      "failed": false
+    },
+    "gov-i130-001": {
+      "n_gt": 13,
+      "n_det": 10,
+      "by_threshold": {
+        "0.5": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.7692307692307693,
+          "f1": 0.8695652173913044
+        },
+        "0.75": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.7692307692307693,
+          "f1": 0.8695652173913044
+        },
+        "0.9": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.7692307692307693,
+          "f1": 0.8695652173913044
+        }
+      },
+      "detection_time_ms": 8,
+      "failed": false
+    },
+    "gov-i485-001": {
+      "n_gt": 24,
+      "n_det": 17,
+      "by_threshold": {
+        "0.5": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 7,
+          "precision": 1.0,
+          "recall": 0.7083333333333334,
+          "f1": 0.8292682926829268
+        },
+        "0.75": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 7,
+          "precision": 1.0,
+          "recall": 0.7083333333333334,
+          "f1": 0.8292682926829268
+        },
+        "0.9": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 7,
+          "precision": 1.0,
+          "recall": 0.7083333333333334,
+          "f1": 0.8292682926829268
+        }
+      },
+      "detection_time_ms": 8,
+      "failed": false
+    },
+    "gov-i9-001": {
+      "n_gt": 48,
+      "n_det": 47,
+      "by_threshold": {
+        "0.5": {
+          "tp": 47,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9791666666666666,
+          "f1": 0.9894736842105264
+        },
+        "0.75": {
+          "tp": 47,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9791666666666666,
+          "f1": 0.9894736842105264
+        },
+        "0.9": {
+          "tp": 47,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9791666666666666,
+          "f1": 0.9894736842105264
+        }
+      },
+      "detection_time_ms": 27,
+      "failed": false
+    },
+    "gov-i90-001": {
+      "n_gt": 30,
+      "n_det": 26,
+      "by_threshold": {
+        "0.5": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8666666666666667,
+          "f1": 0.9285714285714286
+        },
+        "0.75": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8666666666666667,
+          "f1": 0.9285714285714286
+        },
+        "0.9": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8666666666666667,
+          "f1": 0.9285714285714286
+        }
+      },
+      "detection_time_ms": 21,
+      "failed": false
+    },
+    "gov-n400-001": {
+      "n_gt": 13,
+      "n_det": 13,
+      "by_threshold": {
+        "0.5": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 9,
+      "failed": false
+    },
+    "gov-us-w4-001-jpeg": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "gov-us-w4-001-rot1": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "gov-us-w4-001": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "hr-empapp-001": {
+      "n_gt": 38,
+      "n_det": 38,
+      "by_threshold": {
+        "0.5": {
+          "tp": 38,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 38,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 38,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 25,
+      "failed": false
+    },
+    "hr-jobapp-001": {
+      "n_gt": 48,
+      "n_det": 48,
+      "by_threshold": {
+        "0.5": {
+          "tp": 48,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 48,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 48,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 16,
+      "failed": false
+    },
+    "hr-onboarding-001-folded": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "hr-onboarding-001": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "legal-agreement-001-wrinkled": {
+      "n_gt": 8,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "legal-agreement-001": {
+      "n_gt": 8,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "legal-bkcy-101-001": {
+      "n_gt": 26,
+      "n_det": 26,
+      "by_threshold": {
+        "0.5": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 9,
+      "failed": false
+    },
+    "legal-bkcy-101-002": {
+      "n_gt": 40,
+      "n_det": 40,
+      "by_threshold": {
+        "0.5": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 16,
+      "failed": false
+    },
+    "legal-bkcy-101-003": {
+      "n_gt": 21,
+      "n_det": 21,
+      "by_threshold": {
+        "0.5": {
+          "tp": 21,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 21,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 21,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 11,
+      "failed": false
+    },
+    "legal-bkcy-101-004": {
+      "n_gt": 17,
+      "n_det": 17,
+      "by_threshold": {
+        "0.5": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 8,
+      "failed": false
+    },
+    "legal-bkcy-101-005": {
+      "n_gt": 15,
+      "n_det": 15,
+      "by_threshold": {
+        "0.5": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 11,
+      "failed": false
+    },
+    "legal-bkcy-104-001": {
+      "n_gt": 32,
+      "n_det": 30,
+      "by_threshold": {
+        "0.5": {
+          "tp": 30,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967741935483871
+        },
+        "0.75": {
+          "tp": 30,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967741935483871
+        },
+        "0.9": {
+          "tp": 30,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967741935483871
+        }
+      },
+      "detection_time_ms": 14,
+      "failed": false
+    },
+    "legal-bkcy-104-002": {
+      "n_gt": 73,
+      "n_det": 67,
+      "by_threshold": {
+        "0.5": {
+          "tp": 67,
+          "fp": 0,
+          "fn": 6,
+          "precision": 1.0,
+          "recall": 0.9178082191780822,
+          "f1": 0.9571428571428571
+        },
+        "0.75": {
+          "tp": 67,
+          "fp": 0,
+          "fn": 6,
+          "precision": 1.0,
+          "recall": 0.9178082191780822,
+          "f1": 0.9571428571428571
+        },
+        "0.9": {
+          "tp": 67,
+          "fp": 0,
+          "fn": 6,
+          "precision": 1.0,
+          "recall": 0.9178082191780822,
+          "f1": 0.9571428571428571
+        }
+      },
+      "detection_time_ms": 45,
+      "failed": false
+    },
+    "legal-bkcy-104-003": {
+      "n_gt": 71,
+      "n_det": 67,
+      "by_threshold": {
+        "0.5": {
+          "tp": 67,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9436619718309859,
+          "f1": 0.9710144927536231
+        },
+        "0.75": {
+          "tp": 67,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9436619718309859,
+          "f1": 0.9710144927536231
+        },
+        "0.9": {
+          "tp": 67,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9436619718309859,
+          "f1": 0.9710144927536231
+        }
+      },
+      "detection_time_ms": 39,
+      "failed": false
+    },
+    "legal-bkcy-104-004": {
+      "n_gt": 69,
+      "n_det": 67,
+      "by_threshold": {
+        "0.5": {
+          "tp": 67,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9710144927536232,
+          "f1": 0.9852941176470589
+        },
+        "0.75": {
+          "tp": 67,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9710144927536232,
+          "f1": 0.9852941176470589
+        },
+        "0.9": {
+          "tp": 67,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9710144927536232,
+          "f1": 0.9852941176470589
+        }
+      },
+      "detection_time_ms": 49,
+      "failed": false
+    },
+    "legal-bkcy-104-005": {
+      "n_gt": 49,
+      "n_det": 45,
+      "by_threshold": {
+        "0.5": {
+          "tp": 45,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9183673469387755,
+          "f1": 0.9574468085106383
+        },
+        "0.75": {
+          "tp": 45,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9183673469387755,
+          "f1": 0.9574468085106383
+        },
+        "0.9": {
+          "tp": 45,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9183673469387755,
+          "f1": 0.9574468085106383
+        }
+      },
+      "detection_time_ms": 19,
+      "failed": false
+    },
+    "legal-bkcy-106ab-001": {
+      "n_gt": 29,
+      "n_det": 28,
+      "by_threshold": {
+        "0.5": {
+          "tp": 28,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9655172413793104,
+          "f1": 0.9824561403508771
+        },
+        "0.75": {
+          "tp": 28,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9655172413793104,
+          "f1": 0.9824561403508771
+        },
+        "0.9": {
+          "tp": 28,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9655172413793104,
+          "f1": 0.9824561403508771
+        }
+      },
+      "detection_time_ms": 18,
+      "failed": false
+    },
+    "legal-bkcy-106ab-002": {
+      "n_gt": 29,
+      "n_det": 29,
+      "by_threshold": {
+        "0.5": {
+          "tp": 29,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 29,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 29,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 16,
+      "failed": false
+    },
+    "legal-bkcy-106ab-003": {
+      "n_gt": 36,
+      "n_det": 36,
+      "by_threshold": {
+        "0.5": {
+          "tp": 36,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 36,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 36,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 15,
+      "failed": false
+    },
+    "legal-bkcy-106ab-004": {
+      "n_gt": 48,
+      "n_det": 46,
+      "by_threshold": {
+        "0.5": {
+          "tp": 46,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9583333333333334,
+          "f1": 0.9787234042553191
+        },
+        "0.75": {
+          "tp": 46,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9583333333333334,
+          "f1": 0.9787234042553191
+        },
+        "0.9": {
+          "tp": 46,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9583333333333334,
+          "f1": 0.9787234042553191
+        }
+      },
+      "detection_time_ms": 19,
+      "failed": false
+    },
+    "legal-bkcy-106ab-005": {
+      "n_gt": 32,
+      "n_det": 32,
+      "by_threshold": {
+        "0.5": {
+          "tp": 32,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 32,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 32,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 32,
+      "failed": false
+    },
+    "legal-bkcy-106sum-001": {
+      "n_gt": 16,
+      "n_det": 13,
+      "by_threshold": {
+        "0.5": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8125,
+          "f1": 0.896551724137931
+        },
+        "0.75": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8125,
+          "f1": 0.896551724137931
+        },
+        "0.9": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8125,
+          "f1": 0.896551724137931
+        }
+      },
+      "detection_time_ms": 5,
+      "failed": false
+    },
+    "legal-bkcy-106sum-002": {
+      "n_gt": 10,
+      "n_det": 10,
+      "by_threshold": {
+        "0.5": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 5,
+      "failed": false
+    },
+    "legal-ca-civ100-001": {
+      "n_gt": 55,
+      "n_det": 52,
+      "by_threshold": {
+        "0.5": {
+          "tp": 52,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9454545454545454,
+          "f1": 0.9719626168224299
+        },
+        "0.75": {
+          "tp": 52,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9454545454545454,
+          "f1": 0.9719626168224299
+        },
+        "0.9": {
+          "tp": 52,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9454545454545454,
+          "f1": 0.9719626168224299
+        }
+      },
+      "detection_time_ms": 19,
+      "failed": false
+    },
+    "legal-ca-civ100-002": {
+      "n_gt": 26,
+      "n_det": 23,
+      "by_threshold": {
+        "0.5": {
+          "tp": 23,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8846153846153846,
+          "f1": 0.9387755102040816
+        },
+        "0.75": {
+          "tp": 23,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8846153846153846,
+          "f1": 0.9387755102040816
+        },
+        "0.9": {
+          "tp": 23,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8846153846153846,
+          "f1": 0.9387755102040816
+        }
+      },
+      "detection_time_ms": 10,
+      "failed": false
+    },
+    "legal-ca-civ100-003": {
+      "n_gt": 9,
+      "n_det": 7,
+      "by_threshold": {
+        "0.5": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.7777777777777778,
+          "f1": 0.8750000000000001
+        },
+        "0.75": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.7777777777777778,
+          "f1": 0.8750000000000001
+        },
+        "0.9": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.7777777777777778,
+          "f1": 0.8750000000000001
+        }
+      },
+      "detection_time_ms": 4,
+      "failed": false
+    },
+    "legal-ca-cr100-001": {
+      "n_gt": 16,
+      "n_det": 13,
+      "by_threshold": {
+        "0.5": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8125,
+          "f1": 0.896551724137931
+        },
+        "0.75": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8125,
+          "f1": 0.896551724137931
+        },
+        "0.9": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8125,
+          "f1": 0.896551724137931
+        }
+      },
+      "detection_time_ms": 5,
+      "failed": false
+    },
+    "legal-ca-de111-001": {
+      "n_gt": 35,
+      "n_det": 31,
+      "by_threshold": {
+        "0.5": {
+          "tp": 31,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8857142857142857,
+          "f1": 0.9393939393939393
+        },
+        "0.75": {
+          "tp": 31,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8857142857142857,
+          "f1": 0.9393939393939393
+        },
+        "0.9": {
+          "tp": 31,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8857142857142857,
+          "f1": 0.9393939393939393
+        }
+      },
+      "detection_time_ms": 18,
+      "failed": false
+    },
+    "legal-ca-de111-002": {
+      "n_gt": 15,
+      "n_det": 15,
+      "by_threshold": {
+        "0.5": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 23,
+      "failed": false
+    },
+    "legal-ca-de111-003": {
+      "n_gt": 40,
+      "n_det": 38,
+      "by_threshold": {
+        "0.5": {
+          "tp": 38,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1": 0.9743589743589743
+        },
+        "0.75": {
+          "tp": 38,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1": 0.9743589743589743
+        },
+        "0.9": {
+          "tp": 38,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1": 0.9743589743589743
+        }
+      },
+      "detection_time_ms": 13,
+      "failed": false
+    },
+    "legal-ca-de140-001": {
+      "n_gt": 30,
+      "n_det": 26,
+      "by_threshold": {
+        "0.5": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8666666666666667,
+          "f1": 0.9285714285714286
+        },
+        "0.75": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8666666666666667,
+          "f1": 0.9285714285714286
+        },
+        "0.9": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.8666666666666667,
+          "f1": 0.9285714285714286
+        }
+      },
+      "detection_time_ms": 18,
+      "failed": false
+    },
+    "legal-ca-fl100-001": {
+      "n_gt": 45,
+      "n_det": 41,
+      "by_threshold": {
+        "0.5": {
+          "tp": 41,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9111111111111111,
+          "f1": 0.9534883720930233
+        },
+        "0.75": {
+          "tp": 41,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9111111111111111,
+          "f1": 0.9534883720930233
+        },
+        "0.9": {
+          "tp": 41,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9111111111111111,
+          "f1": 0.9534883720930233
+        }
+      },
+      "detection_time_ms": 22,
+      "failed": false
+    },
+    "legal-ca-fl100-002": {
+      "n_gt": 16,
+      "n_det": 15,
+      "by_threshold": {
+        "0.5": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967741935483871
+        },
+        "0.75": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967741935483871
+        },
+        "0.9": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967741935483871
+        }
+      },
+      "detection_time_ms": 23,
+      "failed": false
+    },
+    "legal-ca-fl100-003": {
+      "n_gt": 12,
+      "n_det": 10,
+      "by_threshold": {
+        "0.5": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "0.75": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "0.9": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        }
+      },
+      "detection_time_ms": 7,
+      "failed": false
+    },
+    "legal-ca-mc025-001": {
+      "n_gt": 9,
+      "n_det": 9,
+      "by_threshold": {
+        "0.5": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 3,
+      "failed": false
+    },
+    "legal-ca-sc100-001": {
+      "n_gt": 18,
+      "n_det": 17,
+      "by_threshold": {
+        "0.5": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444,
+          "f1": 0.9714285714285714
+        },
+        "0.75": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444,
+          "f1": 0.9714285714285714
+        },
+        "0.9": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444,
+          "f1": 0.9714285714285714
+        }
+      },
+      "detection_time_ms": 4,
+      "failed": false
+    },
+    "legal-ca-sc100-002": {
+      "n_gt": 42,
+      "n_det": 42,
+      "by_threshold": {
+        "0.5": {
+          "tp": 42,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 42,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 42,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 15,
+      "failed": false
+    },
+    "legal-ca-sc100-003": {
+      "n_gt": 10,
+      "n_det": 10,
+      "by_threshold": {
+        "0.5": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 7,
+      "failed": false
+    },
+    "legal-ca-sc100-004": {
+      "n_gt": 8,
+      "n_det": 6,
+      "by_threshold": {
+        "0.5": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "0.75": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "0.9": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        }
+      },
+      "detection_time_ms": 3,
+      "failed": false
+    },
+    "legal-ca-ud100-001": {
+      "n_gt": 31,
+      "n_det": 30,
+      "by_threshold": {
+        "0.5": {
+          "tp": 30,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.967741935483871,
+          "f1": 0.9836065573770492
+        },
+        "0.75": {
+          "tp": 30,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.967741935483871,
+          "f1": 0.9836065573770492
+        },
+        "0.9": {
+          "tp": 30,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.967741935483871,
+          "f1": 0.9836065573770492
+        }
+      },
+      "detection_time_ms": 18,
+      "failed": false
+    },
+    "legal-ca-ud100-002": {
+      "n_gt": 20,
+      "n_det": 19,
+      "by_threshold": {
+        "0.5": {
+          "tp": 19,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1": 0.9743589743589743
+        },
+        "0.75": {
+          "tp": 19,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1": 0.9743589743589743
+        },
+        "0.9": {
+          "tp": 19,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1": 0.9743589743589743
+        }
+      },
+      "detection_time_ms": 19,
+      "failed": false
+    },
+    "legal-ca-ud100-003": {
+      "n_gt": 13,
+      "n_det": 13,
+      "by_threshold": {
+        "0.5": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 13,
+      "failed": false
+    },
+    "legal-ca-ud100-004": {
+      "n_gt": 22,
+      "n_det": 19,
+      "by_threshold": {
+        "0.5": {
+          "tp": 19,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8636363636363636,
+          "f1": 0.9268292682926829
+        },
+        "0.75": {
+          "tp": 19,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8636363636363636,
+          "f1": 0.9268292682926829
+        },
+        "0.9": {
+          "tp": 19,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.8636363636363636,
+          "f1": 0.9268292682926829
+        }
+      },
+      "detection_time_ms": 10,
+      "failed": false
+    },
+    "legal-uspto-sb16-001": {
+      "n_gt": 36,
+      "n_det": 33,
+      "by_threshold": {
+        "0.5": {
+          "tp": 33,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9166666666666666,
+          "f1": 0.9565217391304348
+        },
+        "0.75": {
+          "tp": 33,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9166666666666666,
+          "f1": 0.9565217391304348
+        },
+        "0.9": {
+          "tp": 33,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9166666666666666,
+          "f1": 0.9565217391304348
+        }
+      },
+      "detection_time_ms": 17,
+      "failed": false
+    },
+    "legal-uspto-sb16-002": {
+      "n_gt": 10,
+      "n_det": 10,
+      "by_threshold": {
+        "0.5": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 3,
+      "failed": false
+    },
+    "med-cdph-110a-001": {
+      "n_gt": 60,
+      "n_det": 59,
+      "by_threshold": {
+        "0.5": {
+          "tp": 59,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9833333333333333,
+          "f1": 0.9915966386554621
+        },
+        "0.75": {
+          "tp": 59,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9833333333333333,
+          "f1": 0.9915966386554621
+        },
+        "0.9": {
+          "tp": 59,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9833333333333333,
+          "f1": 0.9915966386554621
+        }
+      },
+      "detection_time_ms": 108,
+      "failed": false
+    },
+    "med-cdph-110a-002": {
+      "n_gt": 11,
+      "n_det": 11,
+      "by_threshold": {
+        "0.5": {
+          "tp": 11,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 11,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 11,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 19,
+      "failed": false
+    },
+    "med-cdph-530-001": {
+      "n_gt": 44,
+      "n_det": 40,
+      "by_threshold": {
+        "0.5": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9090909090909091,
+          "f1": 0.9523809523809523
+        },
+        "0.75": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9090909090909091,
+          "f1": 0.9523809523809523
+        },
+        "0.9": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.9090909090909091,
+          "f1": 0.9523809523809523
+        }
+      },
+      "detection_time_ms": 25,
+      "failed": false
+    },
+    "med-cdph-8551-001": {
+      "n_gt": 27,
+      "n_det": 26,
+      "by_threshold": {
+        "0.5": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9629629629629629,
+          "f1": 0.9811320754716981
+        },
+        "0.75": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9629629629629629,
+          "f1": 0.9811320754716981
+        },
+        "0.9": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9629629629629629,
+          "f1": 0.9811320754716981
+        }
+      },
+      "detection_time_ms": 11,
+      "failed": false
+    },
+    "med-fda-3500-001": {
+      "n_gt": 9,
+      "n_det": 9,
+      "by_threshold": {
+        "0.5": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 10,
+      "failed": false
+    },
+    "med-fda-3500-002": {
+      "n_gt": 37,
+      "n_det": 37,
+      "by_threshold": {
+        "0.5": {
+          "tp": 37,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 37,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 37,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 12,
+      "failed": false
+    },
+    "med-fda-3500-003": {
+      "n_gt": 29,
+      "n_det": 27,
+      "by_threshold": {
+        "0.5": {
+          "tp": 27,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9310344827586207,
+          "f1": 0.9642857142857143
+        },
+        "0.75": {
+          "tp": 27,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9310344827586207,
+          "f1": 0.9642857142857143
+        },
+        "0.9": {
+          "tp": 27,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.9310344827586207,
+          "f1": 0.9642857142857143
+        }
+      },
+      "detection_time_ms": 20,
+      "failed": false
+    },
+    "med-fda-3500-004": {
+      "n_gt": 28,
+      "n_det": 27,
+      "by_threshold": {
+        "0.5": {
+          "tp": 27,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9642857142857143,
+          "f1": 0.9818181818181818
+        },
+        "0.75": {
+          "tp": 27,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9642857142857143,
+          "f1": 0.9818181818181818
+        },
+        "0.9": {
+          "tp": 27,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9642857142857143,
+          "f1": 0.9818181818181818
+        }
+      },
+      "detection_time_ms": 17,
+      "failed": false
+    },
+    "med-fda-3500-005": {
+      "n_gt": 44,
+      "n_det": 44,
+      "by_threshold": {
+        "0.5": {
+          "tp": 44,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 44,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 44,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 17,
+      "failed": false
+    },
+    "med-intake-001-coffee": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "med-intake-001-phonephoto": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 1,
+      "failed": false
+    },
+    "med-intake-001": {
+      "n_gt": 14,
+      "n_det": 0,
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": 0,
+      "failed": false
+    },
+    "med-uscis-i693-001": {
+      "n_gt": 27,
+      "n_det": 27,
+      "by_threshold": {
+        "0.5": {
+          "tp": 27,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 27,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 27,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 12,
+      "failed": false
+    },
+    "med-uscis-i693-002": {
+      "n_gt": 40,
+      "n_det": 40,
+      "by_threshold": {
+        "0.5": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 24,
+      "failed": false
+    },
+    "med-uscis-i693-003": {
+      "n_gt": 22,
+      "n_det": 22,
+      "by_threshold": {
+        "0.5": {
+          "tp": 22,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 22,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 22,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 13,
+      "failed": false
+    },
+    "med-uscis-i693-004": {
+      "n_gt": 26,
+      "n_det": 26,
+      "by_threshold": {
+        "0.5": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 26,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 10,
+      "failed": false
+    },
+    "med-uscis-i693-005": {
+      "n_gt": 83,
+      "n_det": 83,
+      "by_threshold": {
+        "0.5": {
+          "tp": 83,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.75": {
+          "tp": 83,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "0.9": {
+          "tp": 83,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "detection_time_ms": 69,
+      "failed": false
+    }
+  },
+  "aggregate": {
+    "n_pages": 140,
+    "n_gt_blanks": 4386,
+    "iou@0.5": {
+      "tp": 2909,
+      "fp": 0,
+      "fn": 1477,
+      "precision": 1.0,
+      "recall": 0.6632,
+      "f1": 0.7975
+    },
+    "iou@0.75": {
+      "tp": 2909,
+      "fp": 0,
+      "fn": 1477,
+      "precision": 1.0,
+      "recall": 0.6632,
+      "f1": 0.7975
+    },
+    "iou@0.9": {
+      "tp": 2909,
+      "fp": 0,
+      "fn": 1477,
+      "precision": 1.0,
+      "recall": 0.6632,
+      "f1": 0.7975
+    },
+    "mean_iou": 1.0,
+    "median_line_error_px": 0.0,
+    "mean_line_error_px": 0.0,
+    "multiline_row_accuracy": 1.0,
+    "multiline_row_mean_abs_error": 0.0,
+    "mean_detection_ms_per_page": 11.73,
+    "failure_rate": 0.0,
+    "n_failed_pages": 0,
+    "pct_blanks_detected_iou50": 66.32
+  },
+  "missing_pages": []
+}
