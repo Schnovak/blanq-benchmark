@@ -13,16 +13,16 @@ marketing page.
 >
 > Not OCR. Not "AI answering the form." Only blank detection.
 
-## Status: v0.1 — real data, one competitor scored
+## Status: v0.1, one competitor scored end-to-end
 
-**227 pages · 6 categories · 4,242 ground-truth blanks · BlanQ scored
-end-to-end.** All sourced from public-domain US government forms (IRS,
-USCIS, VA, CMS, USPTO, US Courts, CA Courts, CDPH) plus ESL worksheets
-manually reviewed by a human against BlanQ's detections. The whole pipeline
-(dataset → ground truth → detector → scoring → leaderboard) runs from a
-clean checkout.
+The dataset is 227 pages across 6 categories, with 4,242 ground-truth
+blanks. Every page is a public-domain US government form (IRS, USCIS,
+VA, CMS, USPTO, US Courts, CA Courts, CDPH) or an ESL worksheet I
+reviewed by hand against BlanQ's detections. The full pipeline
+(dataset, ground truth, detector, scoring, leaderboard) runs from a
+clean checkout with four commands.
 
-**BlanQ v0.1 numbers** (`results/blanq/scores.json`):
+BlanQ v0.1 numbers (`results/blanq/scores.json`):
 
 | Metric                        | Value     |
 |-------------------------------|-----------|
@@ -34,36 +34,39 @@ clean checkout.
 | Mean detection time           | 911 ms/pg |
 | Failure rate                  | 0 %       |
 
-Ground truth comes from three sources — held to different standards:
-- **Human-reviewed** (52 pages, mostly ESL worksheets with drawn lines):
-  swipe-approved via `scripts/review-server.py` — each page's detection was
-  eyeballed and approved as correct. On this subset BlanQ scores
-  **F1 = 0.971**.
-- **AcroForm-derived** (88 pages, gov/legal/medical): every fillable Text
-  and ComboBox widget in the source PDF is a ground-truth blank. Exact by
-  construction where widgets exist; captures blanks BlanQ also has to see
-  visually.
-- **AcroForm + labeled detections** (49 of the above pages): AcroForm ground
-  truth is extended with any BlanQ detection that (1) looks like a fill-in
-  line — elongated horizontal box, min 40pt wide, aspect ≥ 2.5:1 — and (2)
-  has a form-field label nearby (signature/name/date/address/id/amount).
-  See `scripts/extend_gt_from_labels.py`. This corrects for a known
-  underspecification: form designers routinely draw signature lines, date
-  fields, and name-as-single-box regions without marking them as AcroForm
-  widgets. Without this extension, BlanQ is penalised for detecting real
-  fill-in areas the source PDF simply forgot to tag.
+Where the ground truth comes from:
 
-**One caveat, honestly stated.** Legal is BlanQ's weakest category
-(F1 ≈ 0.62). Court and bankruptcy forms use dense per-digit box grids
-(SSN, dates, phone numbers) where a purely visual detector can reasonably
-find 1 line, 3 groups, or 9 boxes — no single answer is universally
-correct, so both BlanQ and the ground truth disagree on granularity.
+- 52 pages I reviewed by hand, mostly ESL worksheets with drawn
+  underline blanks. I opened each page, looked at BlanQ's boxes, and
+  approved the ones where the detection was right. On this subset
+  alone BlanQ scores F1 = 0.971.
+- 88 pages where the source PDF's own AcroForm widgets are the
+  ground truth. Every fillable Text and ComboBox field the form
+  designer marked counts as a blank. Exact by construction where it
+  applies.
+- 49 of those same AcroForm pages, extended with any BlanQ detection
+  that (a) looks like an actual fill-in line rather than a checkbox:
+  an elongated horizontal box at least 40pt wide, aspect ratio 2.5:1
+  or more, and (b) sits next to a form label like "Signature",
+  "Date", or "Address". Code in `scripts/extend_gt_from_labels.py`.
+  The reason to do this: form designers regularly draw signature
+  lines, date fields, and name boxes without marking them as
+  AcroForm widgets, and BlanQ finds them anyway. Without this step
+  it gets penalised for correct detections the source PDF just
+  forgot to tag.
 
-Live leaderboard: [`docs/index.html`](docs/index.html) (open directly or
-serve `docs/` with GitHub Pages).
+One honest weak spot: legal, where F1 is about 0.62. Court and
+bankruptcy forms use dense per-digit box grids for things like SSN,
+dates, and phone numbers, and a visual detector can reasonably see
+those as 1 line, 3 groups, or 9 individual boxes. Both BlanQ and the
+ground truth disagree with themselves about which is right, so the
+score there is partly a definition problem, not a detection problem.
 
-Growing this to the target scale (500–1000 pages including phone-scan and
-paper-scan conditions across 7 categories) is the roadmap below — see
+Live leaderboard: [`docs/index.html`](docs/index.html), or serve
+`docs/` with GitHub Pages.
+
+The plan is to grow this to 500-1000 pages across 7 categories,
+including phone-scan and paper-scan conditions. See
 [CONTRIBUTING.md](CONTRIBUTING.md) for how to add pages.
 
 ## Why "pages," not "PDFs"
