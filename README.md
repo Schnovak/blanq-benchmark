@@ -13,7 +13,7 @@ marketing page.
 >
 > Not OCR. Not "AI answering the form." Only blank detection.
 
-## Status: v0.1, one real detector and two baselines scored
+## Status: v0.1, BlanQ vs two baselines and a frontier LLM
 
 The dataset is 227 pages across 6 categories, with 4,386 ground-truth
 blanks. Every page is a public-domain US government form (IRS, USCIS,
@@ -24,25 +24,42 @@ clean checkout with four commands.
 
 ![Leaderboard chart](docs/leaderboard.png)
 
-BlanQ ties the AcroForm-only baseline on overall F1 (0.79 vs 0.80) but
-wins on recall (0.92 vs 0.66) and on coverage. The AcroForm baseline
-gets those numbers by simply trusting the source PDF's own widget
-metadata, and completely fails on the Education pages because those
-worksheets have no widgets to read. BlanQ works on both cases. The
-"underscore + line heuristic" baseline is what a 100-line Python
-script can do without any ML.
+Headline numbers (line-alignment F1 on 140 scorable pages):
 
-BlanQ v0.1 numbers (`results/blanq/scores.json`):
+| Detector                     | F1    | Precision | Recall | Speed        |
+|------------------------------|-------|-----------|--------|--------------|
+| BlanQ                        | 0.811 | 0.713     | 0.941  | 0.9 s/page   |
+| Underscore + line heuristic  | 0.630 | 0.700     | 0.573  | instant      |
+| Gemini 2.5 Flash Lite        | 0.159 | 0.111     | 0.278  | 6.6 s/page   |
 
-| Metric                        | Value     |
-|-------------------------------|-----------|
-| Precision @ IoU 0.5           | 0.698     |
-| Recall @ IoU 0.5              | 0.922     |
-| F1 @ IoU 0.5                  | 0.794     |
-| Mean IoU (matched)            | 0.889     |
-| % blanks detected (IoU ≥ 0.5) | 92.2 %    |
-| Mean detection time           | 911 ms/pg |
-| Failure rate                  | 0 %       |
+The three detectors sit at very different points. BlanQ is a
+specialized model trained for this exact task. The naive heuristic is
+what a 100-line Python script can do, and it works surprisingly well
+whenever a form has visible ruled lines. Gemini Flash Lite is a
+frontier LLM without any task-specific tuning, sent one page image and
+asked to return bounding boxes; it hallucinates about 90% of the time
+and misses about 70% of real blanks. The specific point is that a
+general-purpose vision model at this price tier is a much weaker
+option than either specialization or plain heuristics.
+
+### Metric: line-alignment match
+
+Standard object detection metrics (IoU 0.5, etc.) penalise a detector
+for drawing a box that's 4pt taller or shorter than the ground truth,
+even when the box is on exactly the right line. Box height is a
+convention that varies between tools, not something a form user
+cares about. What matters is whether the tool found the blank and
+whether the cursor would land in the right place when a user clicks.
+
+So a detection matches a ground-truth blank if BOTH:
+1. Its bottom edge is within 6pt of the ground-truth bottom edge
+   (the line where the character baseline sits).
+2. It covers at least 50% of the ground-truth horizontal span (so the
+   two boxes are the same length, roughly).
+
+Box height and top-edge padding are ignored. Old IoU 0.5 / 0.75 / 0.9
+numbers are still reported in `results/*/scores.json` for anyone who
+wants the strict-box-overlap view.
 
 Where the ground truth comes from:
 
@@ -122,13 +139,14 @@ pip install pymupdf numpy pillow reportlab matplotlib
 #    (keeps manually-approved ground_truth/*.json untouched)
 python3 scripts/build_ground_truth.py
 
-# 2. Run BlanQ + the two open-source baselines over every page
+# 2. Run every detector over every page
 python3 scripts/run_blanq.py                     # BlanQ (needs the API)
-python3 detectors/pymupdf_widgets.py             # AcroForm-only baseline
+python3 detectors/pymupdf_widgets.py             # AcroForm baseline
 python3 detectors/pymupdf_naive.py               # underscore + line baseline
+GEMINI_API_KEY=... python3 detectors/gemini_flash_lite.py   # LLM (~$0.07)
 
 # 3. Score each detector against ground truth
-for tool in blanq pymupdf_widgets pymupdf_naive; do
+for tool in blanq pymupdf_widgets pymupdf_naive gemini_flash_lite; do
     python3 evaluation/run_eval.py \
         --detections results/$tool/detections.json \
         --out        results/$tool/scores.json

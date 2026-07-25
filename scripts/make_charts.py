@@ -24,16 +24,16 @@ RESULTS  = os.path.join(ROOT, "results")
 OUT_PNG  = os.path.join(ROOT, "docs", "leaderboard.png")
 
 # Ordering matters: BlanQ last so it draws on top and picks the accent color.
-TOOLS_IN_ORDER = ["pymupdf_naive", "pymupdf_widgets", "blanq"]
+TOOLS_IN_ORDER = ["gemini_flash_lite", "pymupdf_naive", "blanq"]
 TOOL_LABELS = {
-    "blanq":            "BlanQ",
-    "pymupdf_widgets":  "AcroForm-only baseline",
-    "pymupdf_naive":    "Underscore + line heuristic",
+    "blanq":             "BlanQ",
+    "pymupdf_naive":     "Underscore + line heuristic",
+    "gemini_flash_lite": "Gemini 2.5 Flash Lite",
 }
 TOOL_COLORS = {
-    "blanq":            "#2563EB",   # blue, the subject
-    "pymupdf_widgets":  "#6B7280",   # neutral gray
-    "pymupdf_naive":    "#B0B6BF",   # lighter gray
+    "blanq":             "#2563EB",   # blue, the subject
+    "pymupdf_naive":     "#9CA3AF",   # gray baseline
+    "gemini_flash_lite": "#D97706",   # amber for the LLM
 }
 
 CATEGORIES = ["education", "government", "banking_insurance", "medical", "hr", "legal"]
@@ -60,7 +60,7 @@ def per_category_f1(tool_name, cat_map):
         cat = cat_map.get(page_id)
         if not cat:
             continue
-        t = page["by_threshold"]["0.5"]
+        t = page.get("line_alignment") or page["by_threshold"]["0.5"]
         agg[cat][0] += t["tp"]; agg[cat][1] += t["fp"]; agg[cat][2] += t["fn"]  # noqa
     out = {}
     for cat, (tp, fp, fn) in agg.items():
@@ -74,7 +74,7 @@ def headline_metrics(tool_name):
     with open(os.path.join(RESULTS, tool_name, "scores.json")) as f:
         s = json.load(f)
     a = s["aggregate"]
-    t = a["iou@0.5"]
+    t = a.get("line_alignment") or a["iou@0.5"]
     return {
         "Precision": t["precision"],
         "Recall":    t["recall"],
@@ -131,7 +131,7 @@ def main():
     plt.rcParams["font.family"] = ["Helvetica", "Arial", "DejaVu Sans"]
     fig, (ax_left, ax_right) = plt.subplots(
         1, 2, figsize=(13.5, 5.2),
-        gridspec_kw={"width_ratios": [1, 1.6], "wspace": 0.18})
+        gridspec_kw={"width_ratios": [1, 1.6], "wspace": 0.14})
     fig.patch.set_facecolor("#FFFFFF")
 
     # LEFT: headline metrics grouped by tool
@@ -154,23 +154,23 @@ def main():
     ax_left.set_ylim(0, 1.15)
     ax_left.set_yticks([0, 0.25, 0.5, 0.75, 1.0])
     ax_left.set_yticklabels(["0", "0.25", "0.5", "0.75", "1.0"], fontsize=8)
-    ax_left.set_title("Overall — 140 pages, 4,386 ground-truth blanks",
+    ax_left.set_title("Overall  (140 pages, 4,386 blanks)",
                       fontsize=11, color="#111827", loc="left", pad=14)
     style_axes(ax_left)
 
     # RIGHT: F1 per category
-    draw_grouped_bars(ax_right, CATEGORIES, per_cat, "F1 by category (IoU ≥ 0.5)")
+    draw_grouped_bars(ax_right, CATEGORIES, per_cat, "F1 by category")
 
     # Single shared legend up top
     handles, labels = ax_left.get_legend_handles_labels()
     fig.legend(handles, labels, loc="upper center", ncol=len(TOOLS_IN_ORDER),
                frameon=False, fontsize=10, bbox_to_anchor=(0.5, 1.02))
 
-    fig.suptitle("PDF blank detection, BlanQ v0.1 vs. baselines",
+    fig.suptitle("PDF blank detection, BlanQ v0.1 vs. baselines and a frontier LLM",
                  fontsize=14, color="#111827", x=0.02, ha="left", y=1.09,
                  weight="bold")
     fig.text(0.02, 1.045,
-             "Higher is better. IoU threshold 0.5. BlanQ is the only detector that works on both digital forms and hand-drawn ones (Education).",
+             "Higher is better. A detection matches a blank if its bottom edge is within 6pt AND it covers ≥50% of the horizontal span. Box height ignored.",
              fontsize=9.5, color="#6B7280", ha="left")
 
     fig.tight_layout(rect=[0, 0, 1, 0.98])

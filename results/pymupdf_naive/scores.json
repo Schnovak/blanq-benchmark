@@ -4,6 +4,16 @@
     "bank-cms-1763-001": {
       "n_gt": 16,
       "n_det": 110,
+      "line_alignment": {
+        "tp": 16,
+        "fp": 94,
+        "fn": 0,
+        "precision": 0.14545454545454545,
+        "recall": 1.0,
+        "f1": 0.25396825396825395,
+        "mean_bottom_error_pt": 2.805000000000012,
+        "mean_horiz_overlap": 0.9987543252595158
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -36,6 +46,16 @@
     "bank-cms-855i-001": {
       "n_gt": 29,
       "n_det": 61,
+      "line_alignment": {
+        "tp": 25,
+        "fp": 36,
+        "fn": 4,
+        "precision": 0.4098360655737705,
+        "recall": 0.8620689655172413,
+        "f1": 0.5555555555555555,
+        "mean_bottom_error_pt": 2.1211999999999795,
+        "mean_horiz_overlap": 0.996461569032555
+      },
       "by_threshold": {
         "0.5": {
           "tp": 19,
@@ -68,6 +88,16 @@
     "bank-cms-855i-002": {
       "n_gt": 27,
       "n_det": 75,
+      "line_alignment": {
+        "tp": 26,
+        "fp": 49,
+        "fn": 1,
+        "precision": 0.3466666666666667,
+        "recall": 0.9629629629629629,
+        "f1": 0.5098039215686275,
+        "mean_bottom_error_pt": 1.7499999999999836,
+        "mean_horiz_overlap": 0.9982373541259233
+      },
       "by_threshold": {
         "0.5": {
           "tp": 10,
@@ -100,6 +130,16 @@
     "bank-cms-855i-003": {
       "n_gt": 73,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 1,
+        "fp": 6,
+        "fn": 72,
+        "precision": 0.14285714285714285,
+        "recall": 0.0136986301369863,
+        "f1": 0.025,
+        "mean_bottom_error_pt": 0.9300000000000637,
+        "mean_horiz_overlap": 0.9999999999999994
+      },
       "by_threshold": {
         "0.5": {
           "tp": 1,
@@ -132,6 +172,16 @@
     "bank-cms-855i-004": {
       "n_gt": 68,
       "n_det": 83,
+      "line_alignment": {
+        "tp": 67,
+        "fp": 16,
+        "fn": 1,
+        "precision": 0.8072289156626506,
+        "recall": 0.9852941176470589,
+        "f1": 0.8874172185430464,
+        "mean_bottom_error_pt": 1.8540298507462596,
+        "mean_horiz_overlap": 0.9995554893732147
+      },
       "by_threshold": {
         "0.5": {
           "tp": 67,
@@ -164,6 +214,16 @@
     "bank-cms-855i-005": {
       "n_gt": 21,
       "n_det": 46,
+      "line_alignment": {
+        "tp": 21,
+        "fp": 25,
+        "fn": 0,
+        "precision": 0.45652173913043476,
+        "recall": 1.0,
+        "f1": 0.626865671641791,
+        "mean_bottom_error_pt": 2.961428571428552,
+        "mean_horiz_overlap": 0.9989912523871127
+      },
       "by_threshold": {
         "0.5": {
           "tp": 5,
@@ -196,6 +256,16 @@
     "bank-loan-app-001-shadow": {
       "n_gt": 11,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 11,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -228,6 +298,16 @@
     "bank-loan-app-001": {
       "n_gt": 11,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 5,
+        "fp": 2,
+        "fn": 6,
+        "precision": 0.7142857142857143,
+        "recall": 0.45454545454545453,
+        "f1": 0.5555555555555556,
+        "mean_bottom_error_pt": 0.0,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 5,
@@ -260,6 +340,16 @@
     "bank-va-21-4142-001": {
       "n_gt": 31,
       "n_det": 12,
+      "line_alignment": {
+        "tp": 8,
+        "fp": 4,
+        "fn": 23,
+        "precision": 0.6666666666666666,
+        "recall": 0.25806451612903225,
+        "f1": 0.37209302325581395,
+        "mean_bottom_error_pt": 4.625,
+        "mean_horiz_overlap": 0.9888478168682493
+      },
       "by_threshold": {
         "0.5": {
           "tp": 1,
@@ -292,6 +382,16 @@
     "bank-va-21-4142-002": {
       "n_gt": 11,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 1,
+        "fp": 6,
+        "fn": 10,
+        "precision": 0.14285714285714285,
+        "recall": 0.09090909090909091,
+        "f1": 0.1111111111111111,
+        "mean_bottom_error_pt": 2.0,
+        "mean_horiz_overlap": 0.8287671232876712
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -324,6 +424,16 @@
     "bank-va-21-4142-003": {
       "n_gt": 49,
       "n_det": 18,
+      "line_alignment": {
+        "tp": 5,
+        "fp": 13,
+        "fn": 44,
+        "precision": 0.2777777777777778,
+        "recall": 0.10204081632653061,
+        "f1": 0.1492537313432836,
+        "mean_bottom_error_pt": 5.0,
+        "mean_horiz_overlap": 0.9803105741443543
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -356,6 +466,16 @@
     "bank-va-21-4142-004": {
       "n_gt": 48,
       "n_det": 16,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 16,
+        "fn": 48,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -388,6 +508,16 @@
     "bank-va-21-526ez-001": {
       "n_gt": 41,
       "n_det": 4,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 41,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -420,6 +550,16 @@
     "bank-va-21-526ez-002": {
       "n_gt": 25,
       "n_det": 2,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 25,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -452,6 +592,16 @@
     "bank-va-21-526ez-003": {
       "n_gt": 72,
       "n_det": 1,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 72,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -484,6 +634,16 @@
     "bank-va-21-526ez-004": {
       "n_gt": 47,
       "n_det": 3,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 47,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -516,6 +676,16 @@
     "bank-va-21-526ez-005": {
       "n_gt": 83,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 83,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -548,6 +718,16 @@
     "bank-va-26-6393-001": {
       "n_gt": 112,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 6,
+        "fp": 1,
+        "fn": 106,
+        "precision": 0.8571428571428571,
+        "recall": 0.05357142857142857,
+        "f1": 0.10084033613445377,
+        "mean_bottom_error_pt": 3.298333333333327,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 1,
@@ -580,6 +760,16 @@
     "edu-algebra-worksheet-001-lowres": {
       "n_gt": 8,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -612,6 +802,16 @@
     "edu-algebra-worksheet-001-rot7": {
       "n_gt": 8,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -644,6 +844,16 @@
     "edu-algebra-worksheet-001": {
       "n_gt": 8,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 7,
+        "fp": 7,
+        "fn": 1,
+        "precision": 0.5,
+        "recall": 0.875,
+        "f1": 0.6363636363636364,
+        "mean_bottom_error_pt": 0.017142857142859822,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 7,
@@ -676,6 +886,16 @@
     "edu-alltenses-001": {
       "n_gt": 27,
       "n_det": 32,
+      "line_alignment": {
+        "tp": 27,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.84375,
+        "recall": 1.0,
+        "f1": 0.9152542372881356,
+        "mean_bottom_error_pt": 1.8570370370370366,
+        "mean_horiz_overlap": 0.9798446306163326
+      },
       "by_threshold": {
         "0.5": {
           "tp": 25,
@@ -708,6 +928,16 @@
     "edu-articles-001": {
       "n_gt": 30,
       "n_det": 15,
+      "line_alignment": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 15,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "mean_bottom_error_pt": 3.7039999999999775,
+        "mean_horiz_overlap": 0.9925920555802732
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -740,6 +970,16 @@
     "edu-chem-lab-001-badlight": {
       "n_gt": 14,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -772,6 +1012,16 @@
     "edu-chem-lab-001-highres": {
       "n_gt": 14,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -804,6 +1054,16 @@
     "edu-chem-lab-001": {
       "n_gt": 14,
       "n_det": 6,
+      "line_alignment": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 11,
+        "precision": 0.5,
+        "recall": 0.21428571428571427,
+        "f1": 0.3,
+        "mean_bottom_error_pt": 0.0,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 3,
@@ -836,6 +1096,16 @@
     "edu-cloze-004": {
       "n_gt": 16,
       "n_det": 16,
+      "line_alignment": {
+        "tp": 16,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 4.6287500000000055,
+        "mean_horiz_overlap": 0.9965343908431611
+      },
       "by_threshold": {
         "0.5": {
           "tp": 16,
@@ -868,6 +1138,16 @@
     "edu-cloze-005": {
       "n_gt": 15,
       "n_det": 15,
+      "line_alignment": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 4.604666666666674,
+        "mean_horiz_overlap": 0.9967918465155076
+      },
       "by_threshold": {
         "0.5": {
           "tp": 15,
@@ -900,6 +1180,16 @@
     "edu-makedo-002": {
       "n_gt": 15,
       "n_det": 15,
+      "line_alignment": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 2.363999999999989,
+        "mean_horiz_overlap": 0.9997331930686794
+      },
       "by_threshold": {
         "0.5": {
           "tp": 15,
@@ -932,6 +1222,16 @@
     "edu-oxfprep-009": {
       "n_gt": 9,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -964,6 +1264,16 @@
     "edu-prep-001": {
       "n_gt": 54,
       "n_det": 57,
+      "line_alignment": {
+        "tp": 54,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.9473684210526315,
+        "recall": 1.0,
+        "f1": 0.972972972972973,
+        "mean_bottom_error_pt": 1.5031481481481475,
+        "mean_horiz_overlap": 0.992645811815425
+      },
       "by_threshold": {
         "0.5": {
           "tp": 52,
@@ -996,6 +1306,16 @@
     "edu-prep-003": {
       "n_gt": 54,
       "n_det": 57,
+      "line_alignment": {
+        "tp": 54,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.9473684210526315,
+        "recall": 1.0,
+        "f1": 0.972972972972973,
+        "mean_bottom_error_pt": 1.6511111111111116,
+        "mean_horiz_overlap": 0.9835962091066658
+      },
       "by_threshold": {
         "0.5": {
           "tp": 50,
@@ -1028,6 +1348,16 @@
     "edu-prep-005": {
       "n_gt": 46,
       "n_det": 49,
+      "line_alignment": {
+        "tp": 46,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.9387755102040817,
+        "recall": 1.0,
+        "f1": 0.968421052631579,
+        "mean_bottom_error_pt": 1.6563043478260864,
+        "mean_horiz_overlap": 0.9942843418431486
+      },
       "by_threshold": {
         "0.5": {
           "tp": 46,
@@ -1060,6 +1390,16 @@
     "edu-prep-007": {
       "n_gt": 49,
       "n_det": 52,
+      "line_alignment": {
+        "tp": 49,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.9423076923076923,
+        "recall": 1.0,
+        "f1": 0.9702970297029703,
+        "mean_bottom_error_pt": 1.611836734693867,
+        "mean_horiz_overlap": 0.987298916685803
+      },
       "by_threshold": {
         "0.5": {
           "tp": 48,
@@ -1092,6 +1432,16 @@
     "edu-prep-009": {
       "n_gt": 21,
       "n_det": 45,
+      "line_alignment": {
+        "tp": 21,
+        "fp": 24,
+        "fn": 0,
+        "precision": 0.4666666666666667,
+        "recall": 1.0,
+        "f1": 0.6363636363636364,
+        "mean_bottom_error_pt": 1.6028571428571372,
+        "mean_horiz_overlap": 0.9923134794366535
+      },
       "by_threshold": {
         "0.5": {
           "tp": 17,
@@ -1124,6 +1474,16 @@
     "edu-simplepres-004": {
       "n_gt": 17,
       "n_det": 19,
+      "line_alignment": {
+        "tp": 17,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.8947368421052632,
+        "recall": 1.0,
+        "f1": 0.9444444444444444,
+        "mean_bottom_error_pt": 0.8294117647058502,
+        "mean_horiz_overlap": 0.9980870917706182
+      },
       "by_threshold": {
         "0.5": {
           "tp": 17,
@@ -1156,6 +1516,16 @@
     "edu-tenses-001": {
       "n_gt": 65,
       "n_det": 76,
+      "line_alignment": {
+        "tp": 65,
+        "fp": 11,
+        "fn": 0,
+        "precision": 0.8552631578947368,
+        "recall": 1.0,
+        "f1": 0.9219858156028369,
+        "mean_bottom_error_pt": 1.6856923076923105,
+        "mean_horiz_overlap": 0.9989846383449823
+      },
       "by_threshold": {
         "0.5": {
           "tp": 65,
@@ -1188,6 +1558,16 @@
     "edu-tenses-003": {
       "n_gt": 45,
       "n_det": 60,
+      "line_alignment": {
+        "tp": 45,
+        "fp": 15,
+        "fn": 0,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571,
+        "mean_bottom_error_pt": 1.6722222222222092,
+        "mean_horiz_overlap": 0.9967225010689608
+      },
       "by_threshold": {
         "0.5": {
           "tp": 38,
@@ -1220,6 +1600,16 @@
     "edu-tenses-005": {
       "n_gt": 54,
       "n_det": 73,
+      "line_alignment": {
+        "tp": 54,
+        "fp": 19,
+        "fn": 0,
+        "precision": 0.7397260273972602,
+        "recall": 1.0,
+        "f1": 0.8503937007874016,
+        "mean_bottom_error_pt": 1.5325925925925932,
+        "mean_horiz_overlap": 0.9964882310829358
+      },
       "by_threshold": {
         "0.5": {
           "tp": 53,
@@ -1252,6 +1642,16 @@
     "edu-tenses-007": {
       "n_gt": 55,
       "n_det": 76,
+      "line_alignment": {
+        "tp": 55,
+        "fp": 21,
+        "fn": 0,
+        "precision": 0.7236842105263158,
+        "recall": 1.0,
+        "f1": 0.8396946564885496,
+        "mean_bottom_error_pt": 1.6510909090909043,
+        "mean_horiz_overlap": 0.9899818533085454
+      },
       "by_threshold": {
         "0.5": {
           "tp": 9,
@@ -1284,6 +1684,16 @@
     "edu-tenses-009": {
       "n_gt": 58,
       "n_det": 80,
+      "line_alignment": {
+        "tp": 58,
+        "fp": 22,
+        "fn": 0,
+        "precision": 0.725,
+        "recall": 1.0,
+        "f1": 0.8405797101449275,
+        "mean_bottom_error_pt": 1.7036206896551662,
+        "mean_horiz_overlap": 0.992374606576206
+      },
       "by_threshold": {
         "0.5": {
           "tp": 58,
@@ -1316,6 +1726,16 @@
     "edu-tenses-013": {
       "n_gt": 55,
       "n_det": 72,
+      "line_alignment": {
+        "tp": 55,
+        "fp": 17,
+        "fn": 0,
+        "precision": 0.7638888888888888,
+        "recall": 1.0,
+        "f1": 0.8661417322834646,
+        "mean_bottom_error_pt": 1.0885454545454616,
+        "mean_horiz_overlap": 0.9997902781480494
+      },
       "by_threshold": {
         "0.5": {
           "tp": 55,
@@ -1348,6 +1768,16 @@
     "edu-tenses-015": {
       "n_gt": 26,
       "n_det": 36,
+      "line_alignment": {
+        "tp": 26,
+        "fp": 10,
+        "fn": 0,
+        "precision": 0.7222222222222222,
+        "recall": 1.0,
+        "f1": 0.8387096774193548,
+        "mean_bottom_error_pt": 2.128846153846131,
+        "mean_horiz_overlap": 0.9867107280820959
+      },
       "by_threshold": {
         "0.5": {
           "tp": 2,
@@ -1380,6 +1810,16 @@
     "edu-tenses-017": {
       "n_gt": 41,
       "n_det": 49,
+      "line_alignment": {
+        "tp": 41,
+        "fp": 8,
+        "fn": 0,
+        "precision": 0.8367346938775511,
+        "recall": 1.0,
+        "f1": 0.9111111111111111,
+        "mean_bottom_error_pt": 1.9960975609755855,
+        "mean_horiz_overlap": 0.997481294166045
+      },
       "by_threshold": {
         "0.5": {
           "tp": 9,
@@ -1412,6 +1852,16 @@
     "edu-tenses-019": {
       "n_gt": 23,
       "n_det": 33,
+      "line_alignment": {
+        "tp": 23,
+        "fp": 10,
+        "fn": 0,
+        "precision": 0.696969696969697,
+        "recall": 1.0,
+        "f1": 0.8214285714285715,
+        "mean_bottom_error_pt": 1.914782608695648,
+        "mean_horiz_overlap": 0.9958714276208684
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -1444,6 +1894,16 @@
     "edu-tenses-021": {
       "n_gt": 30,
       "n_det": 42,
+      "line_alignment": {
+        "tp": 30,
+        "fp": 12,
+        "fn": 0,
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1": 0.8333333333333333,
+        "mean_bottom_error_pt": 1.9063333333333243,
+        "mean_horiz_overlap": 0.9968098885875494
+      },
       "by_threshold": {
         "0.5": {
           "tp": 21,
@@ -1476,6 +1936,16 @@
     "edu-tenses-023": {
       "n_gt": 31,
       "n_det": 39,
+      "line_alignment": {
+        "tp": 31,
+        "fp": 8,
+        "fn": 0,
+        "precision": 0.7948717948717948,
+        "recall": 1.0,
+        "f1": 0.8857142857142858,
+        "mean_bottom_error_pt": 2.005161290322547,
+        "mean_horiz_overlap": 0.9953025934255427
+      },
       "by_threshold": {
         "0.5": {
           "tp": 1,
@@ -1508,6 +1978,16 @@
     "edu-tenses-025": {
       "n_gt": 33,
       "n_det": 49,
+      "line_alignment": {
+        "tp": 33,
+        "fp": 16,
+        "fn": 0,
+        "precision": 0.673469387755102,
+        "recall": 1.0,
+        "f1": 0.8048780487804877,
+        "mean_bottom_error_pt": 2.008787878787874,
+        "mean_horiz_overlap": 0.9896322380461418
+      },
       "by_threshold": {
         "0.5": {
           "tp": 33,
@@ -1540,6 +2020,16 @@
     "edu-tenses-027": {
       "n_gt": 24,
       "n_det": 32,
+      "line_alignment": {
+        "tp": 24,
+        "fp": 8,
+        "fn": 0,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571,
+        "mean_bottom_error_pt": 1.4095833333333054,
+        "mean_horiz_overlap": 0.9993171517810726
+      },
       "by_threshold": {
         "0.5": {
           "tp": 16,
@@ -1572,6 +2062,16 @@
     "edu-tenses-029": {
       "n_gt": 51,
       "n_det": 70,
+      "line_alignment": {
+        "tp": 51,
+        "fp": 19,
+        "fn": 0,
+        "precision": 0.7285714285714285,
+        "recall": 1.0,
+        "f1": 0.8429752066115702,
+        "mean_bottom_error_pt": 1.159215686274509,
+        "mean_horiz_overlap": 0.998637890212011
+      },
       "by_threshold": {
         "0.5": {
           "tp": 48,
@@ -1604,6 +2104,16 @@
     "edu-tenses-031": {
       "n_gt": 60,
       "n_det": 85,
+      "line_alignment": {
+        "tp": 60,
+        "fp": 25,
+        "fn": 0,
+        "precision": 0.7058823529411765,
+        "recall": 1.0,
+        "f1": 0.8275862068965517,
+        "mean_bottom_error_pt": 1.6668333333333212,
+        "mean_horiz_overlap": 0.9881872058517783
+      },
       "by_threshold": {
         "0.5": {
           "tp": 22,
@@ -1636,6 +2146,16 @@
     "edu-thenthan-001": {
       "n_gt": 13,
       "n_det": 21,
+      "line_alignment": {
+        "tp": 13,
+        "fp": 8,
+        "fn": 0,
+        "precision": 0.6190476190476191,
+        "recall": 1.0,
+        "f1": 0.7647058823529412,
+        "mean_bottom_error_pt": 3.189230769230776,
+        "mean_horiz_overlap": 0.9936186908887898
+      },
       "by_threshold": {
         "0.5": {
           "tp": 4,
@@ -1668,6 +2188,16 @@
     "edu-thenthan-002": {
       "n_gt": 15,
       "n_det": 25,
+      "line_alignment": {
+        "tp": 15,
+        "fp": 10,
+        "fn": 0,
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1": 0.7499999999999999,
+        "mean_bottom_error_pt": 3.051333333333336,
+        "mean_horiz_overlap": 0.9921251392809138
+      },
       "by_threshold": {
         "0.5": {
           "tp": 8,
@@ -1700,6 +2230,16 @@
     "gov-eu-visa-001-faxq": {
       "n_gt": 15,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -1732,6 +2272,16 @@
     "gov-eu-visa-001-rot3": {
       "n_gt": 15,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -1764,6 +2314,16 @@
     "gov-eu-visa-001": {
       "n_gt": 15,
       "n_det": 9,
+      "line_alignment": {
+        "tp": 7,
+        "fp": 2,
+        "fn": 8,
+        "precision": 0.7777777777777778,
+        "recall": 0.4666666666666667,
+        "f1": 0.5833333333333334,
+        "mean_bottom_error_pt": 0.0,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 7,
@@ -1796,6 +2356,16 @@
     "gov-f2441-002": {
       "n_gt": 22,
       "n_det": 21,
+      "line_alignment": {
+        "tp": 18,
+        "fp": 3,
+        "fn": 4,
+        "precision": 0.8571428571428571,
+        "recall": 0.8181818181818182,
+        "f1": 0.8372093023255814,
+        "mean_bottom_error_pt": 2.0305555555555586,
+        "mean_horiz_overlap": 0.9991999518020411
+      },
       "by_threshold": {
         "0.5": {
           "tp": 18,
@@ -1828,6 +2398,16 @@
     "gov-f709-002": {
       "n_gt": 18,
       "n_det": 4,
+      "line_alignment": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 15,
+        "precision": 0.75,
+        "recall": 0.16666666666666666,
+        "f1": 0.27272727272727276,
+        "mean_bottom_error_pt": 1.7133333333333287,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 3,
@@ -1860,6 +2440,16 @@
     "gov-f8606-001": {
       "n_gt": 25,
       "n_det": 31,
+      "line_alignment": {
+        "tp": 25,
+        "fp": 6,
+        "fn": 0,
+        "precision": 0.8064516129032258,
+        "recall": 1.0,
+        "f1": 0.8928571428571428,
+        "mean_bottom_error_pt": 1.9876000000000011,
+        "mean_horiz_overlap": 0.9997671711292199
+      },
       "by_threshold": {
         "0.5": {
           "tp": 23,
@@ -1892,6 +2482,16 @@
     "gov-f8615-001": {
       "n_gt": 23,
       "n_det": 27,
+      "line_alignment": {
+        "tp": 21,
+        "fp": 6,
+        "fn": 2,
+        "precision": 0.7777777777777778,
+        "recall": 0.9130434782608695,
+        "f1": 0.84,
+        "mean_bottom_error_pt": 2.0,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 20,
@@ -1924,6 +2524,16 @@
     "gov-f8821-001": {
       "n_gt": 37,
       "n_det": 48,
+      "line_alignment": {
+        "tp": 33,
+        "fp": 15,
+        "fn": 4,
+        "precision": 0.6875,
+        "recall": 0.8918918918918919,
+        "f1": 0.7764705882352941,
+        "mean_bottom_error_pt": 2.0042424242424275,
+        "mean_horiz_overlap": 0.999890299435859
+      },
       "by_threshold": {
         "0.5": {
           "tp": 30,
@@ -1956,6 +2566,16 @@
     "gov-f8822-001": {
       "n_gt": 27,
       "n_det": 29,
+      "line_alignment": {
+        "tp": 22,
+        "fp": 7,
+        "fn": 5,
+        "precision": 0.7586206896551724,
+        "recall": 0.8148148148148148,
+        "f1": 0.7857142857142857,
+        "mean_bottom_error_pt": 2.0209090909090928,
+        "mean_horiz_overlap": 0.9994458580422545
+      },
       "by_threshold": {
         "0.5": {
           "tp": 16,
@@ -1988,6 +2608,16 @@
     "gov-f8822b-001": {
       "n_gt": 20,
       "n_det": 27,
+      "line_alignment": {
+        "tp": 15,
+        "fp": 12,
+        "fn": 5,
+        "precision": 0.5555555555555556,
+        "recall": 0.75,
+        "f1": 0.6382978723404256,
+        "mean_bottom_error_pt": 2.0160000000000027,
+        "mean_horiz_overlap": 0.9999339443481132
+      },
       "by_threshold": {
         "0.5": {
           "tp": 13,
@@ -2020,6 +2650,16 @@
     "gov-f8829-001": {
       "n_gt": 59,
       "n_det": 73,
+      "line_alignment": {
+        "tp": 55,
+        "fp": 18,
+        "fn": 4,
+        "precision": 0.7534246575342466,
+        "recall": 0.9322033898305084,
+        "f1": 0.8333333333333333,
+        "mean_bottom_error_pt": 2.0,
+        "mean_horiz_overlap": 0.9998754669987544
+      },
       "by_threshold": {
         "0.5": {
           "tp": 53,
@@ -2052,6 +2692,16 @@
     "gov-f8949-001": {
       "n_gt": 97,
       "n_det": 111,
+      "line_alignment": {
+        "tp": 89,
+        "fp": 22,
+        "fn": 8,
+        "precision": 0.8018018018018018,
+        "recall": 0.9175257731958762,
+        "f1": 0.8557692307692306,
+        "mean_bottom_error_pt": 2.000224719101123,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 78,
@@ -2084,6 +2734,16 @@
     "gov-f940-001": {
       "n_gt": 41,
       "n_det": 38,
+      "line_alignment": {
+        "tp": 13,
+        "fp": 25,
+        "fn": 28,
+        "precision": 0.34210526315789475,
+        "recall": 0.3170731707317073,
+        "f1": 0.32911392405063294,
+        "mean_bottom_error_pt": 2.0,
+        "mean_horiz_overlap": 1.0000000000000002
+      },
       "by_threshold": {
         "0.5": {
           "tp": 13,
@@ -2116,6 +2776,16 @@
     "gov-f941-001": {
       "n_gt": 58,
       "n_det": 50,
+      "line_alignment": {
+        "tp": 25,
+        "fp": 25,
+        "fn": 33,
+        "precision": 0.5,
+        "recall": 0.43103448275862066,
+        "f1": 0.46296296296296297,
+        "mean_bottom_error_pt": 2.88,
+        "mean_horiz_overlap": 0.9999999999999999
+      },
       "by_threshold": {
         "0.5": {
           "tp": 25,
@@ -2148,6 +2818,16 @@
     "gov-fss4-001": {
       "n_gt": 47,
       "n_det": 40,
+      "line_alignment": {
+        "tp": 33,
+        "fp": 7,
+        "fn": 14,
+        "precision": 0.825,
+        "recall": 0.7021276595744681,
+        "f1": 0.7586206896551724,
+        "mean_bottom_error_pt": 2.006969696969694,
+        "mean_horiz_overlap": 0.9984297175012357
+      },
       "by_threshold": {
         "0.5": {
           "tp": 31,
@@ -2180,6 +2860,16 @@
     "gov-fw4-001": {
       "n_gt": 17,
       "n_det": 33,
+      "line_alignment": {
+        "tp": 17,
+        "fp": 16,
+        "fn": 0,
+        "precision": 0.5151515151515151,
+        "recall": 1.0,
+        "f1": 0.6799999999999999,
+        "mean_bottom_error_pt": 1.9905882352941162,
+        "mean_horiz_overlap": 0.9813574181300906
+      },
       "by_threshold": {
         "0.5": {
           "tp": 14,
@@ -2212,6 +2902,16 @@
     "gov-fw9-001": {
       "n_gt": 17,
       "n_det": 20,
+      "line_alignment": {
+        "tp": 8,
+        "fp": 12,
+        "fn": 9,
+        "precision": 0.4,
+        "recall": 0.47058823529411764,
+        "f1": 0.4324324324324324,
+        "mean_bottom_error_pt": 2.2362500000000125,
+        "mean_horiz_overlap": 0.9991366379963922
+      },
       "by_threshold": {
         "0.5": {
           "tp": 7,
@@ -2244,6 +2944,16 @@
     "gov-i130-001": {
       "n_gt": 13,
       "n_det": 8,
+      "line_alignment": {
+        "tp": 2,
+        "fp": 6,
+        "fn": 11,
+        "precision": 0.25,
+        "recall": 0.15384615384615385,
+        "f1": 0.1904761904761905,
+        "mean_bottom_error_pt": 2.2350000000000136,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 1,
@@ -2276,6 +2986,16 @@
     "gov-i485-001": {
       "n_gt": 24,
       "n_det": 3,
+      "line_alignment": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 21,
+        "precision": 1.0,
+        "recall": 0.125,
+        "f1": 0.2222222222222222,
+        "mean_bottom_error_pt": 2.190000000000026,
+        "mean_horiz_overlap": 0.9994097222222221
+      },
       "by_threshold": {
         "0.5": {
           "tp": 3,
@@ -2308,6 +3028,16 @@
     "gov-i9-001": {
       "n_gt": 48,
       "n_det": 54,
+      "line_alignment": {
+        "tp": 36,
+        "fp": 18,
+        "fn": 12,
+        "precision": 0.6666666666666666,
+        "recall": 0.75,
+        "f1": 0.7058823529411765,
+        "mean_bottom_error_pt": 2.7055555555555504,
+        "mean_horiz_overlap": 0.9999732356971565
+      },
       "by_threshold": {
         "0.5": {
           "tp": 35,
@@ -2340,6 +3070,16 @@
     "gov-i90-001": {
       "n_gt": 30,
       "n_det": 2,
+      "line_alignment": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 29,
+        "precision": 0.5,
+        "recall": 0.03333333333333333,
+        "f1": 0.0625,
+        "mean_bottom_error_pt": 2.1899999999999977,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 1,
@@ -2372,6 +3112,16 @@
     "gov-n400-001": {
       "n_gt": 13,
       "n_det": 2,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 13,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -2404,6 +3154,16 @@
     "gov-us-w4-001-jpeg": {
       "n_gt": 14,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -2436,6 +3196,16 @@
     "gov-us-w4-001-rot1": {
       "n_gt": 14,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -2468,6 +3238,16 @@
     "gov-us-w4-001": {
       "n_gt": 14,
       "n_det": 10,
+      "line_alignment": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.7142857142857143,
+        "f1": 0.8333333333333333,
+        "mean_bottom_error_pt": 0.0,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 10,
@@ -2500,6 +3280,16 @@
     "hr-empapp-001": {
       "n_gt": 38,
       "n_det": 37,
+      "line_alignment": {
+        "tp": 37,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9736842105263158,
+        "f1": 0.9866666666666666,
+        "mean_bottom_error_pt": 1.3018918918918616,
+        "mean_horiz_overlap": 0.9973683101808103
+      },
       "by_threshold": {
         "0.5": {
           "tp": 37,
@@ -2532,6 +3322,16 @@
     "hr-jobapp-001": {
       "n_gt": 48,
       "n_det": 66,
+      "line_alignment": {
+        "tp": 48,
+        "fp": 18,
+        "fn": 0,
+        "precision": 0.7272727272727273,
+        "recall": 1.0,
+        "f1": 0.8421052631578948,
+        "mean_bottom_error_pt": 2.5691666666666837,
+        "mean_horiz_overlap": 0.9999999999999999
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -2564,6 +3364,16 @@
     "hr-onboarding-001-folded": {
       "n_gt": 14,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -2596,6 +3406,16 @@
     "hr-onboarding-001": {
       "n_gt": 14,
       "n_det": 4,
+      "line_alignment": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 10,
+        "precision": 1.0,
+        "recall": 0.2857142857142857,
+        "f1": 0.4444444444444445,
+        "mean_bottom_error_pt": 0.0,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 4,
@@ -2628,6 +3448,16 @@
     "legal-agreement-001-wrinkled": {
       "n_gt": 8,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -2660,6 +3490,16 @@
     "legal-agreement-001": {
       "n_gt": 8,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 4,
+        "fp": 3,
+        "fn": 4,
+        "precision": 0.5714285714285714,
+        "recall": 0.5,
+        "f1": 0.5333333333333333,
+        "mean_bottom_error_pt": 0.0,
+        "mean_horiz_overlap": 1.0000000000000002
+      },
       "by_threshold": {
         "0.5": {
           "tp": 4,
@@ -2692,6 +3532,16 @@
     "legal-bkcy-101-001": {
       "n_gt": 26,
       "n_det": 49,
+      "line_alignment": {
+        "tp": 26,
+        "fp": 23,
+        "fn": 0,
+        "precision": 0.5306122448979592,
+        "recall": 1.0,
+        "f1": 0.6933333333333334,
+        "mean_bottom_error_pt": 0.7007692307692455,
+        "mean_horiz_overlap": 0.9999822950863861
+      },
       "by_threshold": {
         "0.5": {
           "tp": 13,
@@ -2724,6 +3574,16 @@
     "legal-bkcy-101-002": {
       "n_gt": 40,
       "n_det": 38,
+      "line_alignment": {
+        "tp": 28,
+        "fp": 10,
+        "fn": 12,
+        "precision": 0.7368421052631579,
+        "recall": 0.7,
+        "f1": 0.717948717948718,
+        "mean_bottom_error_pt": 0.8110714285714471,
+        "mean_horiz_overlap": 0.999782599032623
+      },
       "by_threshold": {
         "0.5": {
           "tp": 16,
@@ -2756,6 +3616,16 @@
     "legal-bkcy-101-003": {
       "n_gt": 21,
       "n_det": 33,
+      "line_alignment": {
+        "tp": 21,
+        "fp": 12,
+        "fn": 0,
+        "precision": 0.6363636363636364,
+        "recall": 1.0,
+        "f1": 0.7777777777777778,
+        "mean_bottom_error_pt": 0.7695238095238439,
+        "mean_horiz_overlap": 0.9891132341979775
+      },
       "by_threshold": {
         "0.5": {
           "tp": 4,
@@ -2788,6 +3658,16 @@
     "legal-bkcy-101-004": {
       "n_gt": 17,
       "n_det": 25,
+      "line_alignment": {
+        "tp": 17,
+        "fp": 8,
+        "fn": 0,
+        "precision": 0.68,
+        "recall": 1.0,
+        "f1": 0.8095238095238095,
+        "mean_bottom_error_pt": 0.5176470588234766,
+        "mean_horiz_overlap": 0.9953751133262924
+      },
       "by_threshold": {
         "0.5": {
           "tp": 17,
@@ -2820,6 +3700,16 @@
     "legal-bkcy-101-005": {
       "n_gt": 15,
       "n_det": 17,
+      "line_alignment": {
+        "tp": 15,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.8823529411764706,
+        "recall": 1.0,
+        "f1": 0.9375,
+        "mean_bottom_error_pt": 0.9953333333333556,
+        "mean_horiz_overlap": 0.9972706867780217
+      },
       "by_threshold": {
         "0.5": {
           "tp": 13,
@@ -2852,6 +3742,16 @@
     "legal-bkcy-104-001": {
       "n_gt": 32,
       "n_det": 32,
+      "line_alignment": {
+        "tp": 26,
+        "fp": 6,
+        "fn": 6,
+        "precision": 0.8125,
+        "recall": 0.8125,
+        "f1": 0.8125,
+        "mean_bottom_error_pt": 0.7480769230769548,
+        "mean_horiz_overlap": 0.9999238999642474
+      },
       "by_threshold": {
         "0.5": {
           "tp": 7,
@@ -2884,6 +3784,16 @@
     "legal-bkcy-104-002": {
       "n_gt": 73,
       "n_det": 58,
+      "line_alignment": {
+        "tp": 58,
+        "fp": 0,
+        "fn": 15,
+        "precision": 1.0,
+        "recall": 0.7945205479452054,
+        "f1": 0.8854961832061068,
+        "mean_bottom_error_pt": 0.6577586206896776,
+        "mean_horiz_overlap": 0.9999436714014878
+      },
       "by_threshold": {
         "0.5": {
           "tp": 25,
@@ -2916,6 +3826,16 @@
     "legal-bkcy-104-003": {
       "n_gt": 71,
       "n_det": 59,
+      "line_alignment": {
+        "tp": 58,
+        "fp": 1,
+        "fn": 13,
+        "precision": 0.9830508474576272,
+        "recall": 0.8169014084507042,
+        "f1": 0.8923076923076924,
+        "mean_bottom_error_pt": 0.6656896551724054,
+        "mean_horiz_overlap": 0.9999030889822835
+      },
       "by_threshold": {
         "0.5": {
           "tp": 30,
@@ -2948,6 +3868,16 @@
     "legal-bkcy-104-004": {
       "n_gt": 69,
       "n_det": 59,
+      "line_alignment": {
+        "tp": 58,
+        "fp": 1,
+        "fn": 11,
+        "precision": 0.9830508474576272,
+        "recall": 0.8405797101449275,
+        "f1": 0.9062499999999999,
+        "mean_bottom_error_pt": 0.6522413793103717,
+        "mean_horiz_overlap": 0.9974131430484072
+      },
       "by_threshold": {
         "0.5": {
           "tp": 24,
@@ -2980,6 +3910,16 @@
     "legal-bkcy-104-005": {
       "n_gt": 49,
       "n_det": 41,
+      "line_alignment": {
+        "tp": 40,
+        "fp": 1,
+        "fn": 9,
+        "precision": 0.975609756097561,
+        "recall": 0.8163265306122449,
+        "f1": 0.888888888888889,
+        "mean_bottom_error_pt": 0.7105000000000011,
+        "mean_horiz_overlap": 0.9993490943962232
+      },
       "by_threshold": {
         "0.5": {
           "tp": 12,
@@ -3012,6 +3952,16 @@
     "legal-bkcy-106ab-001": {
       "n_gt": 29,
       "n_det": 38,
+      "line_alignment": {
+        "tp": 26,
+        "fp": 12,
+        "fn": 3,
+        "precision": 0.6842105263157895,
+        "recall": 0.896551724137931,
+        "f1": 0.7761194029850746,
+        "mean_bottom_error_pt": 0.8646153846153859,
+        "mean_horiz_overlap": 0.9994450671574266
+      },
       "by_threshold": {
         "0.5": {
           "tp": 12,
@@ -3044,6 +3994,16 @@
     "legal-bkcy-106ab-002": {
       "n_gt": 29,
       "n_det": 43,
+      "line_alignment": {
+        "tp": 29,
+        "fp": 14,
+        "fn": 0,
+        "precision": 0.6744186046511628,
+        "recall": 1.0,
+        "f1": 0.8055555555555556,
+        "mean_bottom_error_pt": 0.8351724137931147,
+        "mean_horiz_overlap": 0.997992166827175
+      },
       "by_threshold": {
         "0.5": {
           "tp": 10,
@@ -3076,6 +4036,16 @@
     "legal-bkcy-106ab-003": {
       "n_gt": 36,
       "n_det": 36,
+      "line_alignment": {
+        "tp": 36,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 0.8355555555555642,
+        "mean_horiz_overlap": 0.9995105355917073
+      },
       "by_threshold": {
         "0.5": {
           "tp": 27,
@@ -3108,6 +4078,16 @@
     "legal-bkcy-106ab-004": {
       "n_gt": 48,
       "n_det": 49,
+      "line_alignment": {
+        "tp": 46,
+        "fp": 3,
+        "fn": 2,
+        "precision": 0.9387755102040817,
+        "recall": 0.9583333333333334,
+        "f1": 0.9484536082474228,
+        "mean_bottom_error_pt": 1.189130434782595,
+        "mean_horiz_overlap": 0.9996782295733062
+      },
       "by_threshold": {
         "0.5": {
           "tp": 23,
@@ -3140,6 +4120,16 @@
     "legal-bkcy-106ab-005": {
       "n_gt": 32,
       "n_det": 39,
+      "line_alignment": {
+        "tp": 32,
+        "fp": 7,
+        "fn": 0,
+        "precision": 0.8205128205128205,
+        "recall": 1.0,
+        "f1": 0.9014084507042254,
+        "mean_bottom_error_pt": 1.0381250000000013,
+        "mean_horiz_overlap": 0.9997868036568932
+      },
       "by_threshold": {
         "0.5": {
           "tp": 26,
@@ -3172,6 +4162,16 @@
     "legal-bkcy-106sum-001": {
       "n_gt": 16,
       "n_det": 22,
+      "line_alignment": {
+        "tp": 13,
+        "fp": 9,
+        "fn": 3,
+        "precision": 0.5909090909090909,
+        "recall": 0.8125,
+        "f1": 0.6842105263157896,
+        "mean_bottom_error_pt": 0.8300000000000191,
+        "mean_horiz_overlap": 0.9994573814516428
+      },
       "by_threshold": {
         "0.5": {
           "tp": 10,
@@ -3204,6 +4204,16 @@
     "legal-bkcy-106sum-002": {
       "n_gt": 10,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 10,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1": 0.8333333333333333,
+        "mean_bottom_error_pt": 0.45399999999998786,
+        "mean_horiz_overlap": 0.9856264014247864
+      },
       "by_threshold": {
         "0.5": {
           "tp": 4,
@@ -3236,6 +4246,16 @@
     "legal-ca-civ100-001": {
       "n_gt": 55,
       "n_det": 12,
+      "line_alignment": {
+        "tp": 6,
+        "fp": 6,
+        "fn": 49,
+        "precision": 0.5,
+        "recall": 0.10909090909090909,
+        "f1": 0.1791044776119403,
+        "mean_bottom_error_pt": 3.5716666666666916,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 5,
@@ -3268,6 +4288,16 @@
     "legal-ca-civ100-002": {
       "n_gt": 26,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 5,
+        "fp": 2,
+        "fn": 21,
+        "precision": 0.7142857142857143,
+        "recall": 0.19230769230769232,
+        "f1": 0.30303030303030304,
+        "mean_bottom_error_pt": 2.09200000000003,
+        "mean_horiz_overlap": 0.9996672944531481
+      },
       "by_threshold": {
         "0.5": {
           "tp": 5,
@@ -3300,6 +4330,16 @@
     "legal-ca-civ100-003": {
       "n_gt": 9,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 2,
+        "fp": 5,
+        "fn": 7,
+        "precision": 0.2857142857142857,
+        "recall": 0.2222222222222222,
+        "f1": 0.25,
+        "mean_bottom_error_pt": 2.125,
+        "mean_horiz_overlap": 0.9990169259702513
+      },
       "by_threshold": {
         "0.5": {
           "tp": 2,
@@ -3332,6 +4372,16 @@
     "legal-ca-cr100-001": {
       "n_gt": 16,
       "n_det": 9,
+      "line_alignment": {
+        "tp": 2,
+        "fp": 7,
+        "fn": 14,
+        "precision": 0.2222222222222222,
+        "recall": 0.125,
+        "f1": 0.16,
+        "mean_bottom_error_pt": 1.8100000000000023,
+        "mean_horiz_overlap": 0.9975731521286921
+      },
       "by_threshold": {
         "0.5": {
           "tp": 1,
@@ -3364,6 +4414,16 @@
     "legal-ca-de111-001": {
       "n_gt": 35,
       "n_det": 8,
+      "line_alignment": {
+        "tp": 3,
+        "fp": 5,
+        "fn": 32,
+        "precision": 0.375,
+        "recall": 0.08571428571428572,
+        "f1": 0.1395348837209302,
+        "mean_bottom_error_pt": 4.543333333333332,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 1,
@@ -3396,6 +4456,16 @@
     "legal-ca-de111-002": {
       "n_gt": 15,
       "n_det": 6,
+      "line_alignment": {
+        "tp": 4,
+        "fp": 2,
+        "fn": 11,
+        "precision": 0.6666666666666666,
+        "recall": 0.26666666666666666,
+        "f1": 0.3809523809523809,
+        "mean_bottom_error_pt": 2.0,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 4,
@@ -3428,6 +4498,16 @@
     "legal-ca-de111-003": {
       "n_gt": 40,
       "n_det": 11,
+      "line_alignment": {
+        "tp": 6,
+        "fp": 5,
+        "fn": 34,
+        "precision": 0.5454545454545454,
+        "recall": 0.15,
+        "f1": 0.2352941176470588,
+        "mean_bottom_error_pt": 2.138333333333321,
+        "mean_horiz_overlap": 0.9993612684128571
+      },
       "by_threshold": {
         "0.5": {
           "tp": 6,
@@ -3460,6 +4540,16 @@
     "legal-ca-de140-001": {
       "n_gt": 30,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 4,
+        "fp": 3,
+        "fn": 26,
+        "precision": 0.5714285714285714,
+        "recall": 0.13333333333333333,
+        "f1": 0.21621621621621623,
+        "mean_bottom_error_pt": 3.197499999999952,
+        "mean_horiz_overlap": 0.9999999999999999
+      },
       "by_threshold": {
         "0.5": {
           "tp": 3,
@@ -3492,6 +4582,16 @@
     "legal-ca-fl100-001": {
       "n_gt": 45,
       "n_det": 8,
+      "line_alignment": {
+        "tp": 2,
+        "fp": 6,
+        "fn": 43,
+        "precision": 0.25,
+        "recall": 0.044444444444444446,
+        "f1": 0.07547169811320754,
+        "mean_bottom_error_pt": 3.980000000000018,
+        "mean_horiz_overlap": 0.9999999999999999
+      },
       "by_threshold": {
         "0.5": {
           "tp": 2,
@@ -3524,6 +4624,16 @@
     "legal-ca-fl100-002": {
       "n_gt": 16,
       "n_det": 2,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -3556,6 +4666,16 @@
     "legal-ca-fl100-003": {
       "n_gt": 12,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 4,
+        "fp": 3,
+        "fn": 8,
+        "precision": 0.5714285714285714,
+        "recall": 0.3333333333333333,
+        "f1": 0.4210526315789474,
+        "mean_bottom_error_pt": 2.335000000000008,
+        "mean_horiz_overlap": 0.9990597009553998
+      },
       "by_threshold": {
         "0.5": {
           "tp": 2,
@@ -3588,6 +4708,16 @@
     "legal-ca-mc025-001": {
       "n_gt": 9,
       "n_det": 6,
+      "line_alignment": {
+        "tp": 2,
+        "fp": 4,
+        "fn": 7,
+        "precision": 0.3333333333333333,
+        "recall": 0.2222222222222222,
+        "f1": 0.26666666666666666,
+        "mean_bottom_error_pt": 1.7049999999999628,
+        "mean_horiz_overlap": 1.0000000000000002
+      },
       "by_threshold": {
         "0.5": {
           "tp": 2,
@@ -3620,6 +4750,16 @@
     "legal-ca-sc100-001": {
       "n_gt": 18,
       "n_det": 24,
+      "line_alignment": {
+        "tp": 15,
+        "fp": 9,
+        "fn": 3,
+        "precision": 0.625,
+        "recall": 0.8333333333333334,
+        "f1": 0.7142857142857143,
+        "mean_bottom_error_pt": 2.0346666666666655,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 14,
@@ -3652,6 +4792,16 @@
     "legal-ca-sc100-002": {
       "n_gt": 42,
       "n_det": 51,
+      "line_alignment": {
+        "tp": 42,
+        "fp": 9,
+        "fn": 0,
+        "precision": 0.8235294117647058,
+        "recall": 1.0,
+        "f1": 0.9032258064516129,
+        "mean_bottom_error_pt": 2.137380952380956,
+        "mean_horiz_overlap": 0.9999999999999998
+      },
       "by_threshold": {
         "0.5": {
           "tp": 39,
@@ -3684,6 +4834,16 @@
     "legal-ca-sc100-003": {
       "n_gt": 10,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 8,
+        "fp": 6,
+        "fn": 2,
+        "precision": 0.5714285714285714,
+        "recall": 0.8,
+        "f1": 0.6666666666666666,
+        "mean_bottom_error_pt": 2.5387499999999985,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 6,
@@ -3716,6 +4876,16 @@
     "legal-ca-sc100-004": {
       "n_gt": 8,
       "n_det": 10,
+      "line_alignment": {
+        "tp": 7,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.7,
+        "recall": 0.875,
+        "f1": 0.7777777777777777,
+        "mean_bottom_error_pt": 2.6742857142857184,
+        "mean_horiz_overlap": 0.9998344644926337
+      },
       "by_threshold": {
         "0.5": {
           "tp": 5,
@@ -3748,6 +4918,16 @@
     "legal-ca-ud100-001": {
       "n_gt": 31,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 2,
+        "fp": 5,
+        "fn": 29,
+        "precision": 0.2857142857142857,
+        "recall": 0.06451612903225806,
+        "f1": 0.10526315789473685,
+        "mean_bottom_error_pt": 4.480000000000004,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 1,
@@ -3780,6 +4960,16 @@
     "legal-ca-ud100-002": {
       "n_gt": 20,
       "n_det": 2,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 20,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -3812,6 +5002,16 @@
     "legal-ca-ud100-003": {
       "n_gt": 13,
       "n_det": 2,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 13,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -3844,6 +5044,16 @@
     "legal-ca-ud100-004": {
       "n_gt": 22,
       "n_det": 6,
+      "line_alignment": {
+        "tp": 4,
+        "fp": 2,
+        "fn": 18,
+        "precision": 0.6666666666666666,
+        "recall": 0.18181818181818182,
+        "f1": 0.28571428571428575,
+        "mean_bottom_error_pt": 2.2449999999999477,
+        "mean_horiz_overlap": 0.9996528099250069
+      },
       "by_threshold": {
         "0.5": {
           "tp": 4,
@@ -3876,6 +5086,16 @@
     "legal-uspto-sb16-001": {
       "n_gt": 36,
       "n_det": 48,
+      "line_alignment": {
+        "tp": 33,
+        "fp": 15,
+        "fn": 3,
+        "precision": 0.6875,
+        "recall": 0.9166666666666666,
+        "f1": 0.7857142857142857,
+        "mean_bottom_error_pt": 1.9351515151515204,
+        "mean_horiz_overlap": 0.9999793215556473
+      },
       "by_threshold": {
         "0.5": {
           "tp": 29,
@@ -3908,6 +5128,16 @@
     "legal-uspto-sb16-002": {
       "n_gt": 10,
       "n_det": 12,
+      "line_alignment": {
+        "tp": 10,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091,
+        "mean_bottom_error_pt": 1.727999999999969,
+        "mean_horiz_overlap": 0.9893632513258981
+      },
       "by_threshold": {
         "0.5": {
           "tp": 1,
@@ -3940,6 +5170,16 @@
     "med-cdph-110a-001": {
       "n_gt": 60,
       "n_det": 24,
+      "line_alignment": {
+        "tp": 20,
+        "fp": 4,
+        "fn": 40,
+        "precision": 0.8333333333333334,
+        "recall": 0.3333333333333333,
+        "f1": 0.47619047619047616,
+        "mean_bottom_error_pt": 1.584999999999995,
+        "mean_horiz_overlap": 0.9997232654674836
+      },
       "by_threshold": {
         "0.5": {
           "tp": 19,
@@ -3972,6 +5212,16 @@
     "med-cdph-110a-002": {
       "n_gt": 11,
       "n_det": 8,
+      "line_alignment": {
+        "tp": 7,
+        "fp": 1,
+        "fn": 4,
+        "precision": 0.875,
+        "recall": 0.6363636363636364,
+        "f1": 0.7368421052631579,
+        "mean_bottom_error_pt": 0.6728571428571399,
+        "mean_horiz_overlap": 1.0000000000000007
+      },
       "by_threshold": {
         "0.5": {
           "tp": 7,
@@ -4004,6 +5254,16 @@
     "med-cdph-530-001": {
       "n_gt": 44,
       "n_det": 60,
+      "line_alignment": {
+        "tp": 44,
+        "fp": 16,
+        "fn": 0,
+        "precision": 0.7333333333333333,
+        "recall": 1.0,
+        "f1": 0.846153846153846,
+        "mean_bottom_error_pt": 1.557954545454554,
+        "mean_horiz_overlap": 0.9993010298640802
+      },
       "by_threshold": {
         "0.5": {
           "tp": 6,
@@ -4036,6 +5296,16 @@
     "med-cdph-8551-001": {
       "n_gt": 27,
       "n_det": 2,
+      "line_alignment": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 25,
+        "precision": 1.0,
+        "recall": 0.07407407407407407,
+        "f1": 0.13793103448275862,
+        "mean_bottom_error_pt": 1.5700000000000358,
+        "mean_horiz_overlap": 1.0000000000000009
+      },
       "by_threshold": {
         "0.5": {
           "tp": 2,
@@ -4068,6 +5338,16 @@
     "med-fda-3500-001": {
       "n_gt": 9,
       "n_det": 2,
+      "line_alignment": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 7,
+        "precision": 1.0,
+        "recall": 0.2222222222222222,
+        "f1": 0.3636363636363636,
+        "mean_bottom_error_pt": 4.2549999999999955,
+        "mean_horiz_overlap": 0.9999999999999998
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4100,6 +5380,16 @@
     "med-fda-3500-002": {
       "n_gt": 37,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 37,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4132,6 +5422,16 @@
     "med-fda-3500-003": {
       "n_gt": 29,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 29,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4164,6 +5464,16 @@
     "med-fda-3500-004": {
       "n_gt": 28,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 28,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4196,6 +5506,16 @@
     "med-fda-3500-005": {
       "n_gt": 44,
       "n_det": 3,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 44,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4228,6 +5548,16 @@
     "med-intake-001-coffee": {
       "n_gt": 14,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4260,6 +5590,16 @@
     "med-intake-001-phonephoto": {
       "n_gt": 14,
       "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4292,6 +5632,16 @@
     "med-intake-001": {
       "n_gt": 14,
       "n_det": 7,
+      "line_alignment": {
+        "tp": 6,
+        "fp": 1,
+        "fn": 8,
+        "precision": 0.8571428571428571,
+        "recall": 0.42857142857142855,
+        "f1": 0.5714285714285714,
+        "mean_bottom_error_pt": 0.0,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 6,
@@ -4324,6 +5674,16 @@
     "med-uscis-i693-001": {
       "n_gt": 27,
       "n_det": 6,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 6,
+        "fn": 27,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4356,6 +5716,16 @@
     "med-uscis-i693-002": {
       "n_gt": 40,
       "n_det": 11,
+      "line_alignment": {
+        "tp": 1,
+        "fp": 10,
+        "fn": 39,
+        "precision": 0.09090909090909091,
+        "recall": 0.025,
+        "f1": 0.03921568627450981,
+        "mean_bottom_error_pt": 2.0,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4388,6 +5758,16 @@
     "med-uscis-i693-003": {
       "n_gt": 22,
       "n_det": 13,
+      "line_alignment": {
+        "tp": 2,
+        "fp": 11,
+        "fn": 20,
+        "precision": 0.15384615384615385,
+        "recall": 0.09090909090909091,
+        "f1": 0.1142857142857143,
+        "mean_bottom_error_pt": 2.0,
+        "mean_horiz_overlap": 1.0
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4420,6 +5800,16 @@
     "med-uscis-i693-004": {
       "n_gt": 26,
       "n_det": 6,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 6,
+        "fn": 26,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4452,6 +5842,16 @@
     "med-uscis-i693-005": {
       "n_gt": 83,
       "n_det": 8,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 83,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
       "by_threshold": {
         "0.5": {
           "tp": 0,
@@ -4485,6 +5885,18 @@
   "aggregate": {
     "n_pages": 140,
     "n_gt_blanks": 4386,
+    "line_alignment": {
+      "tp": 2512,
+      "fp": 1079,
+      "fn": 1874,
+      "precision": 0.6995,
+      "recall": 0.5727,
+      "f1": 0.6298,
+      "mean_bottom_error_pt": 1.87,
+      "mean_horiz_overlap": 0.996,
+      "bottom_tol_pt": 6.0,
+      "horiz_min_overlap": 0.5
+    },
     "iou@0.5": {
       "tp": 1753,
       "fp": 1838,

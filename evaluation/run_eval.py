@@ -74,6 +74,7 @@ def main():
         "per_page": {
             s.page_id: {
                 "n_gt": s.n_gt, "n_det": s.n_det,
+                "line_alignment": s.line_align,
                 "by_threshold": s.by_threshold,
                 "detection_time_ms": s.detection_time_ms,
                 "failed": s.failed,
@@ -92,6 +93,10 @@ def main():
     print(f"Pages scored: {agg['n_pages']}  |  GT blanks: {agg['n_gt_blanks']}")
     if missing_pages:
         print(f"WARNING: {len(missing_pages)} page(s) had no submission and were scored as full misses: {missing_pages}")
+    la = agg["line_alignment"]
+    print(f"  LINE-ALIGN  P={la['precision']:.3f} R={la['recall']:.3f} F1={la['f1']:.3f}"
+          f"  (bottom<={la['bottom_tol_pt']}pt, horiz>={int(la['horiz_min_overlap']*100)}%)")
+    print(f"              mean bottom-error={la['mean_bottom_error_pt']}pt, mean horiz overlap={la['mean_horiz_overlap']}")
     for thr in (0.5, 0.75, 0.9):
         m = agg[f"iou@{thr}"]
         print(f"  IoU>={thr:<4} P={m['precision']:.3f} R={m['recall']:.3f} F1={m['f1']:.3f}")
