@@ -93,6 +93,11 @@ score there is partly a definition problem, not a detection problem.
 Live leaderboard: [`docs/index.html`](docs/index.html), or serve
 `docs/` with GitHub Pages.
 
+Public user complaints about the AcroForm-based auto-detect failing on
+scanned, teacher-authored, and hand-drawn PDFs (across Adobe, Foxit,
+and others) are collected in [`docs/user-reports.md`](docs/user-reports.md).
+This is the gap BlanQ is built to fill.
+
 The plan is to grow this to 500-1000 pages across 7 categories,
 including phone-scan and paper-scan conditions. See
 [CONTRIBUTING.md](CONTRIBUTING.md) for how to add pages.
