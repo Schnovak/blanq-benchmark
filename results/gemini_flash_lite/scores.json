@@ -131,14 +131,14 @@
       "n_gt": 73,
       "n_det": 167,
       "line_alignment": {
-        "tp": 61,
-        "fp": 106,
-        "fn": 12,
-        "precision": 0.3652694610778443,
-        "recall": 0.8356164383561644,
-        "f1": 0.5083333333333333,
-        "mean_bottom_error_pt": 2.8101639344262206,
-        "mean_horiz_overlap": 0.9734450270273769
+        "tp": 48,
+        "fp": 119,
+        "fn": 25,
+        "precision": 0.2874251497005988,
+        "recall": 0.6575342465753424,
+        "f1": 0.39999999999999997,
+        "mean_bottom_error_pt": 3.096458333333319,
+        "mean_horiz_overlap": 0.9871476180020807
       },
       "by_threshold": {
         "0.5": {
@@ -383,14 +383,14 @@
       "n_gt": 11,
       "n_det": 57,
       "line_alignment": {
-        "tp": 2,
-        "fp": 55,
-        "fn": 9,
-        "precision": 0.03508771929824561,
-        "recall": 0.18181818181818182,
-        "f1": 0.058823529411764705,
+        "tp": 1,
+        "fp": 56,
+        "fn": 10,
+        "precision": 0.017543859649122806,
+        "recall": 0.09090909090909091,
+        "f1": 0.029411764705882353,
         "mean_bottom_error_pt": 0.4399999999999977,
-        "mean_horiz_overlap": 0.9439327316501573
+        "mean_horiz_overlap": 0.9575949054647775
       },
       "by_threshold": {
         "0.5": {
@@ -509,14 +509,14 @@
       "n_gt": 41,
       "n_det": 118,
       "line_alignment": {
-        "tp": 13,
-        "fp": 105,
-        "fn": 28,
-        "precision": 0.11016949152542373,
-        "recall": 0.3170731707317073,
-        "f1": 0.16352201257861637,
-        "mean_bottom_error_pt": 3.4199999999999764,
-        "mean_horiz_overlap": 0.9922538092535569
+        "tp": 12,
+        "fp": 106,
+        "fn": 29,
+        "precision": 0.1016949152542373,
+        "recall": 0.2926829268292683,
+        "f1": 0.1509433962264151,
+        "mean_bottom_error_pt": 3.2441666666666436,
+        "mean_horiz_overlap": 0.9993214716525936
       },
       "by_threshold": {
         "0.5": {
@@ -719,14 +719,14 @@
       "n_gt": 112,
       "n_det": 182,
       "line_alignment": {
-        "tp": 14,
-        "fp": 168,
-        "fn": 98,
-        "precision": 0.07692307692307693,
-        "recall": 0.125,
-        "f1": 0.09523809523809525,
-        "mean_bottom_error_pt": 3.007857142857144,
-        "mean_horiz_overlap": 0.9930594291691294
+        "tp": 13,
+        "fp": 169,
+        "fn": 99,
+        "precision": 0.07142857142857142,
+        "recall": 0.11607142857142858,
+        "f1": 0.08843537414965986,
+        "mean_bottom_error_pt": 3.150769230769229,
+        "mean_horiz_overlap": 0.9979714206572925
       },
       "by_threshold": {
         "0.5": {
@@ -1433,14 +1433,14 @@
       "n_gt": 21,
       "n_det": 52,
       "line_alignment": {
-        "tp": 14,
-        "fp": 38,
-        "fn": 7,
-        "precision": 0.2692307692307692,
-        "recall": 0.6666666666666666,
-        "f1": 0.38356164383561636,
-        "mean_bottom_error_pt": 3.540714285714263,
-        "mean_horiz_overlap": 0.9935692228414817
+        "tp": 13,
+        "fp": 39,
+        "fn": 8,
+        "precision": 0.25,
+        "recall": 0.6190476190476191,
+        "f1": 0.3561643835616438,
+        "mean_bottom_error_pt": 3.5561538461538236,
+        "mean_horiz_overlap": 0.9974433471657486
       },
       "by_threshold": {
         "0.5": {
@@ -1517,14 +1517,14 @@
       "n_gt": 65,
       "n_det": 122,
       "line_alignment": {
-        "tp": 2,
-        "fp": 120,
-        "fn": 63,
-        "precision": 0.01639344262295082,
-        "recall": 0.03076923076923077,
-        "f1": 0.021390374331550804,
-        "mean_bottom_error_pt": 1.9099999999999824,
-        "mean_horiz_overlap": 0.9514109602234417
+        "tp": 1,
+        "fp": 121,
+        "fn": 64,
+        "precision": 0.00819672131147541,
+        "recall": 0.015384615384615385,
+        "f1": 0.010695187165775402,
+        "mean_bottom_error_pt": 2.0399999999999636,
+        "mean_horiz_overlap": 0.9999999999999989
       },
       "by_threshold": {
         "0.5": {
@@ -1559,14 +1559,14 @@
       "n_gt": 45,
       "n_det": 45,
       "line_alignment": {
-        "tp": 11,
-        "fp": 34,
-        "fn": 34,
-        "precision": 0.24444444444444444,
-        "recall": 0.24444444444444444,
-        "f1": 0.24444444444444444,
-        "mean_bottom_error_pt": 0.38454545454546524,
-        "mean_horiz_overlap": 0.9774130557676723
+        "tp": 9,
+        "fp": 36,
+        "fn": 36,
+        "precision": 0.2,
+        "recall": 0.2,
+        "f1": 0.20000000000000004,
+        "mean_bottom_error_pt": 0.39000000000001006,
+        "mean_horiz_overlap": 0.9910690865654763
       },
       "by_threshold": {
         "0.5": {
@@ -1601,14 +1601,14 @@
       "n_gt": 54,
       "n_det": 51,
       "line_alignment": {
-        "tp": 33,
-        "fp": 18,
-        "fn": 21,
-        "precision": 0.6470588235294118,
-        "recall": 0.6111111111111112,
-        "f1": 0.6285714285714287,
-        "mean_bottom_error_pt": 0.5115151515151578,
-        "mean_horiz_overlap": 0.9942566493190291
+        "tp": 32,
+        "fp": 19,
+        "fn": 22,
+        "precision": 0.6274509803921569,
+        "recall": 0.5925925925925926,
+        "f1": 0.6095238095238096,
+        "mean_bottom_error_pt": 0.49781250000000865,
+        "mean_horiz_overlap": 0.9969194386384921
       },
       "by_threshold": {
         "0.5": {
@@ -1643,14 +1643,14 @@
       "n_gt": 55,
       "n_det": 143,
       "line_alignment": {
-        "tp": 21,
-        "fp": 122,
-        "fn": 34,
-        "precision": 0.14685314685314685,
-        "recall": 0.38181818181818183,
-        "f1": 0.2121212121212121,
-        "mean_bottom_error_pt": 0.4142857142856968,
-        "mean_horiz_overlap": 0.9869326038124859
+        "tp": 18,
+        "fp": 125,
+        "fn": 37,
+        "precision": 0.1258741258741259,
+        "recall": 0.32727272727272727,
+        "f1": 0.18181818181818185,
+        "mean_bottom_error_pt": 0.40222222222220616,
+        "mean_horiz_overlap": 0.9980084884801802
       },
       "by_threshold": {
         "0.5": {
@@ -1727,14 +1727,14 @@
       "n_gt": 55,
       "n_det": 96,
       "line_alignment": {
-        "tp": 6,
-        "fp": 90,
-        "fn": 49,
-        "precision": 0.0625,
-        "recall": 0.10909090909090909,
-        "f1": 0.07947019867549669,
-        "mean_bottom_error_pt": 1.6983333333333188,
-        "mean_horiz_overlap": 0.9902311174648558
+        "tp": 5,
+        "fp": 91,
+        "fn": 50,
+        "precision": 0.052083333333333336,
+        "recall": 0.09090909090909091,
+        "f1": 0.0662251655629139,
+        "mean_bottom_error_pt": 1.695999999999998,
+        "mean_horiz_overlap": 0.9999999999999998
       },
       "by_threshold": {
         "0.5": {
@@ -1769,14 +1769,14 @@
       "n_gt": 26,
       "n_det": 51,
       "line_alignment": {
-        "tp": 8,
-        "fp": 43,
-        "fn": 18,
-        "precision": 0.1568627450980392,
-        "recall": 0.3076923076923077,
-        "f1": 0.2077922077922078,
-        "mean_bottom_error_pt": 0.9749999999999979,
-        "mean_horiz_overlap": 0.9919598834603316
+        "tp": 7,
+        "fp": 44,
+        "fn": 19,
+        "precision": 0.13725490196078433,
+        "recall": 0.2692307692307692,
+        "f1": 0.18181818181818182,
+        "mean_bottom_error_pt": 0.9685714285714287,
+        "mean_horiz_overlap": 0.9987833770890695
       },
       "by_threshold": {
         "0.5": {
@@ -1853,14 +1853,14 @@
       "n_gt": 23,
       "n_det": 20,
       "line_alignment": {
-        "tp": 17,
-        "fp": 3,
-        "fn": 6,
-        "precision": 0.85,
-        "recall": 0.7391304347826086,
-        "f1": 0.7906976744186046,
-        "mean_bottom_error_pt": 0.6747058823529486,
-        "mean_horiz_overlap": 0.9928817001231496
+        "tp": 16,
+        "fp": 4,
+        "fn": 7,
+        "precision": 0.8,
+        "recall": 0.6956521739130435,
+        "f1": 0.7441860465116279,
+        "mean_bottom_error_pt": 0.7068750000000072,
+        "mean_horiz_overlap": 0.9985137415602046
       },
       "by_threshold": {
         "0.5": {
@@ -1979,14 +1979,14 @@
       "n_gt": 33,
       "n_det": 66,
       "line_alignment": {
-        "tp": 24,
-        "fp": 42,
-        "fn": 9,
-        "precision": 0.36363636363636365,
-        "recall": 0.7272727272727273,
-        "f1": 0.4848484848484849,
-        "mean_bottom_error_pt": 0.6833333333333241,
-        "mean_horiz_overlap": 0.9862622492574159
+        "tp": 21,
+        "fp": 45,
+        "fn": 12,
+        "precision": 0.3181818181818182,
+        "recall": 0.6363636363636364,
+        "f1": 0.4242424242424242,
+        "mean_bottom_error_pt": 0.7047619047618972,
+        "mean_horiz_overlap": 0.993651232331276
       },
       "by_threshold": {
         "0.5": {
@@ -2105,14 +2105,14 @@
       "n_gt": 60,
       "n_det": 115,
       "line_alignment": {
-        "tp": 8,
-        "fp": 107,
-        "fn": 52,
-        "precision": 0.06956521739130435,
-        "recall": 0.13333333333333333,
-        "f1": 0.09142857142857141,
-        "mean_bottom_error_pt": 1.4450000000000092,
-        "mean_horiz_overlap": 0.9878193583539522
+        "tp": 7,
+        "fp": 108,
+        "fn": 53,
+        "precision": 0.06086956521739131,
+        "recall": 0.11666666666666667,
+        "f1": 0.08,
+        "mean_bottom_error_pt": 1.4700000000000049,
+        "mean_horiz_overlap": 0.9985558730533003
       },
       "by_threshold": {
         "0.5": {
@@ -2189,14 +2189,14 @@
       "n_gt": 15,
       "n_det": 302,
       "line_alignment": {
-        "tp": 4,
-        "fp": 298,
-        "fn": 11,
-        "precision": 0.013245033112582781,
-        "recall": 0.26666666666666666,
-        "f1": 0.025236593059936908,
-        "mean_bottom_error_pt": 1.4349999999999596,
-        "mean_horiz_overlap": 0.963555114819671
+        "tp": 2,
+        "fp": 300,
+        "fn": 13,
+        "precision": 0.006622516556291391,
+        "recall": 0.13333333333333333,
+        "f1": 0.012618296529968454,
+        "mean_bottom_error_pt": 1.599999999999966,
+        "mean_horiz_overlap": 0.9808775321509624
       },
       "by_threshold": {
         "0.5": {
@@ -2273,14 +2273,14 @@
       "n_gt": 15,
       "n_det": 14,
       "line_alignment": {
-        "tp": 5,
-        "fp": 9,
-        "fn": 10,
-        "precision": 0.35714285714285715,
-        "recall": 0.3333333333333333,
-        "f1": 0.3448275862068965,
-        "mean_bottom_error_pt": 0.7379999999999882,
-        "mean_horiz_overlap": 0.982420269659678
+        "tp": 4,
+        "fp": 10,
+        "fn": 11,
+        "precision": 0.2857142857142857,
+        "recall": 0.26666666666666666,
+        "f1": 0.2758620689655172,
+        "mean_bottom_error_pt": 0.862499999999983,
+        "mean_horiz_overlap": 0.9968348608841215
       },
       "by_threshold": {
         "0.5": {
@@ -2357,14 +2357,14 @@
       "n_gt": 22,
       "n_det": 44,
       "line_alignment": {
-        "tp": 14,
-        "fp": 30,
-        "fn": 8,
-        "precision": 0.3181818181818182,
-        "recall": 0.6363636363636364,
-        "f1": 0.4242424242424242,
-        "mean_bottom_error_pt": 1.1885714285714184,
-        "mean_horiz_overlap": 0.9956544867301885
+        "tp": 13,
+        "fp": 31,
+        "fn": 9,
+        "precision": 0.29545454545454547,
+        "recall": 0.5909090909090909,
+        "f1": 0.393939393939394,
+        "mean_bottom_error_pt": 1.2630769230769145,
+        "mean_horiz_overlap": 0.9998899042166691
       },
       "by_threshold": {
         "0.5": {
@@ -2651,14 +2651,14 @@
       "n_gt": 59,
       "n_det": 234,
       "line_alignment": {
-        "tp": 15,
-        "fp": 219,
-        "fn": 44,
-        "precision": 0.0641025641025641,
-        "recall": 0.2542372881355932,
-        "f1": 0.1023890784982935,
-        "mean_bottom_error_pt": 3.3453333333333166,
-        "mean_horiz_overlap": 0.9918894726600502
+        "tp": 13,
+        "fp": 221,
+        "fn": 46,
+        "precision": 0.05555555555555555,
+        "recall": 0.22033898305084745,
+        "f1": 0.08873720136518772,
+        "mean_bottom_error_pt": 3.4007692307692183,
+        "mean_horiz_overlap": 0.9999999999999998
       },
       "by_threshold": {
         "0.5": {
@@ -2735,14 +2735,14 @@
       "n_gt": 41,
       "n_det": 93,
       "line_alignment": {
-        "tp": 12,
-        "fp": 81,
-        "fn": 29,
-        "precision": 0.12903225806451613,
-        "recall": 0.2926829268292683,
-        "f1": 0.17910447761194032,
-        "mean_bottom_error_pt": 2.7616666666666467,
-        "mean_horiz_overlap": 0.9934967236287876
+        "tp": 11,
+        "fp": 82,
+        "fn": 30,
+        "precision": 0.11827956989247312,
+        "recall": 0.2682926829268293,
+        "f1": 0.16417910447761194,
+        "mean_bottom_error_pt": 2.8709090909090738,
+        "mean_horiz_overlap": 0.9998710462447998
       },
       "by_threshold": {
         "0.5": {
@@ -2903,14 +2903,14 @@
       "n_gt": 17,
       "n_det": 47,
       "line_alignment": {
-        "tp": 5,
-        "fp": 42,
-        "fn": 12,
-        "precision": 0.10638297872340426,
-        "recall": 0.29411764705882354,
-        "f1": 0.15625,
-        "mean_bottom_error_pt": 1.8319999999999936,
-        "mean_horiz_overlap": 0.9639613541881882
+        "tp": 3,
+        "fp": 44,
+        "fn": 14,
+        "precision": 0.06382978723404255,
+        "recall": 0.17647058823529413,
+        "f1": 0.09374999999999999,
+        "mean_bottom_error_pt": 1.7466666666666697,
+        "mean_horiz_overlap": 0.9999999999999996
       },
       "by_threshold": {
         "0.5": {
@@ -3533,14 +3533,14 @@
       "n_gt": 26,
       "n_det": 25,
       "line_alignment": {
-        "tp": 4,
-        "fp": 21,
-        "fn": 22,
-        "precision": 0.16,
-        "recall": 0.15384615384615385,
-        "f1": 0.1568627450980392,
-        "mean_bottom_error_pt": 0.907499999999974,
-        "mean_horiz_overlap": 0.9696801744618804
+        "tp": 3,
+        "fp": 22,
+        "fn": 23,
+        "precision": 0.12,
+        "recall": 0.11538461538461539,
+        "f1": 0.11764705882352941,
+        "mean_bottom_error_pt": 0.6999999999999744,
+        "mean_horiz_overlap": 0.9769422606969638
       },
       "by_threshold": {
         "0.5": {
@@ -3785,14 +3785,14 @@
       "n_gt": 73,
       "n_det": 139,
       "line_alignment": {
-        "tp": 32,
-        "fp": 107,
-        "fn": 41,
-        "precision": 0.2302158273381295,
-        "recall": 0.4383561643835616,
-        "f1": 0.30188679245283023,
-        "mean_bottom_error_pt": 3.4771875000000176,
-        "mean_horiz_overlap": 0.9712712600732529
+        "tp": 21,
+        "fp": 118,
+        "fn": 52,
+        "precision": 0.1510791366906475,
+        "recall": 0.2876712328767123,
+        "f1": 0.1981132075471698,
+        "mean_bottom_error_pt": 3.3947619047619266,
+        "mean_horiz_overlap": 0.9910590498825791
       },
       "by_threshold": {
         "0.5": {
@@ -3827,14 +3827,14 @@
       "n_gt": 71,
       "n_det": 292,
       "line_alignment": {
-        "tp": 6,
-        "fp": 286,
-        "fn": 65,
-        "precision": 0.02054794520547945,
-        "recall": 0.08450704225352113,
-        "f1": 0.03305785123966942,
-        "mean_bottom_error_pt": 5.089999999999996,
-        "mean_horiz_overlap": 0.9665717217670352
+        "tp": 3,
+        "fp": 289,
+        "fn": 68,
+        "precision": 0.010273972602739725,
+        "recall": 0.04225352112676056,
+        "f1": 0.01652892561983471,
+        "mean_bottom_error_pt": 5.526666666666666,
+        "mean_horiz_overlap": 0.9999999999999997
       },
       "by_threshold": {
         "0.5": {
@@ -3869,14 +3869,14 @@
       "n_gt": 69,
       "n_det": 129,
       "line_alignment": {
-        "tp": 28,
-        "fp": 101,
-        "fn": 41,
-        "precision": 0.21705426356589147,
-        "recall": 0.4057971014492754,
-        "f1": 0.2828282828282829,
-        "mean_bottom_error_pt": 5.074285714285742,
-        "mean_horiz_overlap": 0.9784237078167489
+        "tp": 20,
+        "fp": 109,
+        "fn": 49,
+        "precision": 0.15503875968992248,
+        "recall": 0.2898550724637681,
+        "f1": 0.20202020202020202,
+        "mean_bottom_error_pt": 5.010000000000025,
+        "mean_horiz_overlap": 0.99110301376689
       },
       "by_threshold": {
         "0.5": {
@@ -3911,14 +3911,14 @@
       "n_gt": 49,
       "n_det": 44,
       "line_alignment": {
-        "tp": 30,
-        "fp": 14,
-        "fn": 19,
-        "precision": 0.6818181818181818,
-        "recall": 0.6122448979591837,
-        "f1": 0.6451612903225806,
-        "mean_bottom_error_pt": 4.399666666666665,
-        "mean_horiz_overlap": 0.9721935960752279
+        "tp": 26,
+        "fp": 18,
+        "fn": 23,
+        "precision": 0.5909090909090909,
+        "recall": 0.5306122448979592,
+        "f1": 0.5591397849462366,
+        "mean_bottom_error_pt": 4.365384615384612,
+        "mean_horiz_overlap": 0.9765622093909083
       },
       "by_threshold": {
         "0.5": {
@@ -5297,14 +5297,14 @@
       "n_gt": 27,
       "n_det": 63,
       "line_alignment": {
-        "tp": 2,
-        "fp": 61,
-        "fn": 25,
-        "precision": 0.031746031746031744,
-        "recall": 0.07407407407407407,
-        "f1": 0.04444444444444444,
-        "mean_bottom_error_pt": 2.4699999999999704,
-        "mean_horiz_overlap": 0.9658183632734528
+        "tp": 1,
+        "fp": 62,
+        "fn": 26,
+        "precision": 0.015873015873015872,
+        "recall": 0.037037037037037035,
+        "f1": 0.02222222222222222,
+        "mean_bottom_error_pt": 3.8099999999999454,
+        "mean_horiz_overlap": 1.0
       },
       "by_threshold": {
         "0.5": {
@@ -5886,16 +5886,16 @@
     "n_pages": 140,
     "n_gt_blanks": 4386,
     "line_alignment": {
-      "tp": 1058,
-      "fp": 9908,
-      "fn": 3328,
-      "precision": 0.0965,
-      "recall": 0.2412,
-      "f1": 0.1378,
-      "mean_bottom_error_pt": 1.91,
-      "mean_horiz_overlap": 0.992,
+      "tp": 990,
+      "fp": 9976,
+      "fn": 3396,
+      "precision": 0.0903,
+      "recall": 0.2257,
+      "f1": 0.129,
+      "mean_bottom_error_pt": 1.93,
+      "mean_horiz_overlap": 0.995,
       "bottom_tol_pt": 6.0,
-      "horiz_min_overlap": 0.9
+      "horiz_min_overlap": 0.95
     },
     "iou@0.5": {
       "tp": 482,

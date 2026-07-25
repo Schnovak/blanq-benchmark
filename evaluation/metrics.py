@@ -26,7 +26,7 @@ IOU_THRESHOLDS = (0.5, 0.75, 0.9)
 # tightness score.
 
 LINE_BOTTOM_TOL_PT   = 6.0   # bottom-edge distance in PDF points
-LINE_HORIZ_MIN_RATIO = 0.9   # intersection / min(det_len, gt_len)
+LINE_HORIZ_MIN_RATIO = 0.95  # intersection / min(det_len, gt_len)
 
 
 def iou(a, b):

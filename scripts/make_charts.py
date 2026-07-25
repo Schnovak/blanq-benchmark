@@ -178,7 +178,7 @@ def main():
                  fontsize=15, color="#111827", x=0.02, ha="left", y=1.10,
                  weight="bold")
     fig.text(0.02, 1.05,
-             "F1 score across 140 pages. A detection matches a blank when its bottom edge is within 6pt of the ground-truth bottom AND covers ≥90% of the horizontal span.",
+             "F1 score across 140 pages. A detection matches a blank when its bottom edge is within 6pt of the ground-truth bottom AND covers ≥95% of the horizontal span.",
              fontsize=10, color="#6B7280", ha="left")
 
     fig.tight_layout(rect=[0, 0, 1, 0.98])
