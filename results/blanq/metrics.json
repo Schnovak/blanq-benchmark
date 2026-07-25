@@ -1,0 +1,242 @@
+{
+  "tool": "blanq",
+  "total_pages_evaluated": 140,
+  "total_gt_blanks": 4242,
+  "total_detections": 5794,
+  "thresholds": {
+    "iou_0.3": {
+      "overall": {
+        "precision": 0.6905,
+        "recall": 0.9432,
+        "f1": 0.7973,
+        "tp": 4001,
+        "fp": 1793,
+        "fn": 241
+      },
+      "by_category": {
+        "banking_insurance": {
+          "precision": 0.7465,
+          "recall": 0.9933,
+          "f1": 0.8523,
+          "tp": 736,
+          "fp": 250,
+          "fn": 5
+        },
+        "education": {
+          "precision": 0.9991,
+          "recall": 0.9836,
+          "f1": 0.9913,
+          "tp": 1080,
+          "fp": 1,
+          "fn": 18
+        },
+        "government": {
+          "precision": 0.6855,
+          "recall": 0.9766,
+          "f1": 0.8055,
+          "tp": 669,
+          "fp": 307,
+          "fn": 16
+        },
+        "hr": {
+          "precision": 0.768,
+          "recall": 0.8421,
+          "f1": 0.8033,
+          "tp": 96,
+          "fp": 29,
+          "fn": 18
+        },
+        "legal": {
+          "precision": 0.521,
+          "recall": 0.8459,
+          "f1": 0.6449,
+          "tp": 917,
+          "fp": 843,
+          "fn": 167
+        },
+        "medical": {
+          "precision": 0.5808,
+          "recall": 0.9673,
+          "f1": 0.7258,
+          "tp": 503,
+          "fp": 363,
+          "fn": 17
+        }
+      },
+      "by_gt_source": {
+        "acroform": {
+          "precision": 0.6036,
+          "recall": 0.9282,
+          "f1": 0.7315,
+          "tp": 2700,
+          "fp": 1773,
+          "fn": 209
+        },
+        "manual": {
+          "precision": 0.9849,
+          "recall": 0.976,
+          "f1": 0.9804,
+          "tp": 1301,
+          "fp": 20,
+          "fn": 32
+        }
+      }
+    },
+    "iou_0.5": {
+      "overall": {
+        "precision": 0.6729,
+        "recall": 0.9191,
+        "f1": 0.777,
+        "tp": 3899,
+        "fp": 1895,
+        "fn": 343
+      },
+      "by_category": {
+        "banking_insurance": {
+          "precision": 0.7089,
+          "recall": 0.9433,
+          "f1": 0.8095,
+          "tp": 699,
+          "fp": 287,
+          "fn": 42
+        },
+        "education": {
+          "precision": 0.9972,
+          "recall": 0.9818,
+          "f1": 0.9894,
+          "tp": 1078,
+          "fp": 3,
+          "fn": 20
+        },
+        "government": {
+          "precision": 0.6691,
+          "recall": 0.9533,
+          "f1": 0.7863,
+          "tp": 653,
+          "fp": 323,
+          "fn": 32
+        },
+        "hr": {
+          "precision": 0.768,
+          "recall": 0.8421,
+          "f1": 0.8033,
+          "tp": 96,
+          "fp": 29,
+          "fn": 18
+        },
+        "legal": {
+          "precision": 0.4994,
+          "recall": 0.8109,
+          "f1": 0.6181,
+          "tp": 879,
+          "fp": 881,
+          "fn": 205
+        },
+        "medical": {
+          "precision": 0.5704,
+          "recall": 0.95,
+          "f1": 0.7128,
+          "tp": 494,
+          "fp": 372,
+          "fn": 26
+        }
+      },
+      "by_gt_source": {
+        "acroform": {
+          "precision": 0.5835,
+          "recall": 0.8972,
+          "f1": 0.7071,
+          "tp": 2610,
+          "fp": 1863,
+          "fn": 299
+        },
+        "manual": {
+          "precision": 0.9758,
+          "recall": 0.967,
+          "f1": 0.9714,
+          "tp": 1289,
+          "fp": 32,
+          "fn": 44
+        }
+      }
+    },
+    "iou_0.7": {
+      "overall": {
+        "precision": 0.6205,
+        "recall": 0.8475,
+        "f1": 0.7164,
+        "tp": 3595,
+        "fp": 2199,
+        "fn": 647
+      },
+      "by_category": {
+        "banking_insurance": {
+          "precision": 0.6856,
+          "recall": 0.9123,
+          "f1": 0.7829,
+          "tp": 676,
+          "fp": 310,
+          "fn": 65
+        },
+        "education": {
+          "precision": 0.9954,
+          "recall": 0.98,
+          "f1": 0.9876,
+          "tp": 1076,
+          "fp": 5,
+          "fn": 22
+        },
+        "government": {
+          "precision": 0.6178,
+          "recall": 0.8803,
+          "f1": 0.7261,
+          "tp": 603,
+          "fp": 373,
+          "fn": 82
+        },
+        "hr": {
+          "precision": 0.768,
+          "recall": 0.8421,
+          "f1": 0.8033,
+          "tp": 96,
+          "fp": 29,
+          "fn": 18
+        },
+        "legal": {
+          "precision": 0.4011,
+          "recall": 0.6513,
+          "f1": 0.4965,
+          "tp": 706,
+          "fp": 1054,
+          "fn": 378
+        },
+        "medical": {
+          "precision": 0.5058,
+          "recall": 0.8423,
+          "f1": 0.632,
+          "tp": 438,
+          "fp": 428,
+          "fn": 82
+        }
+      },
+      "by_gt_source": {
+        "acroform": {
+          "precision": 0.5225,
+          "recall": 0.8034,
+          "f1": 0.6332,
+          "tp": 2337,
+          "fp": 2136,
+          "fn": 572
+        },
+        "manual": {
+          "precision": 0.9523,
+          "recall": 0.9437,
+          "f1": 0.948,
+          "tp": 1258,
+          "fp": 63,
+          "fn": 75
+        }
+      }
+    }
+  }
+}

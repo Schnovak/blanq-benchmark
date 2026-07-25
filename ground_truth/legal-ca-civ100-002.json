@@ -1,0 +1,238 @@
+{
+  "id": "legal-ca-civ100-002",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 134.26,
+      "y": 50.03,
+      "width": 260.43,
+      "height": 11.52,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 134.26,
+      "y": 63.58,
+      "width": 260.43,
+      "height": 11.52,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 399.83,
+      "y": 57.55,
+      "width": 172.8,
+      "height": 14.39,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 140.41,
+      "y": 135.64,
+      "width": 225.45,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 66.17,
+      "y": 159.79,
+      "width": 299.93,
+      "height": 28.33,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    },
+    {
+      "id": "b006",
+      "x": 448.35,
+      "y": 135.64,
+      "width": 127.65,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 476.07,
+      "y": 150.04,
+      "width": 99.93,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 453.88,
+      "y": 163.83,
+      "width": 122.12,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 460.34,
+      "y": 179.02,
+      "width": 115.66,
+      "height": 9.03,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 90.0,
+      "y": 312.52,
+      "width": 479.63,
+      "height": 10.34,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 163.32,
+      "y": 356.6,
+      "width": 132.52,
+      "height": 9.03,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 330.01,
+      "y": 367.09,
+      "width": 245.24,
+      "height": 34.12,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    },
+    {
+      "id": "b013",
+      "x": 64.49,
+      "y": 424.34,
+      "width": 143.03,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b014",
+      "x": 36.0,
+      "y": 437.64,
+      "width": 253.17,
+      "height": 11.65,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b015",
+      "x": 260.05,
+      "y": 494.07,
+      "width": 93.67,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b016",
+      "x": 260.05,
+      "y": 506.55,
+      "width": 93.67,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b017",
+      "x": 130.59,
+      "y": 520.2,
+      "width": 117.74,
+      "height": 9.03,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b018",
+      "x": 260.05,
+      "y": 520.2,
+      "width": 93.67,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b019",
+      "x": 66.84,
+      "y": 534.67,
+      "width": 177.69,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b020",
+      "x": 260.05,
+      "y": 534.67,
+      "width": 93.67,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b021",
+      "x": 260.05,
+      "y": 547.35,
+      "width": 93.67,
+      "height": 10.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b022",
+      "x": 61.2,
+      "y": 620.65,
+      "width": 108.0,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b023",
+      "x": 36.0,
+      "y": 633.94,
+      "width": 253.17,
+      "height": 11.65,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

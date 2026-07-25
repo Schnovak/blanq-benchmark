@@ -1,0 +1,158 @@
+{
+  "id": "legal-ca-fl100-002",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 89.01,
+      "y": 431.97,
+      "width": 485.85,
+      "height": 30.61,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    },
+    {
+      "id": "b002",
+      "x": 88.38,
+      "y": 536.02,
+      "width": 485.33,
+      "height": 48.8,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 3
+    },
+    {
+      "id": "b003",
+      "x": 92.16,
+      "y": 648.42,
+      "width": 398.55,
+      "height": 12.05,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 92.16,
+      "y": 676.42,
+      "width": 398.55,
+      "height": 12.05,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 92.16,
+      "y": 662.42,
+      "width": 398.55,
+      "height": 12.05,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 496.78,
+      "y": 648.42,
+      "width": 77.01,
+      "height": 12.05,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 496.78,
+      "y": 676.42,
+      "width": 77.01,
+      "height": 12.05,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 92.16,
+      "y": 690.54,
+      "width": 398.55,
+      "height": 12.05,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 496.78,
+      "y": 690.54,
+      "width": 77.01,
+      "height": 12.05,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 92.16,
+      "y": 704.48,
+      "width": 398.55,
+      "height": 12.05,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 496.78,
+      "y": 704.48,
+      "width": 77.01,
+      "height": 12.05,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 496.78,
+      "y": 662.42,
+      "width": 77.01,
+      "height": 12.05,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 399.01,
+      "y": 58.81,
+      "width": 172.8,
+      "height": 11.6,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b014",
+      "x": 100.35,
+      "y": 61.89,
+      "width": 293.76,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b015",
+      "x": 100.35,
+      "y": 51.91,
+      "width": 293.76,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

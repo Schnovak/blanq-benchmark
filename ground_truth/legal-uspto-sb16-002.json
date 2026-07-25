@@ -1,0 +1,108 @@
+{
+  "id": "legal-uspto-sb16-002",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 96.84,
+      "y": 185.52,
+      "width": 435.96,
+      "height": 14.52,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 177.6,
+      "y": 220.68,
+      "width": 356.04,
+      "height": 20.16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 223.2,
+      "y": 245.52,
+      "width": 308.04,
+      "height": 20.16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 98.4,
+      "y": 270.24,
+      "width": 435.96,
+      "height": 20.16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 117.14,
+      "y": 503.64,
+      "width": 254.16,
+      "height": 22.0,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 1
+    },
+    {
+      "id": "b006",
+      "x": 402.48,
+      "y": 505.68,
+      "width": 108.24,
+      "height": 20.16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 169.56,
+      "y": 526.44,
+      "width": 201.96,
+      "height": 20.16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 452.04,
+      "y": 526.44,
+      "width": 58.68,
+      "height": 20.16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 117.6,
+      "y": 558.48,
+      "width": 184.32,
+      "height": 20.16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 376.8,
+      "y": 558.48,
+      "width": 135.48,
+      "height": 20.16,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

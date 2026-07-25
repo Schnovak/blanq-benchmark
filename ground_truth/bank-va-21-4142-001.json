@@ -1,0 +1,318 @@
+{
+  "id": "bank-va-21-4142-001",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 42.0,
+      "y": 204.0,
+      "width": 198.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 246.0,
+      "y": 204.0,
+      "width": 18.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 270.0,
+      "y": 204.0,
+      "width": 300.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 42.0,
+      "y": 234.0,
+      "width": 48.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 108.0,
+      "y": 234.0,
+      "width": 30.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 156.0,
+      "y": 234.0,
+      "width": 66.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 234.0,
+      "y": 234.0,
+      "width": 156.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 402.0,
+      "y": 234.0,
+      "width": 30.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 450.0,
+      "y": 234.0,
+      "width": 30.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 498.0,
+      "y": 234.0,
+      "width": 72.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 42.0,
+      "y": 264.0,
+      "width": 156.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 72.0,
+      "y": 294.0,
+      "width": 498.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 108.0,
+      "y": 312.0,
+      "width": 85.41,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b014",
+      "x": 234.0,
+      "y": 312.0,
+      "width": 312.47,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b015",
+      "x": 108.0,
+      "y": 330.0,
+      "width": 36.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b016",
+      "x": 198.0,
+      "y": 330.0,
+      "width": 36.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b017",
+      "x": 330.0,
+      "y": 330.0,
+      "width": 84.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b018",
+      "x": 432.0,
+      "y": 330.0,
+      "width": 66.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b019",
+      "x": 42.0,
+      "y": 360.0,
+      "width": 48.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b020",
+      "x": 108.0,
+      "y": 360.0,
+      "width": 48.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b021",
+      "x": 174.0,
+      "y": 360.0,
+      "width": 66.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b022",
+      "x": 198.0,
+      "y": 378.0,
+      "width": 90.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b023",
+      "x": 300.0,
+      "y": 366.0,
+      "width": 270.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b024",
+      "x": 300.0,
+      "y": 384.0,
+      "width": 270.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b025",
+      "x": 42.0,
+      "y": 426.0,
+      "width": 192.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b026",
+      "x": 240.0,
+      "y": 426.0,
+      "width": 18.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b027",
+      "x": 264.0,
+      "y": 426.0,
+      "width": 306.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b028",
+      "x": 42.0,
+      "y": 456.0,
+      "width": 48.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b029",
+      "x": 108.0,
+      "y": 456.0,
+      "width": 36.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b030",
+      "x": 162.0,
+      "y": 456.0,
+      "width": 66.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b031",
+      "x": 300.0,
+      "y": 456.0,
+      "width": 150.0,
+      "height": 15.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

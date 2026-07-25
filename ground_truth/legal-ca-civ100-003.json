@@ -1,0 +1,78 @@
+{
+  "id": "legal-ca-civ100-003",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 399.83,
+      "y": 57.97,
+      "width": 172.8,
+      "height": 14.39,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 134.26,
+      "y": 50.62,
+      "width": 260.43,
+      "height": 11.52,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 134.26,
+      "y": 64.17,
+      "width": 260.43,
+      "height": 11.52,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 485.71,
+      "y": 198.5,
+      "width": 89.98,
+      "height": 9.36,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 88.97,
+      "y": 245.99,
+      "width": 472.83,
+      "height": 74.13,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 5
+    },
+    {
+      "id": "b006",
+      "x": 61.2,
+      "y": 669.96,
+      "width": 108.0,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 36.0,
+      "y": 686.84,
+      "width": 253.17,
+      "height": 11.65,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

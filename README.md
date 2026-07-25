@@ -13,23 +13,42 @@ marketing page.
 >
 > Not OCR. Not "AI answering the form." Only blank detection.
 
-## Status: v0.1 — seed
+## Status: v0.1 — real data, one competitor scored
 
-This repo is intentionally small right now: **21 synthetic pages (8 clean
-born-digital forms across 6 categories + 13 Phase-2 condition variants —
-rotation at 1°/3°/7°, bad lighting, coffee stains, shadow, folds, wrinkles,
-JPEG artifacts, fax quality, low/high res, phone photo), 261 ground-truth
-blanks, 2 example detectors**, wired end to end so the whole pipeline
-(dataset → ground truth → detector → scoring → leaderboard) already runs and
-produces real numbers — including the harder Phase 2 conditions, where
-rotated ground-truth boxes are recomputed exactly (axis-aligned bbox of the
-rotated corners), not just copied. See the live leaderboard in
-[`docs/index.html`](docs/index.html) (open it directly, or serve `docs/` with
-GitHub Pages).
+**227 pages · 6 categories · 4,242 ground-truth blanks · BlanQ scored
+end-to-end.** All sourced from public-domain US government forms (IRS,
+USCIS, VA, CMS, USPTO, US Courts, CA Courts, CDPH) plus ESL worksheets
+manually reviewed by a human against BlanQ's detections. The whole pipeline
+(dataset → ground truth → detector → scoring → leaderboard) runs from a
+clean checkout.
 
-Growing this to the target scale (500–1000 real, sourced/scanned pages across
-7 categories) is the roadmap below — see [CONTRIBUTING.md](CONTRIBUTING.md)
-for how to add pages.
+**BlanQ v0.1 numbers** (`results/blanq/scores.json`):
+
+| Metric                        | Value     |
+|-------------------------------|-----------|
+| Precision @ IoU 0.5           | 0.673     |
+| Recall @ IoU 0.5              | 0.919     |
+| F1 @ IoU 0.5                  | 0.777     |
+| Mean IoU (matched)            | 0.885     |
+| % blanks detected (IoU ≥ 0.5) | 91.9 %    |
+| Mean detection time           | 911 ms/pg |
+| Failure rate                  | 0 %       |
+
+Ground truth comes from two sources — held to different standards:
+- **AcroForm-derived** (88 pages, gov/legal/medical): every fillable Text
+  and ComboBox widget in the source PDF is a ground-truth blank. Exact by
+  construction; captures blanks BlanQ also has to see visually.
+- **Human-reviewed** (52 pages, mostly ESL worksheets with drawn lines):
+  swipe-approved via `scripts/review-server.py` — each page's detection was
+  eyeballed and approved as correct. On this subset BlanQ scores
+  **F1 = 0.971**.
+
+Live leaderboard: [`docs/index.html`](docs/index.html) (open directly or
+serve `docs/` with GitHub Pages).
+
+Growing this to the target scale (500–1000 pages including phone-scan and
+paper-scan conditions across 7 categories) is the roadmap below — see
+[CONTRIBUTING.md](CONTRIBUTING.md) for how to add pages.
 
 ## Why "pages," not "PDFs"
 
@@ -68,26 +87,29 @@ scripts/          generate_seed_dataset.py, build_leaderboard.py
 ## Quickstart
 
 ```bash
-pip install reportlab pymupdf numpy pillow
+pip install pymupdf numpy pillow reportlab
 
-# 1. Regenerate the v0.1 seed dataset (synthetic, exact ground truth by construction)
-python3 scripts/generate_seed_dataset.py
+# 1. Build ground truth from every dataset PDF's AcroForm widgets
+#    (keeps manually-approved ground_truth/*.json untouched)
+python3 scripts/build_ground_truth.py
 
-# 1b. Regenerate the Phase-2 condition variants (rotation, scan noise, phone photo, ...)
-python3 scripts/generate_condition_variants.py
+# 2. Run BlanQ over every page that has ground truth
+#    (needs a reachable blanq-ai-detect service; override with BLANQ_API_URL)
+python3 scripts/run_blanq.py
 
-# 2. Run the two example detectors (stand-ins until real tools are wired in)
-python3 detectors/mock_near_perfect.py
-python3 detectors/mock_baseline.py
-
-# 3. Score each one against ground truth
-python3 evaluation/run_eval.py --detections results/mock_near_perfect/detections.json --out results/mock_near_perfect/scores.json
-python3 evaluation/run_eval.py --detections results/mock_baseline/detections.json --out results/mock_baseline/scores.json
+# 3. Score BlanQ against ground truth
+python3 evaluation/run_eval.py \
+    --detections results/blanq/detections.json \
+    --out       results/blanq/scores.json
 
 # 4. Rebuild the leaderboard site
 python3 scripts/build_leaderboard.py
 open docs/index.html   # or: python3 -m http.server -d docs
 ```
+
+To swipe-review new pages against BlanQ's detections and add them to the
+human-reviewed ground truth, see `scripts/review-server.py` — a mobile
+Tinder-style review UI served at `blanqdev.izum.ch/rank/`.
 
 To add a real tool (Blanq, SimplePDF, Adobe Acrobat AI, Foxit AI, PDFgear,
 your own detector, a research paper's open-source implementation...), write

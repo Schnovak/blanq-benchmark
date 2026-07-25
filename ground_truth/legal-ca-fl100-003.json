@@ -1,0 +1,108 @@
+{
+  "id": "legal-ca-fl100-003",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 399.01,
+      "y": 59.73,
+      "width": 172.8,
+      "height": 11.6,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 99.86,
+      "y": 63.14,
+      "width": 293.76,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 99.86,
+      "y": 53.16,
+      "width": 293.76,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 63.91,
+      "y": 472.73,
+      "width": 158.48,
+      "height": 10.23,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 63.85,
+      "y": 483.7,
+      "width": 194.7,
+      "height": 14.5,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 116.59,
+      "y": 145.26,
+      "width": 452.77,
+      "height": 110.07,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 7
+    },
+    {
+      "id": "b007",
+      "x": 288.59,
+      "y": 300.91,
+      "width": 284.33,
+      "height": 9.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 91.21,
+      "y": 315.05,
+      "width": 484.79,
+      "height": 74.62,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 5
+    },
+    {
+      "id": "b009",
+      "x": 64.49,
+      "y": 514.69,
+      "width": 157.91,
+      "height": 10.23,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 64.44,
+      "y": 526.26,
+      "width": 194.7,
+      "height": 13.31,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

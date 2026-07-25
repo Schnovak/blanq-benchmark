@@ -1,0 +1,228 @@
+{
+  "id": "med-uscis-i693-003",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 192.0,
+      "y": 757.5,
+      "width": 270.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 192.0,
+      "y": 42.0,
+      "width": 114.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 36.01,
+      "y": 42.0,
+      "width": 156.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 306.0,
+      "y": 42.0,
+      "width": 107.99,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 90.0,
+      "y": 318.0,
+      "width": 485.99,
+      "height": 72.0,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 5
+    },
+    {
+      "id": "b006",
+      "x": 446.97,
+      "y": 42.0,
+      "width": 129.01,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 120.0,
+      "y": 396.0,
+      "width": 210.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 387.53,
+      "y": 395.99,
+      "width": 188.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 198.0,
+      "y": 420.0,
+      "width": 132.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 444.0,
+      "y": 420.0,
+      "width": 132.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 264.0,
+      "y": 528.0,
+      "width": 132.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 354.0,
+      "y": 504.0,
+      "width": 222.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 330.0,
+      "y": 126.0,
+      "width": 138.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b014",
+      "x": 378.0,
+      "y": 150.01,
+      "width": 198.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b015",
+      "x": 378.0,
+      "y": 186.0,
+      "width": 198.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b016",
+      "x": 336.0,
+      "y": 210.0,
+      "width": 132.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b017",
+      "x": 228.0,
+      "y": 102.0,
+      "width": 348.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b018",
+      "x": 90.0,
+      "y": 636.0,
+      "width": 486.0,
+      "height": 36.0,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    },
+    {
+      "id": "b019",
+      "x": 120.0,
+      "y": 678.0,
+      "width": 210.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b020",
+      "x": 387.71,
+      "y": 678.0,
+      "width": 188.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b021",
+      "x": 198.0,
+      "y": 702.0,
+      "width": 132.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b022",
+      "x": 444.0,
+      "y": 702.0,
+      "width": 132.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

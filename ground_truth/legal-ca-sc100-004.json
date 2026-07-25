@@ -1,0 +1,68 @@
+{
+  "id": "legal-ca-sc100-004",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 36.18,
+      "y": 47.88,
+      "width": 357.84,
+      "height": 25.85,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    },
+    {
+      "id": "b002",
+      "x": 399.06,
+      "y": 47.88,
+      "width": 177.12,
+      "height": 25.85,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    },
+    {
+      "id": "b003",
+      "x": 61.25,
+      "y": 279.92,
+      "width": 118.63,
+      "height": 12.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 36.0,
+      "y": 304.41,
+      "width": 258.98,
+      "height": 12.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 60.82,
+      "y": 361.18,
+      "width": 119.06,
+      "height": 12.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 36.0,
+      "y": 386.18,
+      "width": 258.98,
+      "height": 12.44,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

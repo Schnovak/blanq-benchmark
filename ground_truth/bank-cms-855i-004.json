@@ -1,0 +1,688 @@
+{
+  "id": "bank-cms-855i-004",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 126.32,
+      "y": 162.52,
+      "width": 129.96,
+      "height": 16.44,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 47.44,
+      "y": 234.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 177.88,
+      "y": 234.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 307.84,
+      "y": 234.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 437.8,
+      "y": 234.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 47.44,
+      "y": 252.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 177.88,
+      "y": 252.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 307.84,
+      "y": 252.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 437.8,
+      "y": 252.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 47.44,
+      "y": 270.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 177.88,
+      "y": 270.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 307.84,
+      "y": 270.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 437.8,
+      "y": 270.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b014",
+      "x": 47.44,
+      "y": 288.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b015",
+      "x": 177.88,
+      "y": 288.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b016",
+      "x": 307.84,
+      "y": 288.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b017",
+      "x": 437.8,
+      "y": 288.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b018",
+      "x": 47.44,
+      "y": 306.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b019",
+      "x": 177.88,
+      "y": 306.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b020",
+      "x": 307.84,
+      "y": 306.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b021",
+      "x": 437.8,
+      "y": 306.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b022",
+      "x": 47.44,
+      "y": 324.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b023",
+      "x": 177.88,
+      "y": 324.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b024",
+      "x": 307.84,
+      "y": 324.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b025",
+      "x": 437.8,
+      "y": 324.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b026",
+      "x": 47.44,
+      "y": 342.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b027",
+      "x": 177.88,
+      "y": 342.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b028",
+      "x": 307.84,
+      "y": 342.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b029",
+      "x": 437.8,
+      "y": 342.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b030",
+      "x": 47.44,
+      "y": 360.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b031",
+      "x": 177.88,
+      "y": 360.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b032",
+      "x": 307.84,
+      "y": 360.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b033",
+      "x": 437.8,
+      "y": 360.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b034",
+      "x": 47.44,
+      "y": 378.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b035",
+      "x": 177.88,
+      "y": 378.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b036",
+      "x": 307.84,
+      "y": 378.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b037",
+      "x": 437.8,
+      "y": 378.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b038",
+      "x": 47.44,
+      "y": 396.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b039",
+      "x": 177.88,
+      "y": 396.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b040",
+      "x": 307.84,
+      "y": 396.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b041",
+      "x": 437.8,
+      "y": 396.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b042",
+      "x": 47.44,
+      "y": 414.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b043",
+      "x": 177.88,
+      "y": 414.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b044",
+      "x": 307.84,
+      "y": 414.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b045",
+      "x": 437.8,
+      "y": 414.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b046",
+      "x": 47.44,
+      "y": 432.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b047",
+      "x": 177.88,
+      "y": 432.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b048",
+      "x": 307.84,
+      "y": 432.56,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b049",
+      "x": 437.8,
+      "y": 432.56,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b050",
+      "x": 127.92,
+      "y": 489.64,
+      "width": 129.96,
+      "height": 15.36,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b051",
+      "x": 46.44,
+      "y": 564.76,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b052",
+      "x": 176.88,
+      "y": 564.76,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b053",
+      "x": 306.84,
+      "y": 564.76,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b054",
+      "x": 436.8,
+      "y": 564.76,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b055",
+      "x": 46.44,
+      "y": 582.76,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b056",
+      "x": 176.88,
+      "y": 582.76,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b057",
+      "x": 306.84,
+      "y": 582.76,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b058",
+      "x": 436.8,
+      "y": 582.76,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b059",
+      "x": 46.44,
+      "y": 600.76,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b060",
+      "x": 176.88,
+      "y": 600.76,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b061",
+      "x": 306.84,
+      "y": 600.76,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b062",
+      "x": 436.8,
+      "y": 600.76,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b063",
+      "x": 46.44,
+      "y": 618.76,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b064",
+      "x": 176.88,
+      "y": 618.76,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b065",
+      "x": 306.84,
+      "y": 618.76,
+      "width": 128.4,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b066",
+      "x": 436.8,
+      "y": 618.76,
+      "width": 128.88,
+      "height": 16.92,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b067",
+      "x": 45.96,
+      "y": 693.88,
+      "width": 519.96,
+      "height": 70.11,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 5
+    },
+    {
+      "id": "b068",
+      "x": 271.15,
+      "y": 105.94,
+      "width": 122.09,
+      "height": 16.38,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

@@ -1,0 +1,178 @@
+{
+  "id": "legal-bkcy-101-004",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 85.54,
+      "y": 43.44,
+      "width": 216.3,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 429.19,
+      "y": 44.06,
+      "width": 142.68,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 198.0,
+      "y": 150.6,
+      "width": 338.52,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 197.72,
+      "y": 178.68,
+      "width": 338.8,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 198.0,
+      "y": 206.88,
+      "width": 338.52,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 198.0,
+      "y": 226.92,
+      "width": 182.88,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 391.44,
+      "y": 226.92,
+      "width": 27.36,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 434.44,
+      "y": 226.92,
+      "width": 101.16,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 288.36,
+      "y": 544.72,
+      "width": 280.2,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 287.74,
+      "y": 567.88,
+      "width": 280.2,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 384.48,
+      "y": 603.76,
+      "width": 182.88,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b012",
+      "x": 288.36,
+      "y": 624.88,
+      "width": 280.2,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b013",
+      "x": 288.16,
+      "y": 663.88,
+      "width": 280.4,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b014",
+      "x": 288.36,
+      "y": 697.36,
+      "width": 280.2,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b015",
+      "x": 288.0,
+      "y": 714.4,
+      "width": 155.76,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b016",
+      "x": 450.24,
+      "y": 714.4,
+      "width": 27.36,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b017",
+      "x": 491.64,
+      "y": 714.4,
+      "width": 77.88,
+      "height": 13.8,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

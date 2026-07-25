@@ -1,0 +1,108 @@
+{
+  "id": "gov-i130-001",
+  "page_width": 612.0,
+  "page_height": 792.0,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 192.0,
+      "y": 762.0,
+      "width": 270.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 447.21,
+      "y": 558.0,
+      "width": 129.01,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 150.0,
+      "y": 366.0,
+      "width": 102.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 264.0,
+      "y": 366.0,
+      "width": 120.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 396.0,
+      "y": 366.0,
+      "width": 174.01,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 402.0,
+      "y": 612.0,
+      "width": 174.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 402.0,
+      "y": 636.0,
+      "width": 174.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 402.0,
+      "y": 660.0,
+      "width": 174.0,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 447.02,
+      "y": 486.0,
+      "width": 129.01,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b010",
+      "x": 402.0,
+      "y": 522.0,
+      "width": 174.01,
+      "height": 18.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    }
+  ],
+  "source": "acroform"
+}

@@ -1,0 +1,158 @@
+{
+  "id": "gov-fw9-001",
+  "page_width": 611.98,
+  "page_height": 791.97,
+  "blanks": [
+    {
+      "id": "b001",
+      "x": 58.6,
+      "y": 118.0,
+      "width": 517.4,
+      "height": 14.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b002",
+      "x": 58.6,
+      "y": 142.0,
+      "width": 517.4,
+      "height": 14.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b003",
+      "x": 417.6,
+      "y": 192.0,
+      "width": 28.8,
+      "height": 11.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b004",
+      "x": 162.4,
+      "y": 228.0,
+      "width": 284.0,
+      "height": 12.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b005",
+      "x": 543.6,
+      "y": 192.0,
+      "width": 32.4,
+      "height": 12.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b006",
+      "x": 500.6,
+      "y": 228.0,
+      "width": 75.4,
+      "height": 12.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b007",
+      "x": 58.6,
+      "y": 286.0,
+      "width": 329.45,
+      "height": 14.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b008",
+      "x": 58.6,
+      "y": 310.0,
+      "width": 329.45,
+      "height": 14.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b009",
+      "x": 389.8,
+      "y": 286.0,
+      "width": 186.2,
+      "height": 38.0,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 3
+    },
+    {
+      "id": "b010",
+      "x": 58.6,
+      "y": 334.0,
+      "width": 517.4,
+      "height": 14.0,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null
+    },
+    {
+      "id": "b011",
+      "x": 417.6,
+      "y": 372.0,
+      "width": 43.2,
+      "height": 24.0,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    },
+    {
+      "id": "b012",
+      "x": 475.2,
+      "y": 372.0,
+      "width": 28.8,
+      "height": 24.0,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    },
+    {
+      "id": "b013",
+      "x": 518.4,
+      "y": 372.0,
+      "width": 57.6,
+      "height": 24.0,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    },
+    {
+      "id": "b014",
+      "x": 417.6,
+      "y": 420.0,
+      "width": 28.8,
+      "height": 24.0,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    },
+    {
+      "id": "b015",
+      "x": 460.8,
+      "y": 420.0,
+      "width": 100.8,
+      "height": 24.0,
+      "type": "multi_line",
+      "confidence": 1.0,
+      "rows": 2
+    }
+  ],
+  "source": "acroform"
+}
