@@ -4,13 +4,19 @@ Generates the comparison chart shown in README.md and docs/index.html.
 Reads every results/<tool>/scores.json and the manifest, and writes a
 single PNG at docs/leaderboard.png.
 
-Two panels:
-  Left  — headline metrics (precision, recall, F1, mean IoU) grouped by tool
-  Right — F1 per category, grouped by tool
+Fool-proof layout: F1 is the ONLY metric shown on the chart. Precision,
+recall, mean IoU and speed live in the scores.json files for anyone who
+wants the fine detail. This prevents "precision looks most important
+because it's leftmost" misreads.
 
-Style follows the "release-day" chart convention: light background, no
-gridlines except a subtle horizontal one, values labelled on bars, the
-subject tool colored, baselines in gray.
+Two panels:
+  Left  — overall F1, one bar per detector (sorted best-to-worst)
+  Right — F1 per category, grouped by detector
+
+Style follows the "release-day" chart convention: light background,
+subtle gridlines, values labelled on bars, subject tool coloured,
+baselines in gray. Larger gaps between bar groups so labels never
+touch.
 """
 import csv, json, os
 from collections import defaultdict
@@ -96,29 +102,23 @@ def style_axes(ax):
 def draw_grouped_bars(ax, categories, values_by_tool, title):
     n_tools = len(TOOLS_IN_ORDER)
     n_cats  = len(categories)
-    bar_w = 0.78 / n_tools
-    x = np.arange(n_cats)
+    bar_w = 0.62 / n_tools
+    x = np.arange(n_cats) * 1.15
     for i, tool in enumerate(TOOLS_IN_ORDER):
         vals = [values_by_tool[tool].get(cat, 0) for cat in categories]
         offset = (i - (n_tools - 1) / 2) * bar_w
-        bars = ax.bar(x + offset, vals, bar_w, label=TOOL_LABELS[tool],
-                      color=TOOL_COLORS[tool], edgecolor="none")
-        for bar, v in zip(bars, vals):
-            if v == 0:
-                ax.text(bar.get_x() + bar.get_width() / 2, 0.03,
-                        "0.00", ha="center", va="bottom",
-                        fontsize=7.5, color="#9CA3AF", style="italic")
-                continue
-            ax.text(bar.get_x() + bar.get_width() / 2, v + 0.015,
-                    f"{v:.2f}", ha="center", va="bottom",
-                    fontsize=7.5, color="#111827")
+        ax.bar(x + offset, vals, bar_w, label=TOOL_LABELS[tool],
+               color=TOOL_COLORS[tool], edgecolor="none")
+    # No numeric labels on the bars: the y-axis is precise enough and
+    # avoids collisions on tied values. Absolute F1 numbers live on the
+    # left panel and in scores.json.
     ax.set_xticks(x)
     ax.set_xticklabels([CATEGORY_LABELS.get(c, c) for c in categories],
-                       fontsize=9, color="#111827")
-    ax.set_ylim(0, 1.1)
+                       fontsize=10, color="#111827")
+    ax.set_ylim(0, 1.05)
     ax.set_yticks([0, 0.25, 0.5, 0.75, 1.0])
-    ax.set_yticklabels(["0", "0.25", "0.5", "0.75", "1.0"], fontsize=8)
-    ax.set_title(title, fontsize=11, color="#111827", loc="left", pad=14)
+    ax.set_yticklabels(["0", "0.25", "0.5", "0.75", "1.0"], fontsize=9, color="#6B7280")
+    ax.set_title(title, fontsize=12, color="#111827", loc="left", pad=14, weight="bold")
     style_axes(ax)
 
 
@@ -128,50 +128,58 @@ def main():
     headline = {t: headline_metrics(t) for t in TOOLS_IN_ORDER}
     per_cat  = {t: per_category_f1(t, cat_map) for t in TOOLS_IN_ORDER}
 
+    # Sort detectors by overall F1 (worst first so bars ascend to the winner)
+    tools_ranked = sorted(TOOLS_IN_ORDER, key=lambda t: headline[t]["F1"])
+
     plt.rcParams["font.family"] = ["Helvetica", "Arial", "DejaVu Sans"]
     fig, (ax_left, ax_right) = plt.subplots(
-        1, 2, figsize=(13.5, 5.2),
-        gridspec_kw={"width_ratios": [1, 1.6], "wspace": 0.14})
+        1, 2, figsize=(14.5, 5.6),
+        gridspec_kw={"width_ratios": [1, 1.9], "wspace": 0.22})
     fig.patch.set_facecolor("#FFFFFF")
 
-    # LEFT: headline metrics grouped by tool
-    metric_names = list(next(iter(headline.values())).keys())
-    n_tools = len(TOOLS_IN_ORDER)
-    bar_w = 0.78 / n_tools
-    x = np.arange(len(metric_names))
-    for i, tool in enumerate(TOOLS_IN_ORDER):
-        vals = [headline[tool][m] for m in metric_names]
-        offset = (i - (n_tools - 1) / 2) * bar_w
-        bars = ax_left.bar(x + offset, vals, bar_w,
-                           label=TOOL_LABELS[tool],
-                           color=TOOL_COLORS[tool], edgecolor="none")
-        for bar, v in zip(bars, vals):
-            ax_left.text(bar.get_x() + bar.get_width() / 2, v + 0.015,
-                         f"{v:.2f}", ha="center", va="bottom",
-                         fontsize=8, color="#111827")
-    ax_left.set_xticks(x)
-    ax_left.set_xticklabels(metric_names, fontsize=9.5, color="#111827")
-    ax_left.set_ylim(0, 1.15)
-    ax_left.set_yticks([0, 0.25, 0.5, 0.75, 1.0])
-    ax_left.set_yticklabels(["0", "0.25", "0.5", "0.75", "1.0"], fontsize=8)
-    ax_left.set_title("Overall  (140 pages, 4,386 blanks)",
-                      fontsize=11, color="#111827", loc="left", pad=14)
-    style_axes(ax_left)
+    # LEFT: overall F1 only, one bar per detector, sorted best-to-worst.
+    # F1 is the only headline number; precision/recall/speed live in
+    # scores.json so nothing can misread a leftmost bar as "most important".
+    labels = [TOOL_LABELS[t] for t in tools_ranked]
+    colors = [TOOL_COLORS[t] for t in tools_ranked]
+    values = [headline[t]["F1"] for t in tools_ranked]
+    y = np.arange(len(tools_ranked))
+    bars = ax_left.barh(y, values, height=0.62, color=colors, edgecolor="none")
+    for bar, v, t in zip(bars, values, tools_ranked):
+        weight = "bold" if t == "blanq" else "normal"
+        ax_left.text(v + 0.015, bar.get_y() + bar.get_height() / 2,
+                     f"{v:.2f}", va="center", ha="left",
+                     fontsize=12, color="#111827", weight=weight)
+    ax_left.set_yticks(y)
+    ax_left.set_yticklabels(labels, fontsize=10.5, color="#111827")
+    ax_left.set_xlim(0, 1.1)
+    ax_left.set_xticks([0, 0.25, 0.5, 0.75, 1.0])
+    ax_left.set_xticklabels(["0", "0.25", "0.5", "0.75", "1.0"], fontsize=8.5, color="#6B7280")
+    ax_left.set_title("Overall F1  (140 pages, 4,386 blanks)",
+                      fontsize=12, color="#111827", loc="left", pad=14, weight="bold")
+    ax_left.spines["top"].set_visible(False)
+    ax_left.spines["right"].set_visible(False)
+    ax_left.spines["left"].set_visible(False)
+    ax_left.spines["bottom"].set_color("#D1D5DB")
+    ax_left.xaxis.grid(True, color="#E5E7EB", linewidth=0.6)
+    ax_left.tick_params(colors="#4B5563", length=0)
+    ax_left.set_axisbelow(True)
 
-    # RIGHT: F1 per category
+    # RIGHT: F1 per category, grouped bars in fixed left-to-right tool order
     draw_grouped_bars(ax_right, CATEGORIES, per_cat, "F1 by category")
 
-    # Single shared legend up top
-    handles, labels = ax_left.get_legend_handles_labels()
-    fig.legend(handles, labels, loc="upper center", ncol=len(TOOLS_IN_ORDER),
-               frameon=False, fontsize=10, bbox_to_anchor=(0.5, 1.02))
+    # Single shared legend up top, ordered same as the right chart
+    from matplotlib.patches import Patch
+    handles = [Patch(color=TOOL_COLORS[t], label=TOOL_LABELS[t]) for t in TOOLS_IN_ORDER]
+    fig.legend(handles=handles, loc="upper center", ncol=len(TOOLS_IN_ORDER),
+               frameon=False, fontsize=10.5, bbox_to_anchor=(0.5, 1.02))
 
     fig.suptitle("PDF blank detection, BlanQ v0.1 vs. baselines and a frontier LLM",
-                 fontsize=14, color="#111827", x=0.02, ha="left", y=1.09,
+                 fontsize=15, color="#111827", x=0.02, ha="left", y=1.10,
                  weight="bold")
-    fig.text(0.02, 1.045,
-             "Higher is better. A detection matches a blank if its bottom edge is within 6pt AND it covers ≥50% of the horizontal span. Box height ignored.",
-             fontsize=9.5, color="#6B7280", ha="left")
+    fig.text(0.02, 1.05,
+             "F1 score across 140 pages. A detection matches a blank when its bottom edge is within 6pt of the ground-truth bottom AND covers ≥50% of the horizontal span.",
+             fontsize=10, color="#6B7280", ha="left")
 
     fig.tight_layout(rect=[0, 0, 1, 0.98])
     os.makedirs(os.path.dirname(OUT_PNG), exist_ok=True)
