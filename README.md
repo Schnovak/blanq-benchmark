@@ -54,8 +54,9 @@ whether the cursor would land in the right place when a user clicks.
 So a detection matches a ground-truth blank if BOTH:
 1. Its bottom edge is within 6pt of the ground-truth bottom edge
    (the line where the character baseline sits).
-2. It covers at least 50% of the ground-truth horizontal span (so the
-   two boxes are the same length, roughly).
+2. It covers at least 90% of the ground-truth horizontal span (i.e. the
+   two boxes are essentially the same length; a detector that got the
+   line's location right but only annotated half of it is not correct).
 
 Box height and top-edge padding are ignored. Old IoU 0.5 / 0.75 / 0.9
 numbers are still reported in `results/*/scores.json` for anyone who

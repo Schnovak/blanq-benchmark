@@ -5303,8 +5303,8 @@
         "precision": 0.6341463414634146,
         "recall": 0.9629629629629629,
         "f1": 0.7647058823529412,
-        "mean_bottom_error_pt": 0.3130769230769258,
-        "mean_horiz_overlap": 0.9820372661923114
+        "mean_bottom_error_pt": 0.3176923076923106,
+        "mean_horiz_overlap": 0.9988285311932951
       },
       "by_threshold": {
         "0.5": {
@@ -5895,7 +5895,7 @@
       "mean_bottom_error_pt": 0.59,
       "mean_horiz_overlap": 0.999,
       "bottom_tol_pt": 6.0,
-      "horiz_min_overlap": 0.5
+      "horiz_min_overlap": 0.9
     },
     "iou@0.5": {
       "tp": 4043,

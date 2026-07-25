@@ -1,9 +1,271 @@
 {
   "tool": "mock_near_perfect",
   "per_page": {
+    "bank-cms-1763-001": {
+      "n_gt": 16,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-cms-855i-001": {
+      "n_gt": 29,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 29,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-cms-855i-002": {
+      "n_gt": 27,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 27,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-cms-855i-003": {
+      "n_gt": 73,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 73,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 73,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 73,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 73,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-cms-855i-004": {
+      "n_gt": 68,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 68,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 68,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 68,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 68,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-cms-855i-005": {
+      "n_gt": 21,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 21,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
     "bank-loan-app-001-shadow": {
       "n_gt": 11,
       "n_det": 11,
+      "line_alignment": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 0.8481818181818167,
+        "mean_horiz_overlap": 0.9762262578019398
+      },
       "by_threshold": {
         "0.5": {
           "tp": 11,
@@ -36,6 +298,16 @@
     "bank-loan-app-001": {
       "n_gt": 11,
       "n_det": 11,
+      "line_alignment": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "mean_bottom_error_pt": 0.7860000000000127,
+        "mean_horiz_overlap": 0.9866001226326935
+      },
       "by_threshold": {
         "0.5": {
           "tp": 11,
@@ -65,9 +337,439 @@
       "detection_time_ms": 760.9,
       "failed": false
     },
+    "bank-va-21-4142-001": {
+      "n_gt": 31,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 31,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-va-21-4142-002": {
+      "n_gt": 11,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 11,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-va-21-4142-003": {
+      "n_gt": 49,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 49,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-va-21-4142-004": {
+      "n_gt": 48,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 48,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-va-21-526ez-001": {
+      "n_gt": 41,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 41,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-va-21-526ez-002": {
+      "n_gt": 25,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 25,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-va-21-526ez-003": {
+      "n_gt": 72,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 72,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 72,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 72,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 72,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-va-21-526ez-004": {
+      "n_gt": 47,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 47,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 47,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 47,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 47,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-va-21-526ez-005": {
+      "n_gt": 83,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 83,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 83,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 83,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 83,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "bank-va-26-6393-001": {
+      "n_gt": 112,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 112,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 112,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 112,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 112,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
     "edu-algebra-worksheet-001-lowres": {
       "n_gt": 8,
       "n_det": 8,
+      "line_alignment": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 0.8237500000000004,
+        "mean_horiz_overlap": 0.9985304228620663
+      },
       "by_threshold": {
         "0.5": {
           "tp": 8,
@@ -100,6 +802,16 @@
     "edu-algebra-worksheet-001-rot7": {
       "n_gt": 8,
       "n_det": 8,
+      "line_alignment": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 1.0250000000000021,
+        "mean_horiz_overlap": 0.9925879217288215
+      },
       "by_threshold": {
         "0.5": {
           "tp": 8,
@@ -132,6 +844,16 @@
     "edu-algebra-worksheet-001": {
       "n_gt": 8,
       "n_det": 8,
+      "line_alignment": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 1.358749999999997,
+        "mean_horiz_overlap": 0.9967157025422443
+      },
       "by_threshold": {
         "0.5": {
           "tp": 8,
@@ -161,9 +883,103 @@
       "detection_time_ms": 882.5,
       "failed": false
     },
+    "edu-alltenses-001": {
+      "n_gt": 27,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 27,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-articles-001": {
+      "n_gt": 30,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 30,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
     "edu-chem-lab-001-badlight": {
       "n_gt": 14,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 1.3628571428571488,
+        "mean_horiz_overlap": 0.9947328141419344
+      },
       "by_threshold": {
         "0.5": {
           "tp": 14,
@@ -196,6 +1012,16 @@
     "edu-chem-lab-001-highres": {
       "n_gt": 14,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 0.6928571428571431,
+        "mean_horiz_overlap": 0.9971432475166945
+      },
       "by_threshold": {
         "0.5": {
           "tp": 14,
@@ -228,6 +1054,16 @@
     "edu-chem-lab-001": {
       "n_gt": 14,
       "n_det": 13,
+      "line_alignment": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1": 0.962962962962963,
+        "mean_bottom_error_pt": 0.9453846153846148,
+        "mean_horiz_overlap": 0.9969985803140557
+      },
       "by_threshold": {
         "0.5": {
           "tp": 13,
@@ -257,9 +1093,1153 @@
       "detection_time_ms": 836.9,
       "failed": false
     },
+    "edu-cloze-004": {
+      "n_gt": 16,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-cloze-005": {
+      "n_gt": 15,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-makedo-002": {
+      "n_gt": 15,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-oxfprep-009": {
+      "n_gt": 9,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-prep-001": {
+      "n_gt": 54,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 54,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-prep-003": {
+      "n_gt": 54,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 54,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-prep-005": {
+      "n_gt": 46,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 46,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 46,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 46,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 46,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-prep-007": {
+      "n_gt": 49,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 49,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-prep-009": {
+      "n_gt": 21,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 21,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-simplepres-004": {
+      "n_gt": 17,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-001": {
+      "n_gt": 65,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 65,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 65,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-003": {
+      "n_gt": 45,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-005": {
+      "n_gt": 54,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 54,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-007": {
+      "n_gt": 55,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 55,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-009": {
+      "n_gt": 58,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 58,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-013": {
+      "n_gt": 55,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 55,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-015": {
+      "n_gt": 26,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 26,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-017": {
+      "n_gt": 41,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 41,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-019": {
+      "n_gt": 23,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-021": {
+      "n_gt": 30,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 30,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-023": {
+      "n_gt": 31,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 31,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-025": {
+      "n_gt": 33,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 33,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-027": {
+      "n_gt": 24,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 24,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 24,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 24,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-029": {
+      "n_gt": 51,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 51,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 51,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 51,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 51,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-tenses-031": {
+      "n_gt": 60,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 60,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 60,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 60,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 60,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-thenthan-001": {
+      "n_gt": 13,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 13,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "edu-thenthan-002": {
+      "n_gt": 15,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
     "gov-eu-visa-001-faxq": {
       "n_gt": 15,
       "n_det": 15,
+      "line_alignment": {
+        "tp": 14,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9333333333333333,
+        "recall": 0.9333333333333333,
+        "f1": 0.9333333333333333,
+        "mean_bottom_error_pt": 1.115714285714281,
+        "mean_horiz_overlap": 0.9914156845898833
+      },
       "by_threshold": {
         "0.5": {
           "tp": 15,
@@ -292,6 +2272,16 @@
     "gov-eu-visa-001-rot3": {
       "n_gt": 15,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 12,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.8571428571428571,
+        "recall": 0.8,
+        "f1": 0.8275862068965518,
+        "mean_bottom_error_pt": 1.284999999999992,
+        "mean_horiz_overlap": 0.9887311750168312
+      },
       "by_threshold": {
         "0.5": {
           "tp": 14,
@@ -324,6 +2314,16 @@
     "gov-eu-visa-001": {
       "n_gt": 15,
       "n_det": 15,
+      "line_alignment": {
+        "tp": 14,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9333333333333333,
+        "recall": 0.9333333333333333,
+        "f1": 0.9333333333333333,
+        "mean_bottom_error_pt": 0.8485714285714252,
+        "mean_horiz_overlap": 0.9913598397684488
+      },
       "by_threshold": {
         "0.5": {
           "tp": 15,
@@ -353,9 +2353,817 @@
       "detection_time_ms": 777.6,
       "failed": false
     },
+    "gov-f2441-002": {
+      "n_gt": 22,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 22,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-f709-002": {
+      "n_gt": 18,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 18,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-f8606-001": {
+      "n_gt": 25,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 25,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 25,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-f8615-001": {
+      "n_gt": 23,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 23,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-f8821-001": {
+      "n_gt": 37,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 37,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 37,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 37,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 37,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-f8822-001": {
+      "n_gt": 27,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 27,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-f8822b-001": {
+      "n_gt": 20,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 20,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-f8829-001": {
+      "n_gt": 59,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 59,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 59,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 59,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 59,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-f8949-001": {
+      "n_gt": 97,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 97,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 97,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 97,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 97,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-f940-001": {
+      "n_gt": 41,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 41,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-f941-001": {
+      "n_gt": 58,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 58,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 58,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-fss4-001": {
+      "n_gt": 47,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 47,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 47,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 47,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 47,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-fw4-001": {
+      "n_gt": 17,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-fw9-001": {
+      "n_gt": 17,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-i130-001": {
+      "n_gt": 13,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 13,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-i485-001": {
+      "n_gt": 24,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 24,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 24,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 24,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-i9-001": {
+      "n_gt": 48,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 48,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-i90-001": {
+      "n_gt": 30,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 30,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "gov-n400-001": {
+      "n_gt": 13,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 13,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
     "gov-us-w4-001-jpeg": {
       "n_gt": 14,
       "n_det": 13,
+      "line_alignment": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1": 0.962962962962963,
+        "mean_bottom_error_pt": 1.1500000000000012,
+        "mean_horiz_overlap": 0.9883876752740757
+      },
       "by_threshold": {
         "0.5": {
           "tp": 13,
@@ -388,6 +3196,16 @@
     "gov-us-w4-001-rot1": {
       "n_gt": 14,
       "n_det": 13,
+      "line_alignment": {
+        "tp": 12,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.9230769230769231,
+        "recall": 0.8571428571428571,
+        "f1": 0.888888888888889,
+        "mean_bottom_error_pt": 0.8491666666666617,
+        "mean_horiz_overlap": 0.9904323505222886
+      },
       "by_threshold": {
         "0.5": {
           "tp": 13,
@@ -420,6 +3238,16 @@
     "gov-us-w4-001": {
       "n_gt": 14,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 12,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "f1": 0.8571428571428571,
+        "mean_bottom_error_pt": 0.8175000000000013,
+        "mean_horiz_overlap": 0.9943951737505564
+      },
       "by_threshold": {
         "0.5": {
           "tp": 13,
@@ -449,9 +3277,103 @@
       "detection_time_ms": 899.6,
       "failed": false
     },
+    "hr-empapp-001": {
+      "n_gt": 38,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 38,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 38,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 38,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 38,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "hr-jobapp-001": {
+      "n_gt": 48,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 48,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
     "hr-onboarding-001-folded": {
       "n_gt": 14,
       "n_det": 13,
+      "line_alignment": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1": 0.962962962962963,
+        "mean_bottom_error_pt": 1.1807692307692348,
+        "mean_horiz_overlap": 0.9844024508209662
+      },
       "by_threshold": {
         "0.5": {
           "tp": 13,
@@ -484,6 +3406,16 @@
     "hr-onboarding-001": {
       "n_gt": 14,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 0.6792857142857116,
+        "mean_horiz_overlap": 0.9813805512522144
+      },
       "by_threshold": {
         "0.5": {
           "tp": 14,
@@ -516,6 +3448,16 @@
     "legal-agreement-001-wrinkled": {
       "n_gt": 8,
       "n_det": 8,
+      "line_alignment": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 1.0250000000000163,
+        "mean_horiz_overlap": 0.9971561907065504
+      },
       "by_threshold": {
         "0.5": {
           "tp": 8,
@@ -548,6 +3490,16 @@
     "legal-agreement-001": {
       "n_gt": 8,
       "n_det": 8,
+      "line_alignment": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_bottom_error_pt": 0.827499999999997,
+        "mean_horiz_overlap": 0.9973618480850021
+      },
       "by_threshold": {
         "0.5": {
           "tp": 8,
@@ -577,9 +3529,2035 @@
       "detection_time_ms": 843.6,
       "failed": false
     },
+    "legal-bkcy-101-001": {
+      "n_gt": 26,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 26,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-101-002": {
+      "n_gt": 40,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 40,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-101-003": {
+      "n_gt": 21,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 21,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-101-004": {
+      "n_gt": 17,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-101-005": {
+      "n_gt": 15,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-104-001": {
+      "n_gt": 32,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 32,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 32,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 32,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 32,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-104-002": {
+      "n_gt": 73,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 73,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 73,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 73,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 73,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-104-003": {
+      "n_gt": 71,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 71,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 71,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 71,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 71,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-104-004": {
+      "n_gt": 69,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 69,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 69,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 69,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 69,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-104-005": {
+      "n_gt": 49,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 49,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 49,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-106ab-001": {
+      "n_gt": 29,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 29,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-106ab-002": {
+      "n_gt": 29,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 29,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-106ab-003": {
+      "n_gt": 36,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 36,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-106ab-004": {
+      "n_gt": 48,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 48,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-106ab-005": {
+      "n_gt": 32,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 32,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 32,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 32,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 32,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-106sum-001": {
+      "n_gt": 16,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-bkcy-106sum-002": {
+      "n_gt": 10,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-civ100-001": {
+      "n_gt": 55,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 55,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 55,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-civ100-002": {
+      "n_gt": 26,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 26,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-civ100-003": {
+      "n_gt": 9,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-cr100-001": {
+      "n_gt": 16,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-de111-001": {
+      "n_gt": 35,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-de111-002": {
+      "n_gt": 15,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-de111-003": {
+      "n_gt": 40,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 40,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-de140-001": {
+      "n_gt": 30,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 30,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-fl100-001": {
+      "n_gt": 45,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 45,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-fl100-002": {
+      "n_gt": 16,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-fl100-003": {
+      "n_gt": 12,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 12,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-mc025-001": {
+      "n_gt": 9,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-sc100-001": {
+      "n_gt": 18,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 18,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 18,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-sc100-002": {
+      "n_gt": 42,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 42,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 42,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 42,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 42,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-sc100-003": {
+      "n_gt": 10,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-sc100-004": {
+      "n_gt": 8,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-ud100-001": {
+      "n_gt": 31,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 31,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-ud100-002": {
+      "n_gt": 20,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 20,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-ud100-003": {
+      "n_gt": 13,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 13,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-ca-ud100-004": {
+      "n_gt": 22,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 22,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-uspto-sb16-001": {
+      "n_gt": 36,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 36,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "legal-uspto-sb16-002": {
+      "n_gt": 10,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-cdph-110a-001": {
+      "n_gt": 60,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 60,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 60,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 60,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 60,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-cdph-110a-002": {
+      "n_gt": 11,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 11,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-cdph-530-001": {
+      "n_gt": 44,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 44,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-cdph-8551-001": {
+      "n_gt": 27,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 27,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-fda-3500-001": {
+      "n_gt": 9,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-fda-3500-002": {
+      "n_gt": 37,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 37,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 37,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 37,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 37,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-fda-3500-003": {
+      "n_gt": 29,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 29,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 29,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-fda-3500-004": {
+      "n_gt": 28,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 28,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-fda-3500-005": {
+      "n_gt": 44,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 44,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
     "med-intake-001-coffee": {
       "n_gt": 14,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 13,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9285714285714286,
+        "recall": 0.9285714285714286,
+        "f1": 0.9285714285714286,
+        "mean_bottom_error_pt": 0.9953846153846174,
+        "mean_horiz_overlap": 0.9793220022445686
+      },
       "by_threshold": {
         "0.5": {
           "tp": 14,
@@ -612,6 +5590,16 @@
     "med-intake-001-phonephoto": {
       "n_gt": 14,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 12,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "f1": 0.8571428571428571,
+        "mean_bottom_error_pt": 1.0224999999999984,
+        "mean_horiz_overlap": 0.9965202160035597
+      },
       "by_threshold": {
         "0.5": {
           "tp": 14,
@@ -644,6 +5632,16 @@
     "med-intake-001": {
       "n_gt": 14,
       "n_det": 14,
+      "line_alignment": {
+        "tp": 12,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "f1": 0.8571428571428571,
+        "mean_bottom_error_pt": 0.6408333333333319,
+        "mean_horiz_overlap": 0.9901300097902741
+      },
       "by_threshold": {
         "0.5": {
           "tp": 14,
@@ -672,34 +5670,256 @@
       },
       "detection_time_ms": 805.5,
       "failed": false
+    },
+    "med-uscis-i693-001": {
+      "n_gt": 27,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 27,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 27,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-uscis-i693-002": {
+      "n_gt": 40,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 40,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-uscis-i693-003": {
+      "n_gt": 22,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 22,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-uscis-i693-004": {
+      "n_gt": 26,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 26,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 26,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
+    },
+    "med-uscis-i693-005": {
+      "n_gt": 83,
+      "n_det": 0,
+      "line_alignment": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 83,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
+      },
+      "by_threshold": {
+        "0.5": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 83,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.75": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 83,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "0.9": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 83,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "detection_time_ms": null,
+      "failed": true
     }
   },
   "aggregate": {
-    "n_pages": 21,
-    "n_gt_blanks": 261,
+    "n_pages": 140,
+    "n_gt_blanks": 4386,
+    "line_alignment": {
+      "tp": 243,
+      "fp": 13,
+      "fn": 4143,
+      "precision": 0.9492,
+      "recall": 0.0554,
+      "f1": 0.1047,
+      "mean_bottom_error_pt": 0.97,
+      "mean_horiz_overlap": 0.991,
+      "bottom_tol_pt": 6.0,
+      "horiz_min_overlap": 0.9
+    },
     "iou@0.5": {
       "tp": 255,
       "fp": 1,
-      "fn": 6,
+      "fn": 4131,
       "precision": 0.9961,
-      "recall": 0.977,
-      "f1": 0.9865
+      "recall": 0.0581,
+      "f1": 0.1099
     },
     "iou@0.75": {
       "tp": 217,
       "fp": 39,
-      "fn": 44,
+      "fn": 4169,
       "precision": 0.8477,
-      "recall": 0.8314,
-      "f1": 0.8395
+      "recall": 0.0495,
+      "f1": 0.0935
     },
     "iou@0.9": {
       "tp": 124,
       "fp": 132,
-      "fn": 137,
+      "fn": 4262,
       "precision": 0.4844,
-      "recall": 0.4751,
-      "f1": 0.4797
+      "recall": 0.0283,
+      "f1": 0.0534
     },
     "mean_iou": 0.8617,
     "median_line_error_px": 0.89,
@@ -707,9 +5927,129 @@
     "multiline_row_accuracy": 1.0,
     "multiline_row_mean_abs_error": 0.0,
     "mean_detection_ms_per_page": 781.14,
-    "failure_rate": 0.0,
-    "n_failed_pages": 0,
-    "pct_blanks_detected_iou50": 97.7
+    "failure_rate": 0.85,
+    "n_failed_pages": 119,
+    "pct_blanks_detected_iou50": 5.81
   },
-  "missing_pages": []
+  "missing_pages": [
+    "bank-cms-1763-001",
+    "bank-cms-855i-001",
+    "bank-cms-855i-002",
+    "bank-cms-855i-003",
+    "bank-cms-855i-004",
+    "bank-cms-855i-005",
+    "bank-va-21-4142-001",
+    "bank-va-21-4142-002",
+    "bank-va-21-4142-003",
+    "bank-va-21-4142-004",
+    "bank-va-21-526ez-001",
+    "bank-va-21-526ez-002",
+    "bank-va-21-526ez-003",
+    "bank-va-21-526ez-004",
+    "bank-va-21-526ez-005",
+    "bank-va-26-6393-001",
+    "edu-alltenses-001",
+    "edu-articles-001",
+    "edu-cloze-004",
+    "edu-cloze-005",
+    "edu-makedo-002",
+    "edu-oxfprep-009",
+    "edu-prep-001",
+    "edu-prep-003",
+    "edu-prep-005",
+    "edu-prep-007",
+    "edu-prep-009",
+    "edu-simplepres-004",
+    "edu-tenses-001",
+    "edu-tenses-003",
+    "edu-tenses-005",
+    "edu-tenses-007",
+    "edu-tenses-009",
+    "edu-tenses-013",
+    "edu-tenses-015",
+    "edu-tenses-017",
+    "edu-tenses-019",
+    "edu-tenses-021",
+    "edu-tenses-023",
+    "edu-tenses-025",
+    "edu-tenses-027",
+    "edu-tenses-029",
+    "edu-tenses-031",
+    "edu-thenthan-001",
+    "edu-thenthan-002",
+    "gov-f2441-002",
+    "gov-f709-002",
+    "gov-f8606-001",
+    "gov-f8615-001",
+    "gov-f8821-001",
+    "gov-f8822-001",
+    "gov-f8822b-001",
+    "gov-f8829-001",
+    "gov-f8949-001",
+    "gov-f940-001",
+    "gov-f941-001",
+    "gov-fss4-001",
+    "gov-fw4-001",
+    "gov-fw9-001",
+    "gov-i130-001",
+    "gov-i485-001",
+    "gov-i9-001",
+    "gov-i90-001",
+    "gov-n400-001",
+    "hr-empapp-001",
+    "hr-jobapp-001",
+    "legal-bkcy-101-001",
+    "legal-bkcy-101-002",
+    "legal-bkcy-101-003",
+    "legal-bkcy-101-004",
+    "legal-bkcy-101-005",
+    "legal-bkcy-104-001",
+    "legal-bkcy-104-002",
+    "legal-bkcy-104-003",
+    "legal-bkcy-104-004",
+    "legal-bkcy-104-005",
+    "legal-bkcy-106ab-001",
+    "legal-bkcy-106ab-002",
+    "legal-bkcy-106ab-003",
+    "legal-bkcy-106ab-004",
+    "legal-bkcy-106ab-005",
+    "legal-bkcy-106sum-001",
+    "legal-bkcy-106sum-002",
+    "legal-ca-civ100-001",
+    "legal-ca-civ100-002",
+    "legal-ca-civ100-003",
+    "legal-ca-cr100-001",
+    "legal-ca-de111-001",
+    "legal-ca-de111-002",
+    "legal-ca-de111-003",
+    "legal-ca-de140-001",
+    "legal-ca-fl100-001",
+    "legal-ca-fl100-002",
+    "legal-ca-fl100-003",
+    "legal-ca-mc025-001",
+    "legal-ca-sc100-001",
+    "legal-ca-sc100-002",
+    "legal-ca-sc100-003",
+    "legal-ca-sc100-004",
+    "legal-ca-ud100-001",
+    "legal-ca-ud100-002",
+    "legal-ca-ud100-003",
+    "legal-ca-ud100-004",
+    "legal-uspto-sb16-001",
+    "legal-uspto-sb16-002",
+    "med-cdph-110a-001",
+    "med-cdph-110a-002",
+    "med-cdph-530-001",
+    "med-cdph-8551-001",
+    "med-fda-3500-001",
+    "med-fda-3500-002",
+    "med-fda-3500-003",
+    "med-fda-3500-004",
+    "med-fda-3500-005",
+    "med-uscis-i693-001",
+    "med-uscis-i693-002",
+    "med-uscis-i693-003",
+    "med-uscis-i693-004",
+    "med-uscis-i693-005"
+  ]
 }

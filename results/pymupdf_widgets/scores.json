@@ -5895,7 +5895,7 @@
       "mean_bottom_error_pt": 0.0,
       "mean_horiz_overlap": 1.0,
       "bottom_tol_pt": 6.0,
-      "horiz_min_overlap": 0.5
+      "horiz_min_overlap": 0.9
     },
     "iou@0.5": {
       "tp": 2909,

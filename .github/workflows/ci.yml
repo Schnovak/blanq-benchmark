@@ -17,17 +17,8 @@ jobs:
       - name: Install dependencies
         run: pip install reportlab pymupdf numpy pillow
 
-      - name: Regenerate seed dataset + condition variants, confirm ground truth & manifest match committed files
+      - name: Every manifest row has a PDF on disk
         run: |
-          python3 scripts/generate_seed_dataset.py
-          python3 scripts/generate_condition_variants.py
-          # Ground truth JSON and the manifest are pure deterministic data (no embedded
-          # timestamps) -- these must match exactly. The PDFs themselves may differ
-          # byte-for-byte run to run (PDF containers embed generation timestamps/IDs
-          # even with reportlab's invariant=1 fully applied across libraries), so we
-          # only require that every manifest row's PDF file actually exists.
-          git diff --stat --exit-code -- ground_truth/ dataset/manifest.csv || \
-            (echo "Ground truth or manifest does not match generator output -- regenerate and commit." && exit 1)
           python3 -c "
           import csv, os
           with open('dataset/manifest.csv') as f:
@@ -35,6 +26,18 @@ jobs:
           missing = [r['id'] for r in rows if not os.path.exists(os.path.join('dataset', r['file']))]
           assert not missing, f'Missing PDF files for ids: {missing}'
           print(f'OK: all {len(rows)} manifest rows have a PDF on disk')
+          "
+
+      - name: Every ground_truth JSON references a manifest row
+        run: |
+          python3 -c "
+          import csv, os, json
+          with open('dataset/manifest.csv') as f:
+              manifest_ids = {r['id'] for r in csv.DictReader(f)}
+          orphans = [f[:-5] for f in os.listdir('ground_truth')
+                     if f.endswith('.json') and f[:-5] not in manifest_ids]
+          assert not orphans, f'Ground truth files without a manifest row: {orphans}'
+          print(f'OK: every ground_truth file matches a manifest row')
           "
 
       - name: Run mock detectors

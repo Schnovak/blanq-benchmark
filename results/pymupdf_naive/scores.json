@@ -383,14 +383,14 @@
       "n_gt": 11,
       "n_det": 7,
       "line_alignment": {
-        "tp": 1,
-        "fp": 6,
-        "fn": 10,
-        "precision": 0.14285714285714285,
-        "recall": 0.09090909090909091,
-        "f1": 0.1111111111111111,
-        "mean_bottom_error_pt": 2.0,
-        "mean_horiz_overlap": 0.8287671232876712
+        "tp": 0,
+        "fp": 7,
+        "fn": 11,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_bottom_error_pt": null,
+        "mean_horiz_overlap": null
       },
       "by_threshold": {
         "0.5": {
@@ -1307,14 +1307,14 @@
       "n_gt": 54,
       "n_det": 57,
       "line_alignment": {
-        "tp": 54,
-        "fp": 3,
-        "fn": 0,
-        "precision": 0.9473684210526315,
-        "recall": 1.0,
-        "f1": 0.972972972972973,
-        "mean_bottom_error_pt": 1.6511111111111116,
-        "mean_horiz_overlap": 0.9835962091066658
+        "tp": 52,
+        "fp": 5,
+        "fn": 2,
+        "precision": 0.9122807017543859,
+        "recall": 0.9629629629629629,
+        "f1": 0.9369369369369369,
+        "mean_bottom_error_pt": 1.6507692307692303,
+        "mean_horiz_overlap": 0.9870752969385751
       },
       "by_threshold": {
         "0.5": {
@@ -1685,14 +1685,14 @@
       "n_gt": 58,
       "n_det": 80,
       "line_alignment": {
-        "tp": 58,
-        "fp": 22,
-        "fn": 0,
-        "precision": 0.725,
-        "recall": 1.0,
-        "f1": 0.8405797101449275,
-        "mean_bottom_error_pt": 1.7036206896551662,
-        "mean_horiz_overlap": 0.992374606576206
+        "tp": 57,
+        "fp": 23,
+        "fn": 1,
+        "precision": 0.7125,
+        "recall": 0.9827586206896551,
+        "f1": 0.8260869565217391,
+        "mean_bottom_error_pt": 1.7092982456140289,
+        "mean_horiz_overlap": 0.9940221319985639
       },
       "by_threshold": {
         "0.5": {
@@ -2105,14 +2105,14 @@
       "n_gt": 60,
       "n_det": 85,
       "line_alignment": {
-        "tp": 60,
-        "fp": 25,
-        "fn": 0,
-        "precision": 0.7058823529411765,
-        "recall": 1.0,
-        "f1": 0.8275862068965517,
-        "mean_bottom_error_pt": 1.6668333333333212,
-        "mean_horiz_overlap": 0.9881872058517783
+        "tp": 59,
+        "fp": 26,
+        "fn": 1,
+        "precision": 0.6941176470588235,
+        "recall": 0.9833333333333333,
+        "f1": 0.8137931034482759,
+        "mean_bottom_error_pt": 1.668983050847446,
+        "mean_horiz_overlap": 0.9896876264547434
       },
       "by_threshold": {
         "0.5": {
@@ -2861,14 +2861,14 @@
       "n_gt": 17,
       "n_det": 33,
       "line_alignment": {
-        "tp": 17,
-        "fp": 16,
-        "fn": 0,
-        "precision": 0.5151515151515151,
-        "recall": 1.0,
-        "f1": 0.6799999999999999,
-        "mean_bottom_error_pt": 1.9905882352941162,
-        "mean_horiz_overlap": 0.9813574181300906
+        "tp": 16,
+        "fp": 17,
+        "fn": 1,
+        "precision": 0.48484848484848486,
+        "recall": 0.9411764705882353,
+        "f1": 0.64,
+        "mean_bottom_error_pt": 1.9899999999999984,
+        "mean_horiz_overlap": 0.9947590884463895
       },
       "by_threshold": {
         "0.5": {
@@ -3869,14 +3869,14 @@
       "n_gt": 69,
       "n_det": 59,
       "line_alignment": {
-        "tp": 58,
-        "fp": 1,
-        "fn": 11,
-        "precision": 0.9830508474576272,
-        "recall": 0.8405797101449275,
-        "f1": 0.9062499999999999,
-        "mean_bottom_error_pt": 0.6522413793103717,
-        "mean_horiz_overlap": 0.9974131430484072
+        "tp": 57,
+        "fp": 2,
+        "fn": 12,
+        "precision": 0.9661016949152542,
+        "recall": 0.8260869565217391,
+        "f1": 0.890625,
+        "mean_bottom_error_pt": 0.634210526315817,
+        "mean_horiz_overlap": 0.9997762542693818
       },
       "by_threshold": {
         "0.5": {
@@ -5886,16 +5886,16 @@
     "n_pages": 140,
     "n_gt_blanks": 4386,
     "line_alignment": {
-      "tp": 2512,
-      "fp": 1079,
-      "fn": 1874,
-      "precision": 0.6995,
-      "recall": 0.5727,
-      "f1": 0.6298,
-      "mean_bottom_error_pt": 1.87,
-      "mean_horiz_overlap": 0.996,
+      "tp": 2505,
+      "fp": 1086,
+      "fn": 1881,
+      "precision": 0.6976,
+      "recall": 0.5711,
+      "f1": 0.6281,
+      "mean_bottom_error_pt": 1.86,
+      "mean_horiz_overlap": 0.997,
       "bottom_tol_pt": 6.0,
-      "horiz_min_overlap": 0.5
+      "horiz_min_overlap": 0.9
     },
     "iou@0.5": {
       "tp": 1753,
