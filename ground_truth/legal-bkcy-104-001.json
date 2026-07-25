@@ -302,7 +302,31 @@
       "type": "single_line",
       "confidence": 1.0,
       "rows": null
+    },
+    {
+      "x": 310.77,
+      "y": 535.88,
+      "width": 56.88,
+      "height": 13.3,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "id_number",
+      "source_extended": "blanq-labeled",
+      "id": "b031"
+    },
+    {
+      "x": 124.07,
+      "y": 725.72,
+      "width": 311.77,
+      "height": 12.37,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "contact",
+      "source_extended": "blanq-labeled",
+      "id": "b032"
     }
   ],
-  "source": "acroform"
+  "source": "acroform+labeled_blanq"
 }

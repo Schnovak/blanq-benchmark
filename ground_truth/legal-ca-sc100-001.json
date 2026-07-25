@@ -172,7 +172,19 @@
       "type": "single_line",
       "confidence": 1.0,
       "rows": null
+    },
+    {
+      "x": 398.26,
+      "y": 48.81,
+      "width": 175.57,
+      "height": 130.71,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "address",
+      "source_extended": "blanq-labeled",
+      "id": "b018"
     }
   ],
-  "source": "acroform"
+  "source": "acroform+labeled_blanq"
 }

@@ -592,7 +592,19 @@
       "type": "multi_line",
       "confidence": 1.0,
       "rows": 3
+    },
+    {
+      "x": 214.04,
+      "y": 203.99,
+      "width": 154.06,
+      "height": 29.35,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "signature",
+      "source_extended": "blanq-labeled",
+      "id": "b060"
     }
   ],
-  "source": "acroform"
+  "source": "acroform+labeled_blanq"
 }

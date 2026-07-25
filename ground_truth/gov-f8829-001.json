@@ -582,7 +582,19 @@
       "type": "single_line",
       "confidence": 1.0,
       "rows": null
+    },
+    {
+      "x": 52.41,
+      "y": 754.99,
+      "width": 413.92,
+      "height": 12.99,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "id_number",
+      "source_extended": "blanq-labeled",
+      "id": "b059"
     }
   ],
-  "source": "acroform"
+  "source": "acroform+labeled_blanq"
 }

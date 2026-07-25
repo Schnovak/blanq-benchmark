@@ -332,7 +332,55 @@
       "type": "multi_line",
       "confidence": 1.0,
       "rows": 2
+    },
+    {
+      "x": 318.1,
+      "y": 369.09,
+      "width": 127.17,
+      "height": 14.9,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "contact",
+      "source_extended": "blanq-labeled",
+      "id": "b034"
+    },
+    {
+      "x": 446.89,
+      "y": 369.8,
+      "width": 129.83,
+      "height": 14.36,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "contact",
+      "source_extended": "blanq-labeled",
+      "id": "b035"
+    },
+    {
+      "x": 88.36,
+      "y": 478.43,
+      "width": 486.14,
+      "height": 13.7,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "signature",
+      "source_extended": "blanq-labeled",
+      "id": "b036"
+    },
+    {
+      "x": 57.37,
+      "y": 644.3,
+      "width": 372.38,
+      "height": 15.41,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "signature",
+      "source_extended": "blanq-labeled",
+      "id": "b037"
     }
   ],
-  "source": "acroform"
+  "source": "acroform+labeled_blanq"
 }

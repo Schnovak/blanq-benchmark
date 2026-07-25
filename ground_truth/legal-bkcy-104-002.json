@@ -672,7 +672,79 @@
       "type": "single_line",
       "confidence": 1.0,
       "rows": null
+    },
+    {
+      "x": 123.88,
+      "y": 74.43,
+      "width": 312.16,
+      "height": 11.23,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "name",
+      "source_extended": "blanq-labeled",
+      "id": "b068"
+    },
+    {
+      "x": 311.27,
+      "y": 198.23,
+      "width": 58.23,
+      "height": 11.42,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "id_number",
+      "source_extended": "blanq-labeled",
+      "id": "b069"
+    },
+    {
+      "x": 311.22,
+      "y": 328.65,
+      "width": 57.71,
+      "height": 11.67,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "id_number",
+      "source_extended": "blanq-labeled",
+      "id": "b070"
+    },
+    {
+      "x": 311.14,
+      "y": 463.62,
+      "width": 58.03,
+      "height": 11.34,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "id_number",
+      "source_extended": "blanq-labeled",
+      "id": "b071"
+    },
+    {
+      "x": 311.32,
+      "y": 594.14,
+      "width": 58.04,
+      "height": 11.59,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "id_number",
+      "source_extended": "blanq-labeled",
+      "id": "b072"
+    },
+    {
+      "x": 310.78,
+      "y": 725.46,
+      "width": 56.58,
+      "height": 11.95,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "id_number",
+      "source_extended": "blanq-labeled",
+      "id": "b073"
     }
   ],
-  "source": "acroform"
+  "source": "acroform+labeled_blanq"
 }

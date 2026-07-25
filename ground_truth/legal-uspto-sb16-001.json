@@ -332,7 +332,43 @@
       "type": "single_line",
       "confidence": 1.0,
       "rows": null
+    },
+    {
+      "x": 405.84,
+      "y": 273.25,
+      "width": 131.73,
+      "height": 12.22,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "address",
+      "source_extended": "blanq-labeled",
+      "id": "b034"
+    },
+    {
+      "x": 91.48,
+      "y": 369.46,
+      "width": 162.66,
+      "height": 18.48,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "contact",
+      "source_extended": "blanq-labeled",
+      "id": "b035"
+    },
+    {
+      "x": 416.41,
+      "y": 470.01,
+      "width": 119.28,
+      "height": 13.03,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "contact",
+      "source_extended": "blanq-labeled",
+      "id": "b036"
     }
   ],
-  "source": "acroform"
+  "source": "acroform+labeled_blanq"
 }

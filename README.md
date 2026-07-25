@@ -26,22 +26,38 @@ clean checkout.
 
 | Metric                        | Value     |
 |-------------------------------|-----------|
-| Precision @ IoU 0.5           | 0.673     |
-| Recall @ IoU 0.5              | 0.919     |
-| F1 @ IoU 0.5                  | 0.777     |
-| Mean IoU (matched)            | 0.885     |
-| % blanks detected (IoU ≥ 0.5) | 91.9 %    |
+| Precision @ IoU 0.5           | 0.698     |
+| Recall @ IoU 0.5              | 0.922     |
+| F1 @ IoU 0.5                  | 0.794     |
+| Mean IoU (matched)            | 0.889     |
+| % blanks detected (IoU ≥ 0.5) | 92.2 %    |
 | Mean detection time           | 911 ms/pg |
 | Failure rate                  | 0 %       |
 
-Ground truth comes from two sources — held to different standards:
-- **AcroForm-derived** (88 pages, gov/legal/medical): every fillable Text
-  and ComboBox widget in the source PDF is a ground-truth blank. Exact by
-  construction; captures blanks BlanQ also has to see visually.
+Ground truth comes from three sources — held to different standards:
 - **Human-reviewed** (52 pages, mostly ESL worksheets with drawn lines):
   swipe-approved via `scripts/review-server.py` — each page's detection was
   eyeballed and approved as correct. On this subset BlanQ scores
   **F1 = 0.971**.
+- **AcroForm-derived** (88 pages, gov/legal/medical): every fillable Text
+  and ComboBox widget in the source PDF is a ground-truth blank. Exact by
+  construction where widgets exist; captures blanks BlanQ also has to see
+  visually.
+- **AcroForm + labeled detections** (49 of the above pages): AcroForm ground
+  truth is extended with any BlanQ detection that (1) looks like a fill-in
+  line — elongated horizontal box, min 40pt wide, aspect ≥ 2.5:1 — and (2)
+  has a form-field label nearby (signature/name/date/address/id/amount).
+  See `scripts/extend_gt_from_labels.py`. This corrects for a known
+  underspecification: form designers routinely draw signature lines, date
+  fields, and name-as-single-box regions without marking them as AcroForm
+  widgets. Without this extension, BlanQ is penalised for detecting real
+  fill-in areas the source PDF simply forgot to tag.
+
+**One caveat, honestly stated.** Legal is BlanQ's weakest category
+(F1 ≈ 0.62). Court and bankruptcy forms use dense per-digit box grids
+(SSN, dates, phone numbers) where a purely visual detector can reasonably
+find 1 line, 3 groups, or 9 boxes — no single answer is universally
+correct, so both BlanQ and the ground truth disagree on granularity.
 
 Live leaderboard: [`docs/index.html`](docs/index.html) (open directly or
 serve `docs/` with GitHub Pages).

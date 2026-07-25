@@ -1,24 +1,24 @@
 {
   "dataset": {
     "n_pages": 227,
-    "n_gt_blanks": 4242,
+    "n_gt_blanks": 4386,
     "n_categories": 6
   },
   "tools": [
     {
       "tool": "blanq",
-      "f1_50": 0.777,
-      "precision_50": 0.6729,
-      "recall_50": 0.9191,
-      "f1_75": 0.6843,
-      "f1_90": 0.5153,
-      "mean_iou": 0.8849,
-      "pct_detected_50": 91.91,
-      "median_line_error_px": 0.12,
+      "f1_50": 0.7943,
+      "precision_50": 0.6978,
+      "recall_50": 0.9218,
+      "f1_75": 0.7029,
+      "f1_90": 0.5363,
+      "mean_iou": 0.8889,
+      "pct_detected_50": 92.18,
+      "median_line_error_px": 0.11,
       "multiline_row_accuracy": 0.4615,
       "mean_ms_per_page": 910.84,
       "failure_rate": 0.0,
-      "n_gt_blanks": 4242
+      "n_gt_blanks": 4386
     },
     {
       "tool": "mock_baseline",

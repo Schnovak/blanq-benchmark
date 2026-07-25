@@ -262,7 +262,55 @@
       "type": "single_line",
       "confidence": 1.0,
       "rows": null
+    },
+    {
+      "x": 101.31,
+      "y": 115.36,
+      "width": 79.28,
+      "height": 16.45,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "date",
+      "source_extended": "blanq-labeled",
+      "id": "b027"
+    },
+    {
+      "x": 380.64,
+      "y": 116.36,
+      "width": 193.72,
+      "height": 110.04,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "address",
+      "source_extended": "blanq-labeled",
+      "id": "b028"
+    },
+    {
+      "x": 73.7,
+      "y": 150.91,
+      "width": 109.96,
+      "height": 22.53,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "date",
+      "source_extended": "blanq-labeled",
+      "id": "b029"
+    },
+    {
+      "x": 74.71,
+      "y": 187.14,
+      "width": 300.88,
+      "height": 40.04,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "date",
+      "source_extended": "blanq-labeled",
+      "id": "b030"
     }
   ],
-  "source": "acroform"
+  "source": "acroform+labeled_blanq"
 }

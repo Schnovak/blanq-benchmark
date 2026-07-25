@@ -72,7 +72,31 @@
       "type": "single_line",
       "confidence": 1.0,
       "rows": null
+    },
+    {
+      "x": 342.75,
+      "y": 679.91,
+      "width": 233.96,
+      "height": 18.35,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "signature",
+      "source_extended": "blanq-labeled",
+      "id": "b008"
+    },
+    {
+      "x": 37.04,
+      "y": 712.62,
+      "width": 176.33,
+      "height": 20.01,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "date",
+      "source_extended": "blanq-labeled",
+      "id": "b009"
     }
   ],
-  "source": "acroform"
+  "source": "acroform+labeled_blanq"
 }

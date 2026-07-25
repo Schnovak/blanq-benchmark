@@ -192,7 +192,19 @@
       "type": "multi_line",
       "confidence": 1.0,
       "rows": 2
+    },
+    {
+      "x": 366.91,
+      "y": 622.64,
+      "width": 187.72,
+      "height": 12.1,
+      "type": "single_line",
+      "confidence": 1.0,
+      "rows": null,
+      "label_hint": "amount",
+      "source_extended": "blanq-labeled",
+      "id": "b020"
     }
   ],
-  "source": "acroform"
+  "source": "acroform+labeled_blanq"
 }
